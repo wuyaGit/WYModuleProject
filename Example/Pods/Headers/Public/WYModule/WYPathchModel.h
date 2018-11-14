@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCoreHelper/WYPatchHelper/WYPathchModel.h
+../../../../../WYModule/WYCore/WYCoreHelper/WYPatchHelper/WYPathchModel.h

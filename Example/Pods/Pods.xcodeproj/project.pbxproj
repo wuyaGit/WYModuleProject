@@ -11,6 +11,7 @@
 		00F2C35DDD27875CB06AD99030B5EEEF /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B78ED47D47E99540EA9A8D88E91DB6 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		010D477A5648ED451D23CD33807C00C6 /* FLEXArgumentInputFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBE0A0F9058223B525494DD329D42EC /* FLEXArgumentInputFontView.m */; };
 		014C51C8E360392A8D2431DA55850B6A /* FLEXClassExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1801DCEA5A8AA91CD40FF941066C2D /* FLEXClassExplorerViewController.m */; };
+		02C3A7E7C86BF7C61E30A0712E826208 /* WYPathchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E6CC60FB618D20606898BA912557A /* WYPathchHelper.m */; };
 		02D1C2772B1553A5D09A078CA114F7D7 /* FLEXTableContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F13FA039D35EF358F3329A5D0F3FEBC5 /* FLEXTableContentViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		03FE3260E8E5577478A793BB10713F34 /* FLEXHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 404FB59FCCC2E99A7AF55613DD5762DF /* FLEXHeapEnumerator.m */; };
 		04F7529EF0A52CB999F75E03B9A0889F /* FLEXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 437989E71954EE88FE738A9C771381ED /* FLEXManager.m */; };
@@ -25,7 +26,10 @@
 		0B2CDE788EA644DDF34DAEEEE46CEEFB /* FLEXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925A43EC54CD2171194CAB4BF9F93C4 /* FLEXWebViewController.m */; };
 		0C17DC38828E41E26B77927CB01634C4 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE43647B24AB694CF50BA46901206F9 /* XAFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D33D1327E667E5E89BE01CF616769AC /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 195264171D9FAD5102ED1A75703C6E5E /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DB57C17FAC030102C24988863A69AE5 /* WYWebShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00417A861C870CB66846BFD61C0F0799 /* WYWebShareHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0E90574FA2B9B28204DE77D358638A4E /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9498F378F0CC0C7E9901014C901670C7 /* YYMemoryCache.m */; };
+		10723B653735BA74E95C861961E15644 /* WYNetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB727C45DBEF0DA08C96ABEF1691DE6 /* WYNetworkHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		109F1601C897A89C3311480CCDBB8E96 /* WYSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A506659F9E5DBB29A543CDF7C3A7AE3 /* WYSocial.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1128D51582EBCBD4332935435A8958F5 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA067320CD0A339B0E3C4C955AA6EE5 /* ReachStateUnloaded.m */; };
 		129A8DE6982DCBF152D77F442C9A5D14 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B56AFF101E5AF8665F7F1A2151A754 /* XAspect.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		13E2EB16786BCE1BF36769257AE97BE9 /* FLEXFileBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92526513BE52BD3668F624551CCE552 /* FLEXFileBrowserTableViewController.m */; };
@@ -33,10 +37,10 @@
 		158DA761073341BE14FFF37C8A33362A /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA3EFC11493F2D67F788D30D6789EC7 /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		16CB3D01D98448313F7B397460B0C248 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8E32E46D0228A11F6B35BE7E930B53 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		170502068C67F59D27C5890E241D786C /* FLEXArgumentInputFontsPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FD9D32F1FE7E1A6DECCCA63EFF9E5 /* FLEXArgumentInputFontsPickerView.m */; };
+		1755ADE4516E44F5815821B9A73DC673 /* WYCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3A6F55B05F6745CF9E52ACCA7B84E6 /* WYCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18297637A39B17F1CC5B32778673CBF6 /* FLEXNetworkHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E768BD6535A01BB6161CECCD643D31DF /* FLEXNetworkHistoryTableViewController.m */; };
 		18699B440CB0EEF5B2AF9DD638B990C9 /* FLEXLiveObjectsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D12C4A8BF76EE7D4F21A7D7FAAE00 /* FLEXLiveObjectsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1961530AE059634608418B7FD5A23A07 /* FLEXNetworkHistoryTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AFF31E2D2DCCE58635A3F4FEDE6216 /* FLEXNetworkHistoryTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1A03E4CFA53F5E27607D118F7BF86D7F /* WYCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 43172319068BA3D216FC14C7F09B2DE7 /* WYCocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1AA151B2756D0D294C756E45B426B357 /* YTKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 829931D89C005EDD7347F398A3A71F4E /* YTKNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B01944FF1869ABBD132455308F7F685 /* YTKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 506F7B656994802990224617DC753EE3 /* YTKRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B1BE42A45891C30AC86D884D6A709D1 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 684587CDDD8954C268161E19AFDDC253 /* XACExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -72,34 +76,30 @@
 		3222DC27D07E09F14C5AF5093C2BBA9E /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A75BD4CCCD9105FB61B8C9F447F22 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		324AC780F72B14FDF9D2C0A6FA56A2D4 /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A784C654F168E0DB7E934CFFB2543D /* RealReachability-dummy.m */; };
 		32EBB9557160057977CD13269D2B75F8 /* FLEXNetworkCurlLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D66E2737AEF9C4CEFE9AFFE49D60409 /* FLEXNetworkCurlLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3445666388EC0C1DA05AB9D5933E6061 /* WYNetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4B2F2A73CD0F124D821F0E15CA9A89 /* WYNetworkHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34DF454D39F133D660F2984C3205D8DA /* FLEXToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD559DD2D56DB970F96519D7B459354 /* FLEXToolbarItem.m */; };
 		3505DE9E19A5C0CEA67456D9AD6F7F0D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504A10695F356C65A0C3A81EEEE96389 /* MobileCoreServices.framework */; };
-		3588AB87FB9D7C957EC93F0465C1F7C8 /* WYNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A97415768D1659E84FA0CDBDEDFD4 /* WYNetworkHelper.m */; };
 		3610BA1DA288AC37DD83277DBCB50B00 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CBCED70E422C99598A53806799328 /* AFURLRequestSerialization.m */; };
 		365A8C4E34E316FD97906E6FD0E22F12 /* FLEXFileBrowserFileOperationController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE54D38C0A96A6043CE41FCD0C99F4D8 /* FLEXFileBrowserFileOperationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		366749286E18EF2F5AF7F28F6903A74F /* FLEXUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 34833ACD61D24F423D9A47C7BA8F6F85 /* FLEXUtility.m */; };
 		36B6A108F6DA30A5D65A92A2A2C88DB6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F6232946BB82821AE9558A75A470507 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		391D6D1EC169267BDA0D3CD3ED0AF930 /* WYFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C97A62F61BDE388B18CBC3CCFE17B5 /* WYFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A078F9181B880BC8F514FC84BE80C01 /* FLEXArgumentInputDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F7495C9D7DC58D300C6417AE9ACBB /* FLEXArgumentInputDateView.m */; };
-		3A9B1F1477287549CF0C2CDBE936B454 /* WYAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4DA8E5D4BCA7E84553F34CA23EB600 /* WYAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A6001BD6BDA2C71469B9A3F9C2BBF6D /* WYPathchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F3009C0E9DCD434787E0BDACBBD166 /* WYPathchHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3AD12C97DA69D5770A0942C56E5C1B44 /* FLEXImagePreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CEE747145A01C5F993DF8830233462 /* FLEXImagePreviewViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3AE2C056057EEFA52D13FD289884038A /* WYSocialHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9D9F2C4EC2EEB4F07A976A96A4FA91 /* WYSocialHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C3020894B7B82920FFB6E194A657CFD /* WYModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE91E29328AA29C1536C395348359F0 /* WYModule-dummy.m */; };
 		3C8A66633C216FF1DC87C35974B8C871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A681A82394AE09444F858E0446A054 /* CoreGraphics.framework */; };
 		3D151D4A3A943BEF716CE395D3505CD8 /* FLEXViewExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AD5B5C2F25CF2D250E1BFD2D277CF5 /* FLEXViewExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DD69E71B142DBB55ED9638C4C3B50DF /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE1B3E926B440D1C947532BBB0DFEF /* WYAppDelegate.m */; };
+		3F4093165D176EB34D09523C21B7B8B1 /* WYFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1FC4D7B0E72833044F4768C918840 /* WYFileLogger.m */; };
+		408E8813B848244474B9FFE8DC19D126 /* WYSocialPlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB1299651A46BB31826B19380AF769E /* WYSocialPlatformHelper.m */; };
 		40B7938062FFDAAD3AFEB92A54CC146A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA9AF567235CE800F8B8733C0BF17E4 /* DDContextFilterLogFormatter.m */; };
-		4333028599A9DB06198AC20A728A66F1 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 935F59BA0A21A6BB51048D11182E69A7 /* YYWeakProxy.m */; };
 		44B4EE84D032CD5A3661C452857A154F /* FLEXIvarEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BBA27825A3183E31896B0E5BF05946 /* FLEXIvarEditorViewController.m */; };
 		453A994001A3A58624073C6C30C51E7E /* FLEXMultilineTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6315F5D3C30D309600BF753A90E7BB /* FLEXMultilineTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		456BC6CF73D4AFAD3E223300015A9A6C /* FLEXClassExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F319A69BD988D4246DD02F63758F890 /* FLEXClassExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47156FA49A7082CC0BCFB700A2389B4A /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E0AC91B0110C1F733A18D49707850E /* DDDispatchQueueLogFormatter.m */; };
 		4A286DDC29F32E48E8B39A5E4B4F5785 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BB565EA4DE6937ED04EA2FE90648AF /* YTKNetworkAgent.m */; };
-		4A4D27CCBB83226822484D4EA475D530 /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 160948640662D338C3CDBB2A90EA17BD /* YYFPSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CFEAF71BBEA78F270AC77A312256950 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4E322947CBC7E325A9005797D1553B /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D45836D009ABD98CB93DA266620C61B /* WYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 973EF19C32E6528461380939359E291A /* WYMediator.m */; };
 		4E9AB50AA51AF5C14DC5FC31E8CC19C6 /* YTKNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4715EC3B78C3C00623E1C4BE03FADFCE /* YTKNetworkPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5181277D720C83525C696D968E811A4E /* FLEXFileBrowserFileOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D704CA0CA3AD2EA8E7D2E962BFB4D4 /* FLEXFileBrowserFileOperationController.m */; };
+		51C01A7B2A637B2D7642F76C70600C9C /* YYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2756234E14768512DDE0E0D2A1BCEC40 /* YYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51EE099873C140422D7D3588B170653C /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBC65CF9FDD2BFD8235E3728C28CB3E /* FLEXExplorerViewController.m */; };
 		528AEC68195D1BFBC93AEF5057831626 /* FLEXRuntimeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D43E3BC7C2B76FF4664E2A96B1752C74 /* FLEXRuntimeUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		528E6BA45F47ED6071488C9354E899F9 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D42BD50D8CB5053D98D3674B2B8432 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -110,9 +110,9 @@
 		54C4F459FE5B819EEA9506AF26D3190E /* FLEXNetworkTransactionDetailTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 527108A01D95E20D11A36E1AA613507A /* FLEXNetworkTransactionDetailTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		551D86BBA90A29E0C2FEDA4B36AD671A /* FLEXNetworkSettingsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F7CEC024F4BE3DB38A43877A4AF7CF /* FLEXNetworkSettingsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5639B712B7EFC5B4B5065532BA85FA7F /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D04C3AEE25A85E9F2A7F7161B5ABF /* ReachStateWWAN.m */; };
+		56E2FEB17AE06AF0D7AB4497E5ADD2C4 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF4D64FA897A6166E2219DE1B8EB7A6 /* YYFPSLabel.m */; };
 		5743A9734FFAB2419676E36064913A43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDCDF8A8347F71BE6A48B993B53569B /* SystemConfiguration.framework */; };
 		5760ED619E66B70783AA4706238E17AD /* FLEXRealmDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C84A1E006F87E4E304BAF74E48C4E8BF /* FLEXRealmDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5787E43925542B9310486FA59AEA3A79 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52B50635A5B894536E353CEAB93D5C /* WYAppDelegate.m */; };
 		5833EB12F914A6E0C248BA358F6481F7 /* FLEXImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 055CD8487990DF75850666E6F9C8A8AA /* FLEXImagePreviewViewController.m */; };
 		5855C9103CD56D525F718C56B1415B18 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0C779DED36D84AE3CE0848F2B658 /* AFURLResponseSerialization.m */; };
 		58C85751854EEB4497473EE2F2310834 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = D4563FE8AB311D28B9DA05FCB7A46AB5 /* ReachState.m */; };
@@ -120,6 +120,7 @@
 		59C45676A357BBF8CB42671A87FA6662 /* FLEXCookiesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 888AA586D5850CFBCBEC578DCCBD7ABB /* FLEXCookiesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59E66B4A13A7150F34DD086B9F8E5630 /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 50090A4FD7372EA80CCD23701F885713 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5A1069CCE8139F737C9C5F7F4E702270 /* FLEXInstancesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4274C506D3AC7C4BAA6A3D3362201F /* FLEXInstancesTableViewController.m */; };
+		5B0E91019095D5BE4257F0209361D940 /* WYCoreConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7192FE4F714E5A5EEFFB73272D60D0D /* WYCoreConfigManager.m */; };
 		5B12680F27D6CAC688B2C75CC6A3372C /* FLEXGlobalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9A55F0E8A260E043EC19A3AAB5B80 /* FLEXGlobalsTableViewController.m */; };
 		5B7677B8E60B26DEAC444892D5234106 /* FLEXMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D56C7A7A5747EA7ED541FE53F7D49EB /* FLEXMultiColumnTableView.m */; };
 		5CE0BD054025A82FFE16616B8559F448 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3813E966862C3A6AA3379888D18F2B /* UIImageView+AFNetworking.m */; };
@@ -128,15 +129,14 @@
 		5E9F5CF024CB194B239406D801D5CBE6 /* YTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7393CE61230C1D85432B120597E89D /* YTKNetwork-dummy.m */; };
 		5EDF3E37D8B7343FFCD5BEDA4B6DDCE5 /* FLEXNetworkTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C47929781215868A9287037E9EAFE86 /* FLEXNetworkTransaction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5EFB5E20A89EE3FD67B22B5507171080 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2812B4240B84AAB26A851B65C0C13C41 /* LocalConnection.m */; };
+		5F4B4EBB588652F455D8D9C1ADD8C878 /* WYWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F16A07CBAEE1F0D66C072D1A9DC473B /* WYWebShareHelper.m */; };
 		5F6C9E1E6269820CB6545FDA031DE06C /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAD93231643351C0889EBB227DCE7B0 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F96036997EBA2D2749E9F89797C1469 /* FLEXTableLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D2C8105053A6F60354629EF56B9A77 /* FLEXTableLeftCell.m */; };
 		5FC7A1559EA422B189D8E24CE291518C /* FLEXKeyboardShortcutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8D84FAC2F9E89E933B9F94EAF0EC5C /* FLEXKeyboardShortcutManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		626161B09AA35F7F557B70AE3A2F15A7 /* WYBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70100090DA66EE42FCF675655E715701 /* WYBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		62EEA88D55C051E2917A76315789A0BC /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B9FAA4444D08894591CF9C3C1D676 /* FSMEngine.m */; };
 		63446163908062C111DEB18B597F37A2 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9E670F5D72EAAE42CE09626DD319D5 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		635BF656DBE7D04976AF3E67EA378E78 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E47189B8B731B706BBB90B7568361AC /* LocalConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		63F9CAF62FF3F4925BF18F8F7EAA3D65 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047E58F83AA32F24C8EAFB1100B73A9 /* AFNetworkActivityIndicatorManager.m */; };
-		6413B9DD03241D4CD5D6FF1EF47C16B9 /* WYMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = B3314DB7370E17542B82E723BE92E824 /* WYMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		647A988A80EDFAF6F3B357EFF68CB66A /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B995E1362BF5FC99A00C8CD82E9B2DD /* DDFileLogger.m */; };
 		66BAAA84384D9777F10474C588B88C52 /* YTKBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BD04E7BDDD9E7ED032D153BC70C56F /* YTKBatchRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66F090499D38DAD9FCB42A5067B69579 /* FLEXPropertyEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D9E47C6CAE000E763B4D6D3C94C90 /* FLEXPropertyEditorViewController.m */; };
@@ -161,16 +161,18 @@
 		77BD040DE4E9409CAD6827CBA67AFE0D /* YTKNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A2733FA642336FBE7402DD9990E98164 /* YTKNetworkConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A363BE29075121D69BB814A5768C675 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B574C5EF28A1E717A87EFD1EFCD897 /* AFAutoPurgingImageCache.m */; };
 		7C4B8DCA490D1C3C1466C8A074ACCA2D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA74C6A4E8FEA406A61E5F1D5AF0CA3 /* AFURLSessionManager.m */; };
-		7CE022054AB8006952B6F3D3FD92FD39 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A08C224531BB6BCD0F9ADFC11FD2DD /* WYBaseViewController.m */; };
+		7C6AF62C85FFB208BC8EF200262CEFEA /* WYFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C14B98BBCCF85DFE3A5FF1E90FA39F /* WYFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7D5CFCDF345A47A4F1D5F6BE07A179BE /* FLEXNetworkRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAA4D1B4E7F89C910171DC4154F8CBF /* FLEXNetworkRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7D80F293E0D0160FD33D353B80E7D92A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65C4FF815C0261C2962907A9E2F382 /* UIWebView+AFNetworking.m */; };
-		8043E0E3FF32D0D7ACE422DCA00FA20A /* WYCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2179E598C94150FCF6C30086DF0B086D /* WYCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		810B5CE04EB63C8560A8D7F8D212782F /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E38E43F25C1F182B65759D7FB0C2ED4 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8233A8F35DCF465741B059CA535C4943 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC60939F2C7CF8B267EE3047681B6FE /* YTKChainRequest.m */; };
+		8332CEDD85D99D71C446697AC9245948 /* WYNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D0C39BF029CD3765237C728C142325 /* WYNetworkHelper.m */; };
 		834D962D86A4EF1CFF861CC2EFF48B0D /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 631307A13A07CF31556D93B03F326775 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		83B38B221B716A3A1F31B882C6215294 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 263065E0537FF54DACDA9305AC1703FF /* YTKBatchRequest.m */; };
-		86B5D20493BC9FE93C8C078627ECCEB0 /* WYSocialHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D94369F326A61D6EB15B13AFDC64F /* WYSocialHelper.m */; };
+		8412012F7BEEF3B66F1DFBDF59CE222C /* WYCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = D6960945FE6826977650A4CB0D670883 /* WYCocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		872953711C5C3D20FA13A9FA26E4122C /* WYMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D368704C6473F579FA36D5BD345B1F2 /* WYMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		87BD0381D0F71106A85D40A5EA73721F /* FLEXArgumentInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC09184086789BD978AAC35EAB2C808 /* FLEXArgumentInputTextView.m */; };
+		891F5DCEB3B7171E495537CC9DB0B03E /* WYPathchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A745F54C1E73BD2F54D8E60F39FFBA /* WYPathchModel.m */; };
 		89FF7EDE9ABD88FD87D04BFE0E99D89A /* FLEXRealmDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2592C50421504448B18D65753F6D7E7 /* FLEXRealmDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8A627E78FC13B85B61F4523CC6CC0430 /* FLEXUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE831A544AC1E26F2684D9DF4732DB9 /* FLEXUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8AA950DC3B7FC57AE1AB60262278D018 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF986E38528F70AC86405A9410ED401 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -178,25 +180,27 @@
 		8B7DD2EDB26E2CDDB03D5F1699A95239 /* FLEXLayerExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707F33DDB64CDA678EBE4BBED24521BA /* FLEXLayerExplorerViewController.m */; };
 		8B8F4EC8A7DCAC852A8B7A384764B748 /* FLEXPropertyEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB471DC28D0197FF25A9A84F458A71E /* FLEXPropertyEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8BBA20907DAE9F3F841E866EC7F9FE4F /* FLEXArgumentInputNotSupportedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D283F5871E021E2761128B69D1713E /* FLEXArgumentInputNotSupportedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C0FD07B302423063E6F86B840A3FB0B /* WYSocialHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FE23A09B4FE36FDD7178A705F64E7745 /* WYSocialHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C25C902AEF7C1B06FE471BE69026EF2 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B10C2F7B53C95A02BA50F424292AC1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8CDF2194A711D888935B05B7619ACB61 /* FLEXNetworkObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7E8B3B61478AE24117BE9E806A78C5 /* FLEXNetworkObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D6037046EBDB4211EEE5EB161E3F4D0 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE418C93A3BDEA3486B847D372E6179 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8DA5812C09ED40330EB5E5D85F3E557B /* WYLoggerFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2405E2A72ECBAD9599E2E68D0C6E71 /* WYLoggerFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E9D07DCFFBF36FC54B0FCBA41603EE0 /* FLEXKeyboardHelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 255CB6FA892BA45A0699EABE889D4A8F /* FLEXKeyboardHelpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F0550807972B4D6EA69D7C00032DF42 /* WYModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1951762977DCDB73EB670E00ED7EF39 /* WYModule-dummy.m */; };
 		8F16509D24F7DFF6AA7576547D0CC12A /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 995E5E85A4DD31B0861266DDAC650A81 /* CocoaLumberjack-dummy.m */; };
 		8FAFA679169B991C26440F5BA1F79AE4 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7EC2B1A811AB9123D99980825BAF45 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8FC7B24994F1E2A67DC27DADFBFFFD5A /* FLEXMultiColumnTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B18C25F77451F0A309C20B3DDB4281 /* FLEXMultiColumnTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FE0F247B84A214C563E05C11E58285D /* WYLoggerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9039F8F54C6A4D3ECAB8F1FBF1EA320 /* WYLoggerFormatter.m */; };
 		907FECEA6A4B09068F02767F8347A81B /* FLEXFileBrowserTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 702E9EB1973927AC886BB748BFB6BF38 /* FLEXFileBrowserTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		91B98B0DF7793DDA0196417C88FB2E1E /* FLEXObjectExplorerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BD591FB64F1C33088FE3010CD362C432 /* FLEXObjectExplorerFactory.m */; };
 		9208E85DF650D7742F5F72F84AF33AD8 /* FLEXClassesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 058934BBAEC7748271411FD1D1A0BA81 /* FLEXClassesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		921534090719799E7DA9BF9DE0688836 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F44E4C24D684EEC95614D8FF452D49AB /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		939419E99043092D5A195B48E0783BE4 /* FLEXMethodCallingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 587DF60F8945AC33A570CFD19C7FCC91 /* FLEXMethodCallingViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9444A9465E5137A6A9509360BC8BCD75 /* WYSocialPlatformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEBE2EBD2E8FA34403C6DEB72D82B57 /* WYSocialPlatformHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		948E6C14F71C36CAE86B5FB0ED478BBA /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6638526E2796D0B6AEC0080144016F5E /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		95F8E208111C761F9E3A0DEB36BD4AF6 /* WYPathchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF23B3C82DD68F0071EFD2CA940E66 /* WYPathchHelper.m */; };
-		96615F52C4B10441E6665057897BF90A /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0F85CE59BBF5E4179D524070F9C0E /* YYFPSLabel.m */; };
 		9770E5A1096ADA97A3483FBAF6ECE1CD /* FLEXArgumentInputSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 766BC43A427C2AE4CCACB638E16AA67C /* FLEXArgumentInputSwitchView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		97B4E9F7C42A70EFCDF1B1E3607706DE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD309E63DBCF0195FD4BBD47A92448 /* CoreFoundation.framework */; };
 		9847AFDE401C16AF51D2D69386EB386D /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DE91F1FDF8F7742FF7FB0695B19C482C /* DDLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98FBC76B045EB2D40B957D6944FC0173 /* XAspect-ShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAA9CF4D2BE3D09F778F72E5088CBB /* XAspect-ShareAppDelegate.m */; };
 		9B339D8E2B76EC163825C1DB08EE9AD5 /* FLEXArgumentInputDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 175C1BFD33C3307A4F6AEDF8756461C2 /* FLEXArgumentInputDateView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9B47BEEFF0E34C762963396B60D380B5 /* FLEXTableColumnHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2995524558B3246E853BC2F7D225FC /* FLEXTableColumnHeader.m */; };
 		9B4972A5B2EC1F170741034F1A4CE9F0 /* FLEXMethodCallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D267C76EB2413D20099A660BC7BA2F /* FLEXMethodCallingViewController.m */; };
@@ -207,6 +211,7 @@
 		9C4D2EC90C08BBA1FC9757DA020B90BB /* FLEXImageExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A8E459F14A9ACAE2B3170396EC2E5E /* FLEXImageExplorerViewController.m */; };
 		9D45AF96E2122D555678F916B2EF058D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412A4BF1B0A310F24D0DA1346B0890E4 /* Foundation.framework */; };
 		9DD72C3F0E1DD709293321A7FFFC3615 /* FLEXRealmDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BE917553E676D8EE3026978306E1 /* FLEXRealmDatabaseManager.m */; };
+		9E8581F6C1930A7C14AC707E7E2BBFA8 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC174E31539A1344755C69C064551FE6 /* YYWeakProxy.m */; };
 		9FB1298D7D89C83B9FA61533ABC1B3E5 /* FLEXArgumentInputStringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBAC0CECFFA4D8E8FD4BCF24655A78B /* FLEXArgumentInputStringView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FDD7BE65E26BD8E4553C1AF03C5E078 /* FLEXArgumentInputViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E99419AD51B40A70A4546B28134CEA /* FLEXArgumentInputViewFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A008BF9A546CACAE1A78D62CF9D59107 /* FLEXNetworkTransactionDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562BE789512DBDC56CCC01F428F040C8 /* FLEXNetworkTransactionDetailTableViewController.m */; };
@@ -221,11 +226,12 @@
 		A35B4B41F0755334650289E1346D12E4 /* FLEXArgumentInputFontView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3871086A971964593FB5A605CC4A0 /* FLEXArgumentInputFontView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5345695ACB7E6AE8864638F1BB47285 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A150CCCC2C499E36E608F8885699 /* DDAbstractDatabaseLogger.m */; };
 		A79AC6D5C7F5325B868FFAA6C69E21B2 /* FLEXFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A53E64F20313C978822486745E68018 /* FLEXFieldEditorViewController.m */; };
-		A7A8D485F895F935995761A746C4A437 /* WYPathchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3F94C3B0B02387151D0DE4352C65C0 /* WYPathchModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7AA50D84B4A0828D28ED619E7AD3B9B /* FLEXObjectExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D952497032BC5ECDF72924B1C37E7DB0 /* FLEXObjectExplorerViewController.m */; };
 		AA3328A196FF78731EA7FF8F1F8D5359 /* FLEXRuntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE079ECBFDE238A1FF202CEB8A4F96B /* FLEXRuntimeUtility.m */; };
+		AA892357F19123B40CD8B7E008F81F9F /* WYAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58423275E339D95F6C9C801244787154 /* WYAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AACE3143D5979498634D88F2825A5835 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B6A7A22811FCB85997AD66068C30B7 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ACD4173857F05DF278BD4D3D6C5179D2 /* FLEXLibrariesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC4226556071A36BD2268D969EC8496 /* FLEXLibrariesTableViewController.m */; };
+		AD225D1CDCDB164CEF5CEBF0347D8DC0 /* WYMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = BB082528174DFDE283E7BAAAD55C1B6A /* WYMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AE3085CE66612B04DEC41879AF5B3605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F531636D300E46DCBFBFFCFF080F38FF /* UIKit.framework */; };
 		AE9626C80877687887FE9724775498D3 /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = E3526E582314A1D7D756ADE4F5209F9E /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AEA79295F0E40A313319EA36930E072F /* FLEXNetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AA37806FE7AC9BC6127A691076E5A210 /* FLEXNetworkObserver.m */; };
@@ -234,11 +240,11 @@
 		B138A14234A201D15EB30124B02BBC1A /* FLEXArgumentInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5C99FF3B73DD21AB380AA49FCB1E19 /* FLEXArgumentInputView.m */; };
 		B21AFB28D7FAA3A145FFFA25D53DC39B /* Pods-WYModuleProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A308DF468F48EBDC5EED95CCD38191B /* Pods-WYModuleProject_Tests-dummy.m */; };
 		B30CA0A041BB4FBF8F4B29B54654E57F /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E487EFBB7FCBBD8220A4D82663BF91C /* AFImageDownloader.m */; };
-		B39279C29562EF09C141AF3ECF9FD5FD /* WYLoggerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8372061979796F3991F52C545476A4 /* WYLoggerFormatter.m */; };
 		B4123E7732448E8F17322725AA23E69A /* FLEXFieldEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA4017C19A4F24C4701702B00A31EF6 /* FLEXFieldEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B470F607E3C1C5B782DA9C758ED1A7CB /* FLEXCookiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E039112550A242AF723D086158A1B /* FLEXCookiesTableViewController.m */; };
 		B4C7B543C4543A80A3043F3537E13745 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F696433523EB38D3CB97C3CED1979B /* AFNetworking-dummy.m */; };
 		B7755BF05B3C26811D21BA3E3CCCD57B /* FLEXTableContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B0AD731C8DC0958DB8657E9FCCB31 /* FLEXTableContentViewController.m */; };
+		B7F6808C51D8766B3671AFA89D1BCA2D /* WYSocialConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFC75B8B121001C06D14ACAD4D559E /* WYSocialConfigManager.m */; };
 		B806CE6CFFF7BF1D8D782342FAB2CB60 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E3308568B55643DC8D408637A19675 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B85D172EF8D0CEA10EE967A992F3333A /* FLEXSetExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC4A0CA1365CBBC53A3D666DA29C897 /* FLEXSetExplorerViewController.m */; };
 		B8A2F77289E0854C7C4B8DAF3F3341AD /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA8064DE45A3E8365FAF0BC08E7CF75 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -247,27 +253,22 @@
 		BBA5E485D0DEF1AE54CA5768170A17A2 /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FF0E1CC02EDFA349B4DFBB4AED417A /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BBF1CEAA4BC5967A632D3537C9C1B4E6 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551AEB535A586E5EF6F27B1AF3DC72E /* ReachStateLoading.m */; };
 		BC8A7749C01CFEBC66A5180C4136703F /* FLEXNetworkTransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D45858A84E4C9230168516EE279D28 /* FLEXNetworkTransactionTableViewCell.m */; };
+		BD60810DC28FDEBE89FEC0BC0D704514 /* WYLoggerFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B4270B97C45F366AF1B3E8E08B20F1 /* WYLoggerFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD9BC6E853C1405F74399314F95833E6 /* WYCoreConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD547F8230CDEF9AAD438604E8DE92A8 /* WYCoreConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE8F23BE3889182144B2A760865FF032 /* FLEXArgumentInputNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E547F207C53AF4D6931B31E8522613D /* FLEXArgumentInputNumberView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BEA54F0E1D23251C6F65C6DE2ED59F56 /* FLEXExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6A37141FBC0AE91E2204B8DD2D60FE /* FLEXExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BEED0036FC48AC50A5F7BB723E36E793 /* WYFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F78B805062EAD97BCA747712E6ED74 /* WYFileLogger.m */; };
 		BF2208D62DCA6AA2947156CA6F5055F0 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D5CD3064178D4D3785B6E96CC2760E /* ReachStateWIFI.m */; };
 		C024B0DF4DA724083B9253060B016A40 /* FLEXTableColumnHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C0126A963B930B80F14A658F98DD0311 /* FLEXTableColumnHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C05F67DBEE12FE63EB8DA72EB1C2AC74 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 807CE1A933346950DAE151BFA3E4DD3D /* YYKVStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C09E444FEBFD86077D1C878C7CDE478A /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD5B4696AB47F61AFD752DC677A8F0E /* YYFPSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DBAF98EB4890D133DCA5678612D5AF /* WYSocialHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A63BB8020020D392CAD972D9CBD7C627 /* WYSocialHelper.m */; };
 		C12F2057F2D8B9202C5955A2A3E0EFAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F531636D300E46DCBFBFFCFF080F38FF /* UIKit.framework */; };
 		C161737FAA652F64B16014BE24D6EFFF /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B4A175BD799E81BD29D0F871926C01 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C28AA74BA0A175CCFE79F52A4FBDF70F /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = A32D8A09D0F7EA2ED8109AE4F6EB13EA /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C33AAD80F24D363219AC21867AD30A6D /* FLEXInstancesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF57B2DF6742917A53F4BF9E5803B931 /* FLEXInstancesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C345FB7309263CBB691557EF299018C6 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EA0BD4A46B03E9E4B41F201BF154BD /* PingHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3F18EFCFEC460CEC61ADEEE678D6496 /* WYCoreConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDB7112612CCCEA26EDCC77ADF12DDA /* WYCoreConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C41A97ADE3F9CD9F70D092878A8A88D9 /* FLEXSystemLogTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 547A4F67C4544D602D839528EE7D31EC /* FLEXSystemLogTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C46C82894F7C1603851B4AE0E4A13291 /* FLEXKeyboardShortcutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B732E80610C0C1CFFB0464689BE42 /* FLEXKeyboardShortcutManager.m */; };
-		C4EDB785219C0C5F007476BE /* WYSocialConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EDB783219C0C5F007476BE /* WYSocialConfigManager.h */; };
-		C4EDB786219C0C5F007476BE /* WYSocialConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EDB784219C0C5F007476BE /* WYSocialConfigManager.m */; };
-		C4EDB789219C145C007476BE /* WYSocialPlatformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EDB787219C145C007476BE /* WYSocialPlatformHelper.h */; };
-		C4EDB78A219C145C007476BE /* WYSocialPlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EDB788219C145C007476BE /* WYSocialPlatformHelper.m */; };
-		C4EDB790219C19D0007476BE /* XAspect-ShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EDB78F219C19D0007476BE /* XAspect-ShareAppDelegate.m */; };
-		C4EDB793219C1FAD007476BE /* WYWebShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EDB791219C1FAD007476BE /* WYWebShareHelper.h */; };
-		C4EDB794219C1FAD007476BE /* WYWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EDB792219C1FAD007476BE /* WYWebShareHelper.m */; };
 		C512578FEA5B08F8BC9F3D8DD69B3C61 /* FLEXKeyboardHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035211259A89136F00C280675023B501 /* FLEXKeyboardHelpViewController.m */; };
 		C51A70FF59C44799B161A6CF6FC1BD2B /* FLEXArgumentInputJSONObjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8EB437FEE85984549C0A3BEF99FE90 /* FLEXArgumentInputJSONObjectView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C5A77EE6C9F3C32DFC9858EF72A71F9A /* FLEXHierarchyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCE888460336CC8BC3BD49EFE81A35 /* FLEXHierarchyTableViewCell.m */; };
@@ -277,7 +278,6 @@
 		C7928E8A849962F5AE792315622158D1 /* FLEXGlobalsTableViewControllerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C04E7C013AED5F7872E8892652318FC /* FLEXGlobalsTableViewControllerEntry.m */; };
 		C855E917B798BBCBD98EF091A3B85913 /* FLEXResources.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1BF15B03753F1F5CCBB86415EF355F /* FLEXResources.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C87DC502E6DDFFE142571C8882860462 /* FLEXSystemLogTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 731C83D329DC7CD52EC24C7E019FF16E /* FLEXSystemLogTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C92A70E36A8511BA38F7295455942DD1 /* WYPathchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF46683E5228B1C7043D32B85077086 /* WYPathchModel.m */; };
 		C94A2FBEB0C3B5894D627D545C36DC3D /* FLEXFieldEditorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E885634F1D758963F4E3B6123E6E798 /* FLEXFieldEditorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C96CD575B51AD17F9474438E84E35586 /* FLEXDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB056A1DF77FDFD6B7771CF820F22450 /* FLEXDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C96EED1FECCCD8FDC8414A6E18DD0821 /* FLEXNetworkTransactionTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4366B62AB7EACB4F36B7E7C85EC37978 /* FLEXNetworkTransactionTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -287,11 +287,10 @@
 		CA50B903EB6EB1CBBFA378BD4A8E9DE4 /* FLEXSetExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D82C23178F34747F182CE6085F5E244 /* FLEXSetExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CAD614C557E87939DA2B205FA0F4C449 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10913D97DC3CE792C63C31ADD1849950 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CCA29B58111DCA25C2FF32B941280240 /* FLEXNetworkRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C72086C6F756841899D8E366DCC78F13 /* FLEXNetworkRecorder.m */; };
-		CF1D57F039FD4BA0712D78CF62990219 /* WYPathchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DA219AB9BAB95903D0218FC994CC07FD /* WYPathchHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD4C88A7E79F71740FEED5DB61C540FE /* WYBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F9B9F09D6DDCE15B9DD5887E84E5F5 /* WYBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D1A82D26FBCA22DC213B7D49ADCB8D3B /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DBBB2DD3A69352D7F232EF8B78C164 /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D1C1E788FA3FEB12678FFF6D86507FD7 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E3AB5B0224802903A812324FE7117 /* ReachStateUnReachable.m */; };
 		D300575510C95C1B143422392CE52070 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6A83E0A5739B4A6BD6F8915343713 /* AFNetworkReachabilityManager.m */; };
-		D5335B85183DD48B349197CB0ED8A4CC /* WYMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CD864FC0F247A66A05DAE6B96F3DD3 /* WYMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D5997F60CE19DF79C230BEBB4A2B5413 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1F6191C144C366166096231E680FB8 /* YTKBatchRequestAgent.m */; };
 		D69DE104CBD0472BB02C2766BF2A7FBB /* FLEXArgumentInputFontsPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 258835D3B960AFE556BC2D4B9EACF1FA /* FLEXArgumentInputFontsPickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6C7BD183FA5A76B228B04EABAF77FE4 /* FLEXArgumentInputColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94747D58A15D784B2CAFC90FE4C6CEDB /* FLEXArgumentInputColorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -305,6 +304,7 @@
 		D9C8B7E4723DE2BE98913700A41C850C /* FLEXViewControllerExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF302E434070A517BB488BC2A22BB59A /* FLEXViewControllerExplorerViewController.m */; };
 		DA2021EB3ADCA18551C79A28B147B930 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 76235B8E917870D94338891A042B53CF /* XACrystallization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DAB8CCAAB9AF368C68D7D6FCA812B70B /* FLEXArgumentInputTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7888D8AAC68A25BAEC2817C53F6C9C /* FLEXArgumentInputTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB38E4947177724717612CCF0E2F9038 /* WYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1B6643FB7BDAED328FAEA311AEC368 /* WYMediator.m */; };
 		DB9A7C48D3F3B32B11A1A7948B2365D3 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C074FD1700882D63325502B2244E42 /* DDOSLogger.m */; };
 		DCE05DF0063C210C57E656BDF47DBD91 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAA1F41065D3F08DE95A0FAEA9C7261 /* YYCache-dummy.m */; };
 		DD8A1B8181B22DA4CBE27D72561BC239 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F387BF70C6A2886DFCFE694BD1B0C /* DDMultiFormatter.m */; };
@@ -314,11 +314,10 @@
 		E3693ADB052B368F7166B1BE3B628AB3 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C427D4A8AF4A19ABC4CB41A239A482C /* PingFoundation.m */; };
 		E3D633B3D26648B547231E22170A450F /* FLEXNetworkSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F2A5BB11300392586199B6B1A69F7A /* FLEXNetworkSettingsTableViewController.m */; };
 		E4D8A46B3D2C35FB9E06611EC8F0DA63 /* FLEXManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 927367F60081EB4B1A052DE12F88BA8E /* FLEXManager+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E50DF797D37A54F877A3656B40FAC089 /* WYSocialConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BF2D61518211D6830BCEE1E8676EF2 /* WYSocialConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E745B8B2C6E94104C22C1BFC1F47BB6A /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B36D1B7933435EAE5A5746AD097ED2D /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E8D3A9E9EDF9A53A2D687E868CDF2F56 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B79C2E97D0C9D7D2AC6136DD3036D5C /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC18754DD8156F62FF2500EF1465B0DA /* YYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C274BD4CD24EDBA6E2CF575098F617B /* YYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC4CA3E90D2E68CEB1A16146BA5DF58B /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C97908C75C3CA2B78BD7E6A352D656DF /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC53534E8AC06B6CE9ACF1839FEA2384 /* WYSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 3402612CF615C28A2F83CB5AEA18F487 /* WYSocial.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ED875B1E143099A39ABC1DE4EDDAAF99 /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BCFA6557EBB3FDAB8D505AE3432FC8 /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EF10D6B9A9B3E772E40D0EC3F60433D6 /* FLEXGlobalsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E858E9D870E7051F9F87DBA46FE779A5 /* FLEXGlobalsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EF4A5105D23024E1F30AEC6795CE1C27 /* FLEXWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 975CB6E7AA0F109E2FDDBB521FFC6834 /* FLEXWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -330,18 +329,19 @@
 		F3BF5224B4487C4F2E1E0A7CD006BCAA /* FLEXLiveObjectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A21878A554876E132D8C128EC5A41A /* FLEXLiveObjectsTableViewController.m */; };
 		F47E7D34C3519C5DE2730C590099B7E1 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = E289DC84E0BD2F7CA82A642E87EEA8ED /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F50D882D35D4CBED803F91C59B5ACB3B /* FLEXNetworkCurlLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286B140C8CEDA85271CAD5E47BA4084 /* FLEXNetworkCurlLogger.m */; };
+		F5539202AE46205155EB7172116AB995 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E1B4F39F9E465D967237B7A3A1967 /* WYBaseViewController.m */; };
 		F5903FDF7FB6CF5D6D8845421F7376BF /* FLEXHierarchyTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A99513C34DBD9CC78A71DB634E16055 /* FLEXHierarchyTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F5BB0862EEB42BB91163C736C29D093A /* FLEXSystemLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E1322587C5E98588BB8D7F93FE3B8 /* FLEXSystemLogTableViewCell.m */; };
 		F5BE848EA027130824463A508DE6DC34 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35ACDB62CBC16592331AD4F5F91E2CF7 /* CFNetwork.framework */; };
 		F637A2EAEC3E7F799C5430EA32EE7E23 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A43F0462B8CB4BF3CDC1FC3AB43E490 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6C669512A5D4CE464A0A643D8249E63 /* FLEXArgumentInputStructView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5818F479C74C3C9A772B3274D0298 /* FLEXArgumentInputStructView.m */; };
-		F6EAFF2F103C77D625CD51F8E34269A5 /* WYCoreConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF4AB56F8C111712DE6DA237C5578C /* WYCoreConfigManager.m */; };
 		F9E7DCED5022ECEBA33429E2EC335FE7 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D734FB288CE8C1917B3256738B200D /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FA3AECC82EF64820365BA02B993D5E23 /* FLEXHeapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 37232438B97157B49270E7BD33E31F83 /* FLEXHeapEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FAF0FB5528B8FF7026A72C988B77C04F /* FLEXDefaultsExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ABAC573073FAC28683075ACB2A0B4E /* FLEXDefaultsExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FB4E7177C196215C8C02674508D5CBAD /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B026A7C2B665EE5CFB247637F7B3F3 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FBD1A6DD6BFDC2382270935F3FE259A7 /* FLEXSystemLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61450A69EE866AA4AC519E64BD2152DB /* FLEXSystemLogTableViewController.m */; };
 		FC08CAE71D7F55424BB69F1BD5E51DE1 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CDDE019E0031B160AF929B3D4CC6F3 /* RealReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD6799E4176E7C29EA6C317A61EE29C8 /* WYPathchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B3E91B384B26D3832067A0B9E1EC7D /* WYPathchModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FD701D2D197ADAED5847FCD71B616DA8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EE834EF64A943D8F7266CFF218D5F /* DDTTYLogger.m */; };
 		FDCECCCCE0ED7C6AB4D8B9B70E0C3BC2 /* FLEXTableListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BE634567F7C8D96BDFBE9438F1A129 /* FLEXTableListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
@@ -483,8 +483,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00417A861C870CB66846BFD61C0F0799 /* WYWebShareHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYWebShareHelper.h; path = WYModule/WYSocial/WYWebShareHelper.h; sourceTree = "<group>"; };
 		0047E58F83AA32F24C8EAFB1100B73A9 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		00A08C224531BB6BCD0F9ADFC11FD2DD /* WYBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYBaseViewController.m; path = WYModuleProject/WYCore/WYBaseViewController.m; sourceTree = "<group>"; };
 		011B3EF0EAB2ED10CB206386AF15435C /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UMShare/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
 		0131ABEFBF54CA24DA507C62A21B7300 /* FLEXHierarchyTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXHierarchyTableViewController.h; path = Classes/ViewHierarchy/FLEXHierarchyTableViewController.h; sourceTree = "<group>"; };
 		01DC574458AEB4BB12D4D4029441C7CF /* FLEXToolbarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXToolbarItem.h; path = Classes/Toolbar/FLEXToolbarItem.h; sourceTree = "<group>"; };
@@ -494,7 +494,8 @@
 		03D45858A84E4C9230168516EE279D28 /* FLEXNetworkTransactionTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkTransactionTableViewCell.m; path = Classes/Network/FLEXNetworkTransactionTableViewCell.m; sourceTree = "<group>"; };
 		055CD8487990DF75850666E6F9C8A8AA /* FLEXImagePreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXImagePreviewViewController.m; path = Classes/ViewHierarchy/FLEXImagePreviewViewController.m; sourceTree = "<group>"; };
 		058934BBAEC7748271411FD1D1A0BA81 /* FLEXClassesTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXClassesTableViewController.h; path = Classes/GlobalStateExplorers/FLEXClassesTableViewController.h; sourceTree = "<group>"; };
-		05DFC6828ED3735D334FC863716AADEC /* libPods-WYModuleProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYModuleProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DFC6828ED3735D334FC863716AADEC /* libPods-WYModuleProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WYModuleProject_Example.a"; path = "libPods-WYModuleProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F3009C0E9DCD434787E0BDACBBD166 /* WYPathchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYPathchHelper.h; sourceTree = "<group>"; };
 		07AA0A1DA973DC168B4C431CD1331997 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		07B5818F479C74C3C9A772B3274D0298 /* FLEXArgumentInputStructView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputStructView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStructView.m; sourceTree = "<group>"; };
 		07B6A7A22811FCB85997AD66068C30B7 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
@@ -502,10 +503,12 @@
 		09D704CA0CA3AD2EA8E7D2E962BFB4D4 /* FLEXFileBrowserFileOperationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXFileBrowserFileOperationController.m; path = Classes/GlobalStateExplorers/FLEXFileBrowserFileOperationController.m; sourceTree = "<group>"; };
 		09D8674400A4858570287EA3F9C24F8A /* FLEXNetworkTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkTransaction.m; path = Classes/Network/FLEXNetworkTransaction.m; sourceTree = "<group>"; };
 		0AC60939F2C7CF8B267EE3047681B6FE /* YTKChainRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequest.m; path = YTKNetwork/YTKChainRequest.m; sourceTree = "<group>"; };
+		0B3A6F55B05F6745CF9E52ACCA7B84E6 /* WYCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCore.h; path = WYModule/WYCore/WYCore.h; sourceTree = "<group>"; };
 		0DB471DC28D0197FF25A9A84F458A71E /* FLEXPropertyEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXPropertyEditorViewController.h; path = Classes/Editing/FLEXPropertyEditorViewController.h; sourceTree = "<group>"; };
 		0E487EFBB7FCBBD8220A4D82663BF91C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		0E547F207C53AF4D6931B31E8522613D /* FLEXArgumentInputNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputNumberView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputNumberView.h; sourceTree = "<group>"; };
 		0F48ED1C4B7A1E90D17F58A0BE865EDC /* FLEX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLEX.xcconfig; sourceTree = "<group>"; };
+		0FDAF30FBB0B6C3D8818F70F6EDC8195 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		10913D97DC3CE792C63C31ADD1849950 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		115A75BD4CCCD9105FB61B8C9F447F22 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		117E039112550A242AF723D086158A1B /* FLEXCookiesTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXCookiesTableViewController.m; path = Classes/GlobalStateExplorers/FLEXCookiesTableViewController.m; sourceTree = "<group>"; };
@@ -513,23 +516,22 @@
 		135E3AB5B0224802903A812324FE7117 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
 		136DD0C4C76EA1AC6BCB696DDEA3A65A /* FLEXExplorerToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXExplorerToolbar.h; path = Classes/Toolbar/FLEXExplorerToolbar.h; sourceTree = "<group>"; };
 		13BA426DDB691213E01DB2A2BC31C542 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		1526474AF2A3813AC62F914C8232AF55 /* WYModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYModule.xcconfig; sourceTree = "<group>"; };
-		15CD864FC0F247A66A05DAE6B96F3DD3 /* WYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYMacros.h; sourceTree = "<group>"; };
-		160948640662D338C3CDBB2A90EA17BD /* YYFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		16BBA27825A3183E31896B0E5BF05946 /* FLEXIvarEditorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXIvarEditorViewController.m; path = Classes/Editing/FLEXIvarEditorViewController.m; sourceTree = "<group>"; };
 		175C1BFD33C3307A4F6AEDF8756461C2 /* FLEXArgumentInputDateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputDateView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputDateView.h; sourceTree = "<group>"; };
 		17A7B4C4C584CCD28BEE2C3B655300F5 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
 		195264171D9FAD5102ED1A75703C6E5E /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
 		19CCE888460336CC8BC3BD49EFE81A35 /* FLEXHierarchyTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXHierarchyTableViewCell.m; path = Classes/ViewHierarchy/FLEXHierarchyTableViewCell.m; sourceTree = "<group>"; };
 		1A48B37C30E1689BAC0E175A8FC0CAF6 /* FLEXViewExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXViewExplorerViewController.m; path = Classes/ObjectExplorers/FLEXViewExplorerViewController.m; sourceTree = "<group>"; };
+		1A506659F9E5DBB29A543CDF7C3A7AE3 /* WYSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocial.h; path = WYModule/WYSocial/WYSocial.h; sourceTree = "<group>"; };
+		1AEBE2EBD2E8FA34403C6DEB72D82B57 /* WYSocialPlatformHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocialPlatformHelper.h; path = WYModule/WYSocial/WYSocialPlatformHelper.h; sourceTree = "<group>"; };
 		1B4B0C779DED36D84AE3CE0848F2B658 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		1D092C7168B71BE299E0CB6C7973B341 /* FLEXArgumentInputNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputNumberView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputNumberView.m; sourceTree = "<group>"; };
 		1D56C7A7A5747EA7ED541FE53F7D49EB /* FLEXMultiColumnTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXMultiColumnTableView.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXMultiColumnTableView.m; sourceTree = "<group>"; };
+		1EF4D64FA897A6166E2219DE1B8EB7A6 /* YYFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		1F2F7495C9D7DC58D300C6417AE9ACBB /* FLEXArgumentInputDateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputDateView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputDateView.m; sourceTree = "<group>"; };
 		1FF986E38528F70AC86405A9410ED401 /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
 		207EBE990B6559DC211AB267BE4D34E6 /* FLEXSQLiteDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSQLiteDatabaseManager.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXSQLiteDatabaseManager.h; sourceTree = "<group>"; };
 		20FF53F1384469A03B1B696CECD35C36 /* FLEXTableContentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableContentCell.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableContentCell.h; sourceTree = "<group>"; };
-		2179E598C94150FCF6C30086DF0B086D /* WYCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCore.h; path = WYModuleProject/WYCore/WYCore.h; sourceTree = "<group>"; };
 		21AFF31E2D2DCCE58635A3F4FEDE6216 /* FLEXNetworkHistoryTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkHistoryTableViewController.h; path = Classes/Network/FLEXNetworkHistoryTableViewController.h; sourceTree = "<group>"; };
 		21E033FD9DE06D1EDC26355781086D9C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2286B140C8CEDA85271CAD5E47BA4084 /* FLEXNetworkCurlLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkCurlLogger.m; path = Classes/Network/FLEXNetworkCurlLogger.m; sourceTree = "<group>"; };
@@ -539,33 +541,33 @@
 		25C156C0B25AE41DAD4B75A63A370426 /* Pods-WYModuleProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYModuleProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		263065E0537FF54DACDA9305AC1703FF /* YTKBatchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequest.m; path = YTKNetwork/YTKBatchRequest.m; sourceTree = "<group>"; };
 		26E0AC91B0110C1F733A18D49707850E /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		2756234E14768512DDE0E0D2A1BCEC40 /* YYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		275E6CC60FB618D20606898BA912557A /* WYPathchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYPathchHelper.m; sourceTree = "<group>"; };
 		27626B974379EBBD557AE9B65846D781 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
 		2812B4240B84AAB26A851B65C0C13C41 /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
 		2A7888D8AAC68A25BAEC2817C53F6C9C /* FLEXArgumentInputTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputTextView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputTextView.h; sourceTree = "<group>"; };
 		2D4E10E44776417E21A93265A8F8FBA2 /* FLEXManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXManager.h; path = Classes/FLEXManager.h; sourceTree = "<group>"; };
+		2E4BFC71EE3B844F842F77DB3063C4B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2EA4017C19A4F24C4701702B00A31EF6 /* FLEXFieldEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFieldEditorViewController.h; path = Classes/Editing/FLEXFieldEditorViewController.h; sourceTree = "<group>"; };
 		2EE6A83E0A5739B4A6BD6F8915343713 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		2EF0D77812B2895014613E557F0C3EF9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		2F9D9F2C4EC2EEB4F07A976A96A4FA91 /* WYSocialHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocialHelper.h; path = WYModuleProject/WYSocialShare/WYSocialHelper.h; sourceTree = "<group>"; };
 		304894F2D5B7CCA86714A1557152051D /* FLEXArgumentInputColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputColorView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputColorView.m; sourceTree = "<group>"; };
 		30B292E7BBFB7BED3CC40ECC14039B42 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		325886BD629E4BFB860A8130EDE1233E /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		325886BD629E4BFB860A8130EDE1233E /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRealReachability.a; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E99419AD51B40A70A4546B28134CEA /* FLEXArgumentInputViewFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputViewFactory.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputViewFactory.h; sourceTree = "<group>"; };
 		33A681A82394AE09444F858E0446A054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		3402612CF615C28A2F83CB5AEA18F487 /* WYSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocial.h; path = WYModuleProject/WYSocialShare/WYSocial.h; sourceTree = "<group>"; };
 		346BAF1598B0B49A36D2C45E31AF85BC /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		34833ACD61D24F423D9A47C7BA8F6F85 /* FLEXUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXUtility.m; path = Classes/Utility/FLEXUtility.m; sourceTree = "<group>"; };
 		35ACDB62CBC16592331AD4F5F91E2CF7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		36BE634567F7C8D96BDFBE9438F1A129 /* FLEXTableListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableListViewController.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableListViewController.h; sourceTree = "<group>"; };
 		36D283F5871E021E2761128B69D1713E /* FLEXArgumentInputNotSupportedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputNotSupportedView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputNotSupportedView.h; sourceTree = "<group>"; };
 		37232438B97157B49270E7BD33E31F83 /* FLEXHeapEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXHeapEnumerator.h; path = Classes/Utility/FLEXHeapEnumerator.h; sourceTree = "<group>"; };
-		39EAEB76FCE44DE6D066D6D68BCA5DD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37DAA9CF4D2BE3D09F778F72E5088CBB /* XAspect-ShareAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XAspect-ShareAppDelegate.m"; path = "WYModule/WYSocial/XAspect-ShareAppDelegate.m"; sourceTree = "<group>"; };
 		3A43F0462B8CB4BF3CDC1FC3AB43E490 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
 		3A99513C34DBD9CC78A71DB634E16055 /* FLEXHierarchyTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXHierarchyTableViewCell.h; path = Classes/ViewHierarchy/FLEXHierarchyTableViewCell.h; sourceTree = "<group>"; };
 		3AAA4D1B4E7F89C910171DC4154F8CBF /* FLEXNetworkRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkRecorder.h; path = Classes/Network/FLEXNetworkRecorder.h; sourceTree = "<group>"; };
 		3C7F7EE455C820CF41AFE9EAD0319089 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		3CBF4AB56F8C111712DE6DA237C5578C /* WYCoreConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYCoreConfigManager.m; sourceTree = "<group>"; };
-		3D4B2F2A73CD0F124D821F0E15CA9A89 /* WYNetworkHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYNetworkHelper.h; sourceTree = "<group>"; };
+		3D368704C6473F579FA36D5BD345B1F2 /* WYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYMacros.h; sourceTree = "<group>"; };
 		3D9B0AD731C8DC0958DB8657E9FCCB31 /* FLEXTableContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTableContentViewController.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableContentViewController.m; sourceTree = "<group>"; };
 		3D9E670F5D72EAAE42CE09626DD319D5 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		3DE831A544AC1E26F2684D9DF4732DB9 /* FLEXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXUtility.h; path = Classes/Utility/FLEXUtility.h; sourceTree = "<group>"; };
@@ -574,7 +576,6 @@
 		404FB59FCCC2E99A7AF55613DD5762DF /* FLEXHeapEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXHeapEnumerator.m; path = Classes/Utility/FLEXHeapEnumerator.m; sourceTree = "<group>"; };
 		40570B591DB5F48CEE8F93D50DECFD0B /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
 		412A4BF1B0A310F24D0DA1346B0890E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43172319068BA3D216FC14C7F09B2DE7 /* WYCocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYCocoaLumberjack.h; sourceTree = "<group>"; };
 		4366B62AB7EACB4F36B7E7C85EC37978 /* FLEXNetworkTransactionTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkTransactionTableViewCell.h; path = Classes/Network/FLEXNetworkTransactionTableViewCell.h; sourceTree = "<group>"; };
 		437989E71954EE88FE738A9C771381ED /* FLEXManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXManager.m; path = Classes/Manager/FLEXManager.m; sourceTree = "<group>"; };
 		43BAAD18AB09E9162FDD4B79E7751F41 /* FLEXSystemLogMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSystemLogMessage.h; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogMessage.h; sourceTree = "<group>"; };
@@ -582,7 +583,8 @@
 		44B026A7C2B665EE5CFB247637F7B3F3 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
 		44E3308568B55643DC8D408637A19675 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		4573DFE18EF1AC59FA5E8C69B9570797 /* FLEXTableLeftCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableLeftCell.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableLeftCell.h; sourceTree = "<group>"; };
-		464714A204BE09E5510311696A267376 /* libFLEX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLEX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		464714A204BE09E5510311696A267376 /* libFLEX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFLEX.a; path = libFLEX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C14B98BBCCF85DFE3A5FF1E90FA39F /* WYFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYFileLogger.h; sourceTree = "<group>"; };
 		4715EC3B78C3C00623E1C4BE03FADFCE /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkPrivate.h; path = YTKNetwork/YTKNetworkPrivate.h; sourceTree = "<group>"; };
 		4719985071C142F426FB767DB8C01F58 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequestAgent.m; path = YTKNetwork/YTKChainRequestAgent.m; sourceTree = "<group>"; };
 		47559DB8F99D5FB80EE2C1A99ED28816 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
@@ -590,15 +592,14 @@
 		4A4B9FAA4444D08894591CF9C3C1D676 /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
 		4A8D84FAC2F9E89E933B9F94EAF0EC5C /* FLEXKeyboardShortcutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXKeyboardShortcutManager.h; path = Classes/Utility/FLEXKeyboardShortcutManager.h; sourceTree = "<group>"; };
 		4A9BA8E16BEE0E15ECF709D088DF02C4 /* FLEXGlobalsTableViewControllerEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXGlobalsTableViewControllerEntry.h; path = Classes/ObjectExplorers/FLEXGlobalsTableViewControllerEntry.h; sourceTree = "<group>"; };
+		4BCF2F9B40448369F2337377EDF3B4BC /* WYModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYModule.xcconfig; sourceTree = "<group>"; };
 		4BFE98F4A97057F5B5E999FEA9DC14F0 /* FLEXHierarchyTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXHierarchyTableViewController.m; path = Classes/ViewHierarchy/FLEXHierarchyTableViewController.m; sourceTree = "<group>"; };
 		4CC09184086789BD978AAC35EAB2C808 /* FLEXArgumentInputTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputTextView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputTextView.m; sourceTree = "<group>"; };
 		4D798CEDE549B06A264B92D1693F4AD7 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		4D82C23178F34747F182CE6085F5E244 /* FLEXSetExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSetExplorerViewController.h; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.h; sourceTree = "<group>"; };
 		4E4274C506D3AC7C4BAA6A3D3362201F /* FLEXInstancesTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXInstancesTableViewController.m; path = Classes/GlobalStateExplorers/FLEXInstancesTableViewController.m; sourceTree = "<group>"; };
-		4EF46683E5228B1C7043D32B85077086 /* WYPathchModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYPathchModel.m; sourceTree = "<group>"; };
 		4F1CBCED70E422C99598A53806799328 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		4F33590F6C0108DE326191500116E35F /* FLEXFileBrowserSearchOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXFileBrowserSearchOperation.m; path = Classes/GlobalStateExplorers/FLEXFileBrowserSearchOperation.m; sourceTree = "<group>"; };
-		4F3F94C3B0B02387151D0DE4352C65C0 /* WYPathchModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYPathchModel.h; sourceTree = "<group>"; };
 		50090A4FD7372EA80CCD23701F885713 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
 		503DE204CA37C8BBC91608A51CF58162 /* Pods-WYModuleProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYModuleProject_Example-resources.sh"; sourceTree = "<group>"; };
 		504A10695F356C65A0C3A81EEEE96389 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
@@ -607,11 +608,15 @@
 		50F0B12207EDB015EEEE9D91591655D4 /* FLEXSystemLogMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogMessage.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogMessage.m; sourceTree = "<group>"; };
 		527108A01D95E20D11A36E1AA613507A /* FLEXNetworkTransactionDetailTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkTransactionDetailTableViewController.h; path = Classes/Network/FLEXNetworkTransactionDetailTableViewController.h; sourceTree = "<group>"; };
 		5328BA2A1B2E5BEA6795A1F34D769E5B /* FLEXLibrariesTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXLibrariesTableViewController.h; path = Classes/GlobalStateExplorers/FLEXLibrariesTableViewController.h; sourceTree = "<group>"; };
+		53B3E91B384B26D3832067A0B9E1EC7D /* WYPathchModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYPathchModel.h; sourceTree = "<group>"; };
 		547A4F67C4544D602D839528EE7D31EC /* FLEXSystemLogTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSystemLogTableViewController.h; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogTableViewController.h; sourceTree = "<group>"; };
 		547D9E47C6CAE000E763B4D6D3C94C90 /* FLEXPropertyEditorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXPropertyEditorViewController.m; path = Classes/Editing/FLEXPropertyEditorViewController.m; sourceTree = "<group>"; };
 		55CCE02E64146E5E929501146655B1E2 /* Pods-WYModuleProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYModuleProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		562BE789512DBDC56CCC01F428F040C8 /* FLEXNetworkTransactionDetailTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkTransactionDetailTableViewController.m; path = Classes/Network/FLEXNetworkTransactionDetailTableViewController.m; sourceTree = "<group>"; };
 		569D12C4A8BF76EE7D4F21A7D7FAAE00 /* FLEXLiveObjectsTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXLiveObjectsTableViewController.h; path = Classes/GlobalStateExplorers/FLEXLiveObjectsTableViewController.h; sourceTree = "<group>"; };
+		57D0C39BF029CD3765237C728C142325 /* WYNetworkHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYNetworkHelper.m; sourceTree = "<group>"; };
+		57E1FC4D7B0E72833044F4768C918840 /* WYFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYFileLogger.m; sourceTree = "<group>"; };
+		58423275E339D95F6C9C801244787154 /* WYAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAppDelegate.h; path = WYModule/WYCore/WYAppDelegate.h; sourceTree = "<group>"; };
 		587DF60F8945AC33A570CFD19C7FCC91 /* FLEXMethodCallingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMethodCallingViewController.h; path = Classes/Editing/FLEXMethodCallingViewController.h; sourceTree = "<group>"; };
 		5925A43EC54CD2171194CAB4BF9F93C4 /* FLEXWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXWebViewController.m; path = Classes/GlobalStateExplorers/FLEXWebViewController.m; sourceTree = "<group>"; };
 		59F36A231B5E56307EB294F2F5E63515 /* FLEXTableContentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTableContentCell.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableContentCell.m; sourceTree = "<group>"; };
@@ -622,12 +627,12 @@
 		5E38E43F25C1F182B65759D7FB0C2ED4 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
 		5E47189B8B731B706BBB90B7568361AC /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
 		5EAD93231643351C0889EBB227DCE7B0 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		5F16A07CBAEE1F0D66C072D1A9DC473B /* WYWebShareHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYWebShareHelper.m; path = WYModule/WYSocial/WYWebShareHelper.m; sourceTree = "<group>"; };
 		5F65C4FF815C0261C2962907A9E2F382 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		5FC6D39D194CEACAC585A040955A2771 /* Pods-WYModuleProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYModuleProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5FFEBF126C803C1F73F54DF7EB1F4A10 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
 		60E68468432D159F29089509E2DB3DC5 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		60E9A55F0E8A260E043EC19A3AAB5B80 /* FLEXGlobalsTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXGlobalsTableViewController.m; path = Classes/GlobalStateExplorers/FLEXGlobalsTableViewController.m; sourceTree = "<group>"; };
-		60F78B805062EAD97BCA747712E6ED74 /* WYFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYFileLogger.m; sourceTree = "<group>"; };
 		6122E6604E119E66A72D1614A63B374F /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
 		61450A69EE866AA4AC519E64BD2152DB /* FLEXSystemLogTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogTableViewController.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogTableViewController.m; sourceTree = "<group>"; };
 		6174E8BD84CB32946A1F13786C8BB138 /* JPEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPEngine.m; path = JSPatch/JPEngine.m; sourceTree = "<group>"; };
@@ -636,7 +641,7 @@
 		631307A13A07CF31556D93B03F326775 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		65BD04E7BDDD9E7ED032D153BC70C56F /* YTKBatchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequest.h; path = YTKNetwork/YTKBatchRequest.h; sourceTree = "<group>"; };
 		6638526E2796D0B6AEC0080144016F5E /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		66ED8E609E7853E3346BF4D3F7C84FC2 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ED8E609E7853E3346BF4D3F7C84FC2 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaLumberjack.a; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		684587CDDD8954C268161E19AFDDC253 /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
 		68BD309E63DBCF0195FD4BBD47A92448 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A2FD9D32F1FE7E1A6DECCCA63EFF9E5 /* FLEXArgumentInputFontsPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputFontsPickerView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputFontsPickerView.m; sourceTree = "<group>"; };
@@ -644,16 +649,14 @@
 		6A8EB437FEE85984549C0A3BEF99FE90 /* FLEXArgumentInputJSONObjectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputJSONObjectView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputJSONObjectView.h; sourceTree = "<group>"; };
 		6B36D1B7933435EAE5A5746AD097ED2D /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
 		6C47929781215868A9287037E9EAFE86 /* FLEXNetworkTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkTransaction.h; path = Classes/Network/FLEXNetworkTransaction.h; sourceTree = "<group>"; };
-		6C52B50635A5B894536E353CEAB93D5C /* WYAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAppDelegate.m; path = WYModuleProject/WYCore/WYAppDelegate.m; sourceTree = "<group>"; };
 		6C56767490A18A74C698C3EB820E61E5 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 		6CE418C93A3BDEA3486B847D372E6179 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		6D4EE834EF64A943D8F7266CFF218D5F /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		6EAF198B8274FF869B4FA864AAC68052 /* FLEXArrayExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArrayExplorerViewController.m; path = Classes/ObjectExplorers/FLEXArrayExplorerViewController.m; sourceTree = "<group>"; };
 		6F33A59AE5B90D1D9D0D9B688F36A737 /* JSPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSPatch-dummy.m"; sourceTree = "<group>"; };
 		6F4B2820B15F3E453E0AB83226B7E0EE /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
-		70100090DA66EE42FCF675655E715701 /* WYBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYBaseViewController.h; path = WYModuleProject/WYCore/WYBaseViewController.h; sourceTree = "<group>"; };
 		702E9EB1973927AC886BB748BFB6BF38 /* FLEXFileBrowserTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFileBrowserTableViewController.h; path = Classes/GlobalStateExplorers/FLEXFileBrowserTableViewController.h; sourceTree = "<group>"; };
-		7068E070E85FFB48807D2A79FC4710FC /* libWYModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWYModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7068E070E85FFB48807D2A79FC4710FC /* libWYModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWYModule.a; path = libWYModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F33DDB64CDA678EBE4BBED24521BA /* FLEXLayerExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXLayerExplorerViewController.m; path = Classes/ObjectExplorers/FLEXLayerExplorerViewController.m; sourceTree = "<group>"; };
 		70B10C2F7B53C95A02BA50F424292AC1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		70CEBD8069991389048E060268F65197 /* FLEX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLEX-prefix.pch"; sourceTree = "<group>"; };
@@ -666,31 +669,28 @@
 		75FA1D991BFD607140576A566A4F31F9 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
 		76235B8E917870D94338891A042B53CF /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
 		766BC43A427C2AE4CCACB638E16AA67C /* FLEXArgumentInputSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputSwitchView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputSwitchView.h; sourceTree = "<group>"; };
-		76D2328100EADC8D3ED8CD8485D3753B /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D2328100EADC8D3ED8CD8485D3753B /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BCFA6557EBB3FDAB8D505AE3432FC8 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
 		77EA0BD4A46B03E9E4B41F201BF154BD /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
 		77FF0E1CC02EDFA349B4DFBB4AED417A /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequestAgent.h; path = YTKNetwork/YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		78AFC75B8B121001C06D14ACAD4D559E /* WYSocialConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSocialConfigManager.m; path = WYModule/WYSocial/WYSocialConfigManager.m; sourceTree = "<group>"; };
 		78D59747D0C5B57570DD2C5828374DB1 /* FLEXDictionaryExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXDictionaryExplorerViewController.m; path = Classes/ObjectExplorers/FLEXDictionaryExplorerViewController.m; sourceTree = "<group>"; };
+		79A745F54C1E73BD2F54D8E60F39FFBA /* WYPathchModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYPathchModel.m; sourceTree = "<group>"; };
 		79B574C5EF28A1E717A87EFD1EFCD897 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		7A3813E966862C3A6AA3379888D18F2B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		7B79C2E97D0C9D7D2AC6136DD3036D5C /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		7B995E1362BF5FC99A00C8CD82E9B2DD /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
-		7BDB7112612CCCEA26EDCC77ADF12DDA /* WYCoreConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYCoreConfigManager.h; sourceTree = "<group>"; };
 		7C04E7C013AED5F7872E8892652318FC /* FLEXGlobalsTableViewControllerEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXGlobalsTableViewControllerEntry.m; path = Classes/ObjectExplorers/FLEXGlobalsTableViewControllerEntry.m; sourceTree = "<group>"; };
-		7C274BD4CD24EDBA6E2CF575098F617B /* YYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		7CF5A150CCCC2C499E36E608F8885699 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		7D66E2737AEF9C4CEFE9AFFE49D60409 /* FLEXNetworkCurlLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkCurlLogger.h; path = Classes/Network/FLEXNetworkCurlLogger.h; sourceTree = "<group>"; };
 		7DA8BE917553E676D8EE3026978306E1 /* FLEXRealmDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXRealmDatabaseManager.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXRealmDatabaseManager.m; sourceTree = "<group>"; };
-		7E2405E2A72ECBAD9599E2E68D0C6E71 /* WYLoggerFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYLoggerFormatter.h; sourceTree = "<group>"; };
-		7E7A97415768D1659E84FA0CDBDEDFD4 /* WYNetworkHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYNetworkHelper.m; sourceTree = "<group>"; };
-		7E8372061979796F3991F52C545476A4 /* WYLoggerFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYLoggerFormatter.m; sourceTree = "<group>"; };
 		7E885634F1D758963F4E3B6123E6E798 /* FLEXFieldEditorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFieldEditorView.h; path = Classes/Editing/FLEXFieldEditorView.h; sourceTree = "<group>"; };
 		7EBAC0CECFFA4D8E8FD4BCF24655A78B /* FLEXArgumentInputStringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputStringView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStringView.h; sourceTree = "<group>"; };
 		7F6232946BB82821AE9558A75A470507 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		800FC6E06A2FD69FEC013FEA0CB53C86 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkPrivate.m; path = YTKNetwork/YTKNetworkPrivate.m; sourceTree = "<group>"; };
 		807CE1A933346950DAE151BFA3E4DD3D /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
 		823507B0DFF9B7C3F18100BBC2516D07 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		82899CA4E5107D4D09A4B508A82E38CA /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		82899CA4E5107D4D09A4B508A82E38CA /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
 		829931D89C005EDD7347F398A3A71F4E /* YTKNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetwork.h; path = YTKNetwork/YTKNetwork.h; sourceTree = "<group>"; };
 		82A2FBDD3F54400735E29B668D422D43 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		83CEE747145A01C5F993DF8830233462 /* FLEXImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXImagePreviewViewController.h; path = Classes/ViewHierarchy/FLEXImagePreviewViewController.h; sourceTree = "<group>"; };
@@ -701,31 +701,30 @@
 		87DBBB2DD3A69352D7F232EF8B78C164 /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
 		885E71928CA133A9EBFF31C7C41FFF8F /* YTKChainRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequest.h; path = YTKNetwork/YTKChainRequest.h; sourceTree = "<group>"; };
 		888AA586D5850CFBCBEC578DCCBD7ABB /* FLEXCookiesTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXCookiesTableViewController.h; path = Classes/GlobalStateExplorers/FLEXCookiesTableViewController.h; sourceTree = "<group>"; };
-		899D94369F326A61D6EB15B13AFDC64F /* WYSocialHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSocialHelper.m; path = WYModuleProject/WYSocialShare/WYSocialHelper.m; sourceTree = "<group>"; };
 		8BBEF9BD993AAE20437C7FF43E9040D4 /* YTKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKRequest.m; path = YTKNetwork/YTKRequest.m; sourceTree = "<group>"; };
 		8C72E9429A49EAB89BBCFB86372A68D3 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		8C9FD8A7292356752759A1AF6E67F18F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		8E77C6962F7BA50C227C1D6E73C23A62 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		9028088524CC9D7FEAA9F2C7AC50E85C /* FLEXFileBrowserSearchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFileBrowserSearchOperation.h; path = Classes/GlobalStateExplorers/FLEXFileBrowserSearchOperation.h; sourceTree = "<group>"; };
 		927367F60081EB4B1A052DE12F88BA8E /* FLEXManager+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLEXManager+Private.h"; path = "Classes/Manager/FLEXManager+Private.h"; sourceTree = "<group>"; };
-		935F59BA0A21A6BB51048D11182E69A7 /* YYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B78ED47D47E99540EA9A8D88E91DB6 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
 		943AA1085D7CF44AC4C565555956E439 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
 		94747D58A15D784B2CAFC90FE4C6CEDB /* FLEXArgumentInputColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputColorView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputColorView.h; sourceTree = "<group>"; };
 		9498F378F0CC0C7E9901014C901670C7 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
-		94C0F85CE59BBF5E4179D524070F9C0E /* YYFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
-		94D6C06FE09F7865E4B28104E52DC0C2 /* WYModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WYModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95042949D1065584C14CD4228D1F8FA7 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95042949D1065584C14CD4228D1F8FA7 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCache.a; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9551AEB535A586E5EF6F27B1AF3DC72E /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
-		95CE4FB059581359C2A4C74934029ED4 /* libPods-WYModuleProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYModuleProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		973EF19C32E6528461380939359E291A /* WYMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYMediator.m; sourceTree = "<group>"; };
+		95CE4FB059581359C2A4C74934029ED4 /* libPods-WYModuleProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WYModuleProject_Tests.a"; path = "libPods-WYModuleProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		975CB6E7AA0F109E2FDDBB521FFC6834 /* FLEXWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXWebViewController.h; path = Classes/GlobalStateExplorers/FLEXWebViewController.h; sourceTree = "<group>"; };
 		97AD8ABE555DB5E4E6B18C012817A5C9 /* FLEXDefaultEditorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXDefaultEditorViewController.m; path = Classes/Editing/FLEXDefaultEditorViewController.m; sourceTree = "<group>"; };
+		97BF2D61518211D6830BCEE1E8676EF2 /* WYSocialConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocialConfigManager.h; path = WYModule/WYSocial/WYSocialConfigManager.h; sourceTree = "<group>"; };
 		995E5E85A4DD31B0861266DDAC650A81 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		99B4270B97C45F366AF1B3E8E08B20F1 /* WYLoggerFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYLoggerFormatter.h; sourceTree = "<group>"; };
 		99BE467BA37761C64282F7519C40F16A /* JPEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPEngine.h; path = JSPatch/JPEngine.h; sourceTree = "<group>"; };
 		9A2995524558B3246E853BC2F7D225FC /* FLEXTableColumnHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTableColumnHeader.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableColumnHeader.m; sourceTree = "<group>"; };
 		9A6A37141FBC0AE91E2204B8DD2D60FE /* FLEXExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXExplorerViewController.h; path = Classes/ExplorerInterface/FLEXExplorerViewController.h; sourceTree = "<group>"; };
+		9A8E1B4F39F9E465D967237B7A3A1967 /* WYBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYBaseViewController.m; path = WYModule/WYCore/WYBaseViewController.m; sourceTree = "<group>"; };
+		9CB727C45DBEF0DA08C96ABEF1691DE6 /* WYNetworkHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYNetworkHelper.h; sourceTree = "<group>"; };
 		9F319A69BD988D4246DD02F63758F890 /* FLEXClassExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXClassExplorerViewController.h; path = Classes/ObjectExplorers/FLEXClassExplorerViewController.h; sourceTree = "<group>"; };
 		9FA2CC91A7847AAA1335B3E97EEF67BD /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
 		A1C5AFB3B8D25960FE5EF40C2274D732 /* FLEXResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXResources.m; path = Classes/Utility/FLEXResources.m; sourceTree = "<group>"; };
@@ -734,52 +733,47 @@
 		A32D8A09D0F7EA2ED8109AE4F6EB13EA /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
 		A3D42BD50D8CB5053D98D3674B2B8432 /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
 		A54E1322587C5E98588BB8D7F93FE3B8 /* FLEXSystemLogTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogTableViewCell.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogTableViewCell.m; sourceTree = "<group>"; };
+		A63BB8020020D392CAD972D9CBD7C627 /* WYSocialHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSocialHelper.m; path = WYModule/WYSocial/WYSocialHelper.m; sourceTree = "<group>"; };
 		A7175950FE4F1537BD533DD73FF75DDF /* JSPatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSPatch.xcconfig; sourceTree = "<group>"; };
 		A8BB565EA4DE6937ED04EA2FE90648AF /* YTKNetworkAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkAgent.m; path = YTKNetwork/YTKNetworkAgent.m; sourceTree = "<group>"; };
 		A8F2A5BB11300392586199B6B1A69F7A /* FLEXNetworkSettingsTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkSettingsTableViewController.m; path = Classes/Network/FLEXNetworkSettingsTableViewController.m; sourceTree = "<group>"; };
 		AA37806FE7AC9BC6127A691076E5A210 /* FLEXNetworkObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkObserver.m; path = Classes/Network/PonyDebugger/FLEXNetworkObserver.m; sourceTree = "<group>"; };
 		AB7AAA610CC9BD2A1FA01CCD66017774 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		ACB3E1951186D56A321B3C510451590F /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		ACB3E1951186D56A321B3C510451590F /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
 		ACBE0A0F9058223B525494DD329D42EC /* FLEXArgumentInputFontView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputFontView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputFontView.m; sourceTree = "<group>"; };
 		ADC1D16FEF78DCFEE4E1A3B11510394C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		AE6486AC3BE682938DFAECC320492D42 /* libYTKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYTKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6486AC3BE682938DFAECC320492D42 /* libYTKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYTKNetwork.a; path = libYTKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAC86B3B89315683DC1C38137E4EBF7 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		AEBDDF3396AD6A67527B39E4BA6168C0 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
 		AF8DB660157A9D4331D4892BFF6EB893 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UMShare/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
 		B12F832D0F9D9A5DE2DBF2BF069C45CF /* FLEXArgumentInputJSONObjectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputJSONObjectView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputJSONObjectView.m; sourceTree = "<group>"; };
 		B2B56AFF101E5AF8665F7F1A2151A754 /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
 		B2DE47C74DACCC4BAA0573645E426406 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
-		B3314DB7370E17542B82E723BE92E824 /* WYMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYMediator.h; sourceTree = "<group>"; };
 		B439FDE2FF4FAFE54884F0D08CC3ECD9 /* YTKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-prefix.pch"; sourceTree = "<group>"; };
 		B45E27DA5FB5D404DDBD688963859510 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		B7192FE4F714E5A5EEFFB73272D60D0D /* WYCoreConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYCoreConfigManager.m; sourceTree = "<group>"; };
 		B75B0E4444B5A0759119544B2E03BB69 /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
 		B9AC855C582760B5A5EDC00F057B1494 /* FLEXArgumentInputSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputSwitchView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputSwitchView.m; sourceTree = "<group>"; };
 		B9B0E208902BFBD28B80413722FBCC4F /* YTKNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTKNetwork.xcconfig; sourceTree = "<group>"; };
 		BA61ED244F3C09CB98081972237C447B /* FLEXFieldEditorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXFieldEditorView.m; path = Classes/Editing/FLEXFieldEditorView.m; sourceTree = "<group>"; };
+		BABE1B3E926B440D1C947532BBB0DFEF /* WYAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAppDelegate.m; path = WYModule/WYCore/WYAppDelegate.m; sourceTree = "<group>"; };
+		BB082528174DFDE283E7BAAAD55C1B6A /* WYMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYMediator.h; sourceTree = "<group>"; };
 		BB9C8ED3769827807D9E4B252F7E8815 /* FLEXArgumentInputViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputViewFactory.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputViewFactory.m; sourceTree = "<group>"; };
 		BC1659F9033B4FCDB648C9C60799189A /* FLEXDefaultEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXDefaultEditorViewController.h; path = Classes/Editing/FLEXDefaultEditorViewController.h; sourceTree = "<group>"; };
 		BC7E8B3B61478AE24117BE9E806A78C5 /* FLEXNetworkObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkObserver.h; path = Classes/Network/PonyDebugger/FLEXNetworkObserver.h; sourceTree = "<group>"; };
-		BCE91E29328AA29C1536C395348359F0 /* WYModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYModule-dummy.m"; sourceTree = "<group>"; };
 		BD591FB64F1C33088FE3010CD362C432 /* FLEXObjectExplorerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectExplorerFactory.m; path = Classes/ObjectExplorers/FLEXObjectExplorerFactory.m; sourceTree = "<group>"; };
 		BE1F6191C144C366166096231E680FB8 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequestAgent.m; path = YTKNetwork/YTKBatchRequestAgent.m; sourceTree = "<group>"; };
 		BE4E322947CBC7E325A9005797D1553B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		BE675A5B760A83F1D75F41A8C5F4CB43 /* FLEXMultilineTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXMultilineTableViewCell.m; path = Classes/Utility/FLEXMultilineTableViewCell.m; sourceTree = "<group>"; };
-		BFE865CA3335E733A358964473F343BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C008DA6B8EDB92617D2FF8ADE046183B /* Pods-WYModuleProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYModuleProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0126A963B930B80F14A658F98DD0311 /* FLEXTableColumnHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableColumnHeader.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableColumnHeader.h; sourceTree = "<group>"; };
-		C0D46AB7545AAFDF761DA9E9B9695C87 /* libJSPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSPatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D46AB7545AAFDF761DA9E9B9695C87 /* libJSPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSPatch.a; path = libJSPatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1951762977DCDB73EB670E00ED7EF39 /* WYModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYModule-dummy.m"; sourceTree = "<group>"; };
 		C1A89D229DE7F5212F44187FB6FDB1B7 /* FLEXWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXWindow.m; path = Classes/ExplorerInterface/FLEXWindow.m; sourceTree = "<group>"; };
 		C2592C50421504448B18D65753F6D7E7 /* FLEXRealmDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXRealmDatabaseManager.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXRealmDatabaseManager.h; sourceTree = "<group>"; };
 		C3AD5B5C2F25CF2D250E1BFD2D277CF5 /* FLEXViewExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXViewExplorerViewController.h; path = Classes/ObjectExplorers/FLEXViewExplorerViewController.h; sourceTree = "<group>"; };
 		C3EF086DD6878EA2383120F21F873C45 /* FLEXArgumentInputStructView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputStructView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStructView.h; sourceTree = "<group>"; };
 		C4CDDE019E0031B160AF929B3D4CC6F3 /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
-		C4EDB783219C0C5F007476BE /* WYSocialConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WYSocialConfigManager.h; path = WYModuleProject/WYSocialShare/WYSocialConfigManager.h; sourceTree = "<group>"; };
-		C4EDB784219C0C5F007476BE /* WYSocialConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WYSocialConfigManager.m; path = WYModuleProject/WYSocialShare/WYSocialConfigManager.m; sourceTree = "<group>"; };
-		C4EDB787219C145C007476BE /* WYSocialPlatformHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WYSocialPlatformHelper.h; path = WYModuleProject/WYSocialShare/WYSocialPlatformHelper.h; sourceTree = "<group>"; };
-		C4EDB788219C145C007476BE /* WYSocialPlatformHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WYSocialPlatformHelper.m; path = WYModuleProject/WYSocialShare/WYSocialPlatformHelper.m; sourceTree = "<group>"; };
-		C4EDB78F219C19D0007476BE /* XAspect-ShareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XAspect-ShareAppDelegate.m"; path = "WYModuleProject/WYSocialShare/XAspect-ShareAppDelegate.m"; sourceTree = "<group>"; };
-		C4EDB791219C1FAD007476BE /* WYWebShareHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WYWebShareHelper.h; path = WYModuleProject/WYSocialShare/WYWebShareHelper.h; sourceTree = "<group>"; };
-		C4EDB792219C1FAD007476BE /* WYWebShareHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WYWebShareHelper.m; path = WYModuleProject/WYSocialShare/WYWebShareHelper.m; sourceTree = "<group>"; };
 		C5E0F815B9ACE192E49E59ACC71686BC /* YTKBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBaseRequest.m; path = YTKNetwork/YTKBaseRequest.m; sourceTree = "<group>"; };
 		C6D5CD3064178D4D3785B6E96CC2760E /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
 		C6F21F76828A68CE232B63FDF1632C9D /* FLEXArgumentInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputView.h; sourceTree = "<group>"; };
@@ -790,11 +784,13 @@
 		C97908C75C3CA2B78BD7E6A352D656DF /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		C9A8E459F14A9ACAE2B3170396EC2E5E /* FLEXImageExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXImageExplorerViewController.m; path = Classes/ObjectExplorers/FLEXImageExplorerViewController.m; sourceTree = "<group>"; };
 		CA88B136FA62133B982D8434D9F58DC7 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CAD5B4696AB47F61AFD752DC677A8F0E /* YYFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		CB056A1DF77FDFD6B7771CF820F22450 /* FLEXDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXDatabaseManager.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXDatabaseManager.h; sourceTree = "<group>"; };
 		CC15C777E18AE704AC1FB69F3C8AA675 /* FLEXWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXWindow.h; path = Classes/ExplorerInterface/FLEXWindow.h; sourceTree = "<group>"; };
 		CC35768B5CCFD98C2599C6E6D9A01814 /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
 		CCDCDF8A8347F71BE6A48B993B53569B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		CD2EC042283B70369C41E15C383A9AFD /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2EC042283B70369C41E15C383A9AFD /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXAspect.a; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD547F8230CDEF9AAD438604E8DE92A8 /* WYCoreConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYCoreConfigManager.h; sourceTree = "<group>"; };
 		CDA3F2F20C34B698CD74C7603C1DD688 /* Pods-WYModuleProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYModuleProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDA9AF567235CE800F8B8733C0BF17E4 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		CE54D38C0A96A6043CE41FCD0C99F4D8 /* FLEXFileBrowserFileOperationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFileBrowserFileOperationController.h; path = Classes/GlobalStateExplorers/FLEXFileBrowserFileOperationController.h; sourceTree = "<group>"; };
@@ -804,25 +800,27 @@
 		D4563FE8AB311D28B9DA05FCB7A46AB5 /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
 		D62CCBE5B7C0650B15A61D4023721478 /* FLEXDictionaryExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXDictionaryExplorerViewController.h; path = Classes/ObjectExplorers/FLEXDictionaryExplorerViewController.h; sourceTree = "<group>"; };
 		D684FE63D4816A354376231E51FB3F18 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
+		D6960945FE6826977650A4CB0D670883 /* WYCocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYCocoaLumberjack.h; sourceTree = "<group>"; };
 		D7B66EBE92B1363C8425711FDF73B27F /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		D9039F8F54C6A4D3ECAB8F1FBF1EA320 /* WYLoggerFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYLoggerFormatter.m; sourceTree = "<group>"; };
 		D952497032BC5ECDF72924B1C37E7DB0 /* FLEXObjectExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectExplorerViewController.m; path = Classes/ObjectExplorers/FLEXObjectExplorerViewController.m; sourceTree = "<group>"; };
 		D9A21878A554876E132D8C128EC5A41A /* FLEXLiveObjectsTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXLiveObjectsTableViewController.m; path = Classes/GlobalStateExplorers/FLEXLiveObjectsTableViewController.m; sourceTree = "<group>"; };
 		DA1801DCEA5A8AA91CD40FF941066C2D /* FLEXClassExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXClassExplorerViewController.m; path = Classes/ObjectExplorers/FLEXClassExplorerViewController.m; sourceTree = "<group>"; };
-		DA219AB9BAB95903D0218FC994CC07FD /* WYPathchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYPathchHelper.h; sourceTree = "<group>"; };
-		DAAF23B3C82DD68F0071EFD2CA940E66 /* WYPathchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYPathchHelper.m; sourceTree = "<group>"; };
 		DB5C99FF3B73DD21AB380AA49FCB1E19 /* FLEXArgumentInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputView.m; sourceTree = "<group>"; };
-		DC4D82A8DDB3DCC5AD6361B6FADCE53E /* WYModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYModule-prefix.pch"; sourceTree = "<group>"; };
 		DC8BFF130EB46F49F9D447FF7ACC7B84 /* Pods-WYModuleProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYModuleProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCE43647B24AB694CF50BA46901206F9 /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
 		DD8E32E46D0228A11F6B35BE7E930B53 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		DDCD7477009CDA101E98C13F64387E5A /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
 		DDE2845979EB6446A252CEF01BD27E49 /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
 		DE02FCE7737679C0AFCBE58686F704AE /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		DE155EAAD1AC18424C9F2E9B478A4F07 /* WYModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE91F1FDF8F7742FF7FB0695B19C482C /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
 		DEC4A0CA1365CBBC53A3D666DA29C897 /* FLEXSetExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSetExplorerViewController.m; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.m; sourceTree = "<group>"; };
 		DF941E7098CDBDE9E5F9944BECA98358 /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
+		DFB1299651A46BB31826B19380AF769E /* WYSocialPlatformHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSocialPlatformHelper.m; path = WYModule/WYSocial/WYSocialPlatformHelper.m; sourceTree = "<group>"; };
+		E11D1CA0DA81DC2D76597D03B50223D9 /* WYModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYModule-prefix.pch"; sourceTree = "<group>"; };
 		E14AB8A3126B01B2975616FBC303CF6B /* GTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTSDK.framework; sourceTree = "<group>"; };
-		E289DC84E0BD2F7CA82A642E87EEA8ED /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
+		E289DC84E0BD2F7CA82A642E87EEA8ED /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
 		E2FFC4E1798E54AE413052917A6005F3 /* Pods-WYModuleProject_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYModuleProject_Tests-resources.sh"; sourceTree = "<group>"; };
 		E3526E582314A1D7D756ADE4F5209F9E /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequestAgent.h; path = YTKNetwork/YTKBatchRequestAgent.h; sourceTree = "<group>"; };
 		E47DF24EBC937F8279CD5428FBC6427C /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
@@ -831,15 +829,15 @@
 		E858E9D870E7051F9F87DBA46FE779A5 /* FLEXGlobalsTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXGlobalsTableViewController.h; path = Classes/GlobalStateExplorers/FLEXGlobalsTableViewController.h; sourceTree = "<group>"; };
 		E895FB1555140058CF85CCFC15CEDA03 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		E89739CA7C75BF4E2C2F6D2FFBCB9F28 /* Pods-WYModuleProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYModuleProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E9586BAB1008CD1BDEC1BD4BDB49CAC8 /* JSPatch.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = JSPatch.js; path = JSPatch/JSPatch.js; sourceTree = "<group>"; };
+		E9586BAB1008CD1BDEC1BD4BDB49CAC8 /* JSPatch.js */ = {isa = PBXFileReference; includeInIndex = 1; name = JSPatch.js; path = JSPatch/JSPatch.js; sourceTree = "<group>"; };
 		E9D3871086A971964593FB5A605CC4A0 /* FLEXArgumentInputFontView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputFontView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputFontView.h; sourceTree = "<group>"; };
 		E9FD04BB127223463D796CB6023B0D85 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
-		EA4DA8E5D4BCA7E84553F34CA23EB600 /* WYAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAppDelegate.h; path = WYModuleProject/WYCore/WYAppDelegate.h; sourceTree = "<group>"; };
 		EA6315F5D3C30D309600BF753A90E7BB /* FLEXMultilineTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMultilineTableViewCell.h; path = Classes/Utility/FLEXMultilineTableViewCell.h; sourceTree = "<group>"; };
 		EAC4226556071A36BD2268D969EC8496 /* FLEXLibrariesTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXLibrariesTableViewController.m; path = Classes/GlobalStateExplorers/FLEXLibrariesTableViewController.m; sourceTree = "<group>"; };
 		EB5A5A52251C0AC0A7628F0110425068 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		EBA8064DE45A3E8365FAF0BC08E7CF75 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
 		EBD559DD2D56DB970F96519D7B459354 /* FLEXToolbarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXToolbarItem.m; path = Classes/Toolbar/FLEXToolbarItem.m; sourceTree = "<group>"; };
+		EC174E31539A1344755C69C064551FE6 /* YYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		EC1BF15B03753F1F5CCBB86415EF355F /* FLEXResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXResources.h; path = Classes/Utility/FLEXResources.h; sourceTree = "<group>"; };
 		ED08646C63EDAF8292A9021A70495089 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		EDA067320CD0A339B0E3C4C955AA6EE5 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
@@ -852,11 +850,11 @@
 		EF9B9D06CE7F4F1DF35357782656AECF /* FLEXSQLiteDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSQLiteDatabaseManager.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXSQLiteDatabaseManager.m; sourceTree = "<group>"; };
 		F06AC49111B600A3889F205DA708ADA4 /* FLEXArgumentInputNotSupportedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputNotSupportedView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputNotSupportedView.m; sourceTree = "<group>"; };
 		F13FA039D35EF358F3329A5D0F3FEBC5 /* FLEXTableContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableContentViewController.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableContentViewController.h; sourceTree = "<group>"; };
-		F1C97A62F61BDE388B18CBC3CCFE17B5 /* WYFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYFileLogger.h; sourceTree = "<group>"; };
 		F3D77D87F91D7BE9ADC77DFA933ACDFA /* FLEXViewControllerExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXViewControllerExplorerViewController.h; path = Classes/ObjectExplorers/FLEXViewControllerExplorerViewController.h; sourceTree = "<group>"; };
 		F44E4C24D684EEC95614D8FF452D49AB /* YTKBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBaseRequest.h; path = YTKNetwork/YTKBaseRequest.h; sourceTree = "<group>"; };
 		F531636D300E46DCBFBFFCFF080F38FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F5F696433523EB38D3CB97C3CED1979B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		F5F9B9F09D6DDCE15B9DD5887E84E5F5 /* WYBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYBaseViewController.h; path = WYModule/WYCore/WYBaseViewController.h; sourceTree = "<group>"; };
 		F61E459544C33C631D973A036A3D1104 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		F6A33ECF82D4EF102589DFB776ED51BB /* Pods-WYModuleProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYModuleProject_Example-dummy.m"; sourceTree = "<group>"; };
 		F6F2A0D7D1BB23238183BB59057DFCC4 /* FLEXIvarEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXIvarEditorViewController.h; path = Classes/Editing/FLEXIvarEditorViewController.h; sourceTree = "<group>"; };
@@ -866,9 +864,11 @@
 		F92526513BE52BD3668F624551CCE552 /* FLEXFileBrowserTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXFileBrowserTableViewController.m; path = Classes/GlobalStateExplorers/FLEXFileBrowserTableViewController.m; sourceTree = "<group>"; };
 		FA4D04C3AEE25A85E9F2A7F7161B5ABF /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
 		FAA74C6A4E8FEA406A61E5F1D5AF0CA3 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		FB1B6643FB7BDAED328FAEA311AEC368 /* WYMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYMediator.m; sourceTree = "<group>"; };
 		FB7393CE61230C1D85432B120597E89D /* YTKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTKNetwork-dummy.m"; sourceTree = "<group>"; };
 		FBDB8E4B981873C2E72C1F8AD77CA3AC /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
 		FCD95236DA3A13AE7CFC681238E72F51 /* FLEXTableListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTableListViewController.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableListViewController.m; sourceTree = "<group>"; };
+		FE23A09B4FE36FDD7178A705F64E7745 /* WYSocialHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSocialHelper.h; path = WYModule/WYSocial/WYSocialHelper.h; sourceTree = "<group>"; };
 		FEA3EFC11493F2D67F788D30D6789EC7 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkAgent.h; path = YTKNetwork/YTKNetworkAgent.h; sourceTree = "<group>"; };
 		FEBC65CF9FDD2BFD8235E3728C28CB3E /* FLEXExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXExplorerViewController.m; path = Classes/ExplorerInterface/FLEXExplorerViewController.m; sourceTree = "<group>"; };
 		FF57B2DF6742917A53F4BF9E5803B931 /* FLEXInstancesTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXInstancesTableViewController.h; path = Classes/GlobalStateExplorers/FLEXInstancesTableViewController.h; sourceTree = "<group>"; };
@@ -992,17 +992,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		082615FC89FBE7DA2A07BC7CBBA53724 /* WYFPSHelper */ = {
-			isa = PBXGroup;
-			children = (
-				160948640662D338C3CDBB2A90EA17BD /* YYFPSLabel.h */,
-				94C0F85CE59BBF5E4179D524070F9C0E /* YYFPSLabel.m */,
-				7C274BD4CD24EDBA6E2CF575098F617B /* YYWeakProxy.h */,
-				935F59BA0A21A6BB51048D11182E69A7 /* YYWeakProxy.m */,
-			);
-			path = WYFPSHelper;
-			sourceTree = "<group>";
-		};
 		0842157738F2C2394624E5C3F4A85021 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1014,38 +1003,21 @@
 			path = "../Target Support Files/JSPatch";
 			sourceTree = "<group>";
 		};
-		08FD5269418E52C80B39CB5DC8C2A778 /* WYMacros */ = {
-			isa = PBXGroup;
-			children = (
-				15CD864FC0F247A66A05DAE6B96F3DD3 /* WYMacros.h */,
-			);
-			name = WYMacros;
-			path = WYModuleProject/WYCore/WYMacros;
-			sourceTree = "<group>";
-		};
 		0A8F758737DC571410D4828C4F89FCEA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23A535EC53BEF5B882BC79DB81A298F8 /* WYModule */,
+				4BF14C69071A3AFABA95163DD5756F90 /* WYModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0AF5D7BA6DCCE984D05488AB5259E7E8 /* WYSocial */ = {
+		0CB083034C662A20D169B941D6425890 /* WYMacros */ = {
 			isa = PBXGroup;
 			children = (
-				3402612CF615C28A2F83CB5AEA18F487 /* WYSocial.h */,
-				C4EDB78F219C19D0007476BE /* XAspect-ShareAppDelegate.m */,
-				2F9D9F2C4EC2EEB4F07A976A96A4FA91 /* WYSocialHelper.h */,
-				899D94369F326A61D6EB15B13AFDC64F /* WYSocialHelper.m */,
-				C4EDB783219C0C5F007476BE /* WYSocialConfigManager.h */,
-				C4EDB784219C0C5F007476BE /* WYSocialConfigManager.m */,
-				C4EDB787219C145C007476BE /* WYSocialPlatformHelper.h */,
-				C4EDB788219C145C007476BE /* WYSocialPlatformHelper.m */,
-				C4EDB791219C1FAD007476BE /* WYWebShareHelper.h */,
-				C4EDB792219C1FAD007476BE /* WYWebShareHelper.m */,
+				3D368704C6473F579FA36D5BD345B1F2 /* WYMacros.h */,
 			);
-			name = WYSocial;
+			name = WYMacros;
+			path = WYModule/WYCore/WYMacros;
 			sourceTree = "<group>";
 		};
 		0D0CE9594EC3BE6D15791E03ED45DAF6 /* FLEX */ = {
@@ -1207,6 +1179,7 @@
 				C1A89D229DE7F5212F44187FB6FDB1B7 /* FLEXWindow.m */,
 				0D8789D8FF53C7BDCAF512FCFB233F61 /* Support Files */,
 			);
+			name = FLEX;
 			path = FLEX;
 			sourceTree = "<group>";
 		};
@@ -1227,19 +1200,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FLEX";
-			sourceTree = "<group>";
-		};
-		0FB66F94A9799090B3BB820A5C4C430D /* WYCoreHelper */ = {
-			isa = PBXGroup;
-			children = (
-				7BDB7112612CCCEA26EDCC77ADF12DDA /* WYCoreConfigManager.h */,
-				3CBF4AB56F8C111712DE6DA237C5578C /* WYCoreConfigManager.m */,
-				082615FC89FBE7DA2A07BC7CBBA53724 /* WYFPSHelper */,
-				A765CE9DA7619EE5FBA157BA863091BC /* WYLoggerHelper */,
-				18AD6D2E15005B0B0E7367D412573969 /* WYPatchHelper */,
-			);
-			name = WYCoreHelper;
-			path = WYModuleProject/WYCore/WYCoreHelper;
 			sourceTree = "<group>";
 		};
 		10FD41F719E518AB7E66B8F238F7AE0F /* Frameworks */ = {
@@ -1298,6 +1258,22 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
+		167840CB3A2E4C9FD7524183E2EA6A21 /* WYCore */ = {
+			isa = PBXGroup;
+			children = (
+				58423275E339D95F6C9C801244787154 /* WYAppDelegate.h */,
+				BABE1B3E926B440D1C947532BBB0DFEF /* WYAppDelegate.m */,
+				F5F9B9F09D6DDCE15B9DD5887E84E5F5 /* WYBaseViewController.h */,
+				9A8E1B4F39F9E465D967237B7A3A1967 /* WYBaseViewController.m */,
+				0B3A6F55B05F6745CF9E52ACCA7B84E6 /* WYCore.h */,
+				AEE4DB478A30BB676B49A2CA1E5EEBDD /* WYCoreHelper */,
+				0CB083034C662A20D169B941D6425890 /* WYMacros */,
+				7B76529B7C75938FBC238DEBC71D4C60 /* WYMediator */,
+				F3579C1A24A9DCA0EF6D0621EECE34E0 /* WYNetwork */,
+			);
+			name = WYCore;
+			sourceTree = "<group>";
+		};
 		16BAB76F207E337A0DF2D7200148ADF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1306,15 +1282,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18AD6D2E15005B0B0E7367D412573969 /* WYPatchHelper */ = {
+		1C06287469DE812B80F9DE299EC158D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA219AB9BAB95903D0218FC994CC07FD /* WYPathchHelper.h */,
-				DAAF23B3C82DD68F0071EFD2CA940E66 /* WYPathchHelper.m */,
-				4F3F94C3B0B02387151D0DE4352C65C0 /* WYPathchModel.h */,
-				4EF46683E5228B1C7043D32B85077086 /* WYPathchModel.m */,
+				4BCF2F9B40448369F2337377EDF3B4BC /* WYModule.xcconfig */,
+				C1951762977DCDB73EB670E00ED7EF39 /* WYModule-dummy.m */,
+				E11D1CA0DA81DC2D76597D03B50223D9 /* WYModule-prefix.pch */,
 			);
-			path = WYPatchHelper;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYModule";
 			sourceTree = "<group>";
 		};
 		21694E98F1F552E7E63CF3938E43BB2D /* Support Files */ = {
@@ -1348,18 +1324,6 @@
 			name = Ping;
 			sourceTree = "<group>";
 		};
-		23A535EC53BEF5B882BC79DB81A298F8 /* WYModule */ = {
-			isa = PBXGroup;
-			children = (
-				7B2D2187BC035F7022E744C193B04F6D /* Pod */,
-				A403A5136E4B947104AB20B046092507 /* Support Files */,
-				EB65DEEF67B51130A3ECA9A43B64A256 /* WYCore */,
-				0AF5D7BA6DCCE984D05488AB5259E7E8 /* WYSocial */,
-			);
-			name = WYModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1377,6 +1341,36 @@
 			name = ReducedSina;
 			sourceTree = "<group>";
 		};
+		2A1BB12C9B972E066415BC82B661866E /* WYLoggerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D6960945FE6826977650A4CB0D670883 /* WYCocoaLumberjack.h */,
+				46C14B98BBCCF85DFE3A5FF1E90FA39F /* WYFileLogger.h */,
+				57E1FC4D7B0E72833044F4768C918840 /* WYFileLogger.m */,
+				99B4270B97C45F366AF1B3E8E08B20F1 /* WYLoggerFormatter.h */,
+				D9039F8F54C6A4D3ECAB8F1FBF1EA320 /* WYLoggerFormatter.m */,
+			);
+			name = WYLoggerHelper;
+			path = WYLoggerHelper;
+			sourceTree = "<group>";
+		};
+		2B6BD68D4C0E744368F4A2B2AF4F1662 /* WYSocial */ = {
+			isa = PBXGroup;
+			children = (
+				1A506659F9E5DBB29A543CDF7C3A7AE3 /* WYSocial.h */,
+				97BF2D61518211D6830BCEE1E8676EF2 /* WYSocialConfigManager.h */,
+				78AFC75B8B121001C06D14ACAD4D559E /* WYSocialConfigManager.m */,
+				FE23A09B4FE36FDD7178A705F64E7745 /* WYSocialHelper.h */,
+				A63BB8020020D392CAD972D9CBD7C627 /* WYSocialHelper.m */,
+				1AEBE2EBD2E8FA34403C6DEB72D82B57 /* WYSocialPlatformHelper.h */,
+				DFB1299651A46BB31826B19380AF769E /* WYSocialPlatformHelper.m */,
+				00417A861C870CB66846BFD61C0F0799 /* WYWebShareHelper.h */,
+				5F16A07CBAEE1F0D66C072D1A9DC473B /* WYWebShareHelper.m */,
+				37DAA9CF4D2BE3D09F778F72E5088CBB /* XAspect-ShareAppDelegate.m */,
+			);
+			name = WYSocial;
+			sourceTree = "<group>";
+		};
 		3026AE1AA00EF3189B3B0DFB85B19398 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -1388,6 +1382,7 @@
 				137D94C253888984AFA5096B5AB5038A /* Support Files */,
 				FCE445160203954CC34642526B1D19D6 /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1415,6 +1410,7 @@
 				8BBEF9BD993AAE20437C7FF43E9040D4 /* YTKRequest.m */,
 				B4D865FAFAE0283022A552985444D077 /* Support Files */,
 			);
+			name = YTKNetwork;
 			path = YTKNetwork;
 			sourceTree = "<group>";
 		};
@@ -1435,6 +1431,7 @@
 			children = (
 				3FD624E7A171A09EDD108F506EE28098 /* Frameworks */,
 			);
+			name = GTSDK;
 			path = GTSDK;
 			sourceTree = "<group>";
 		};
@@ -1457,6 +1454,18 @@
 				1FF986E38528F70AC86405A9410ED401 /* XAWeaveHandler.h */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4BF14C69071A3AFABA95163DD5756F90 /* WYModule */ = {
+			isa = PBXGroup;
+			children = (
+				ED519D7E04464AE9C0B03A06ACFE5306 /* Pod */,
+				1C06287469DE812B80F9DE299EC158D6 /* Support Files */,
+				167840CB3A2E4C9FD7524183E2EA6A21 /* WYCore */,
+				2B6BD68D4C0E744368F4A2B2AF4F1662 /* WYSocial */,
+			);
+			name = WYModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		52798DAEC625BB5A3B79578D8CCEB23F /* RealReachability */ = {
@@ -1485,6 +1494,7 @@
 				22D249600294F4A37E2C902F1C1C2AE9 /* Ping */,
 				21694E98F1F552E7E63CF3938E43BB2D /* Support Files */,
 			);
+			name = RealReachability;
 			path = RealReachability;
 			sourceTree = "<group>";
 		};
@@ -1503,6 +1513,7 @@
 				5B37F379BE857E9B0D8CE76B50BE9029 /* Extensions */,
 				8108191992F6234B6C14275FF4D611AB /* Support Files */,
 			);
+			name = CocoaLumberjack;
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
@@ -1534,6 +1545,7 @@
 				E22882252B2B735AE4724637619AA4AF /* Core */,
 				0842157738F2C2394624E5C3F4A85021 /* Support Files */,
 			);
+			name = JSPatch;
 			path = JSPatch;
 			sourceTree = "<group>";
 		};
@@ -1565,14 +1577,14 @@
 			name = Connection;
 			sourceTree = "<group>";
 		};
-		7B2D2187BC035F7022E744C193B04F6D /* Pod */ = {
+		7B76529B7C75938FBC238DEBC71D4C60 /* WYMediator */ = {
 			isa = PBXGroup;
 			children = (
-				BFE865CA3335E733A358964473F343BF /* LICENSE */,
-				39EAEB76FCE44DE6D066D6D68BCA5DD7 /* README.md */,
-				94D6C06FE09F7865E4B28104E52DC0C2 /* WYModule.podspec */,
+				BB082528174DFDE283E7BAAAD55C1B6A /* WYMediator.h */,
+				FB1B6643FB7BDAED328FAEA311AEC368 /* WYMediator.m */,
 			);
-			name = Pod;
+			name = WYMediator;
+			path = WYModule/WYCore/WYMediator;
 			sourceTree = "<group>";
 		};
 		7BB0CFDBD87E1CCCCC9D082067BAC666 /* UMCShare */ = {
@@ -1582,6 +1594,7 @@
 				6B08B88E2335F990F710871FACDC6148 /* Social */,
 				21C853DD9BED44248AEBAC0C4ED88AF2 /* UI */,
 			);
+			name = UMCShare;
 			path = UMCShare;
 			sourceTree = "<group>";
 		};
@@ -1648,6 +1661,18 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+		936E17E2C814DB79451C832259EA3127 /* WYFPSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CAD5B4696AB47F61AFD752DC677A8F0E /* YYFPSLabel.h */,
+				1EF4D64FA897A6166E2219DE1B8EB7A6 /* YYFPSLabel.m */,
+				2756234E14768512DDE0E0D2A1BCEC40 /* YYWeakProxy.h */,
+				EC174E31539A1344755C69C064551FE6 /* YYWeakProxy.m */,
+			);
+			name = WYFPSHelper;
+			path = WYFPSHelper;
+			sourceTree = "<group>";
+		};
 		94D403ED7C5B8F83AE7C165099DC2A93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1686,27 +1711,6 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		A187C3DFB5AE6523886374E8DAE9DB84 /* WYMediator */ = {
-			isa = PBXGroup;
-			children = (
-				B3314DB7370E17542B82E723BE92E824 /* WYMediator.h */,
-				973EF19C32E6528461380939359E291A /* WYMediator.m */,
-			);
-			name = WYMediator;
-			path = WYModuleProject/WYCore/WYMediator;
-			sourceTree = "<group>";
-		};
-		A403A5136E4B947104AB20B046092507 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1526474AF2A3813AC62F914C8232AF55 /* WYModule.xcconfig */,
-				BCE91E29328AA29C1536C395348359F0 /* WYModule-dummy.m */,
-				DC4D82A8DDB3DCC5AD6361B6FADCE53E /* WYModule-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYModule";
-			sourceTree = "<group>";
-		};
 		A47E645A8FE88C5D2D27AB5696B76B46 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -1715,16 +1719,17 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		A765CE9DA7619EE5FBA157BA863091BC /* WYLoggerHelper */ = {
+		AEE4DB478A30BB676B49A2CA1E5EEBDD /* WYCoreHelper */ = {
 			isa = PBXGroup;
 			children = (
-				43172319068BA3D216FC14C7F09B2DE7 /* WYCocoaLumberjack.h */,
-				F1C97A62F61BDE388B18CBC3CCFE17B5 /* WYFileLogger.h */,
-				60F78B805062EAD97BCA747712E6ED74 /* WYFileLogger.m */,
-				7E2405E2A72ECBAD9599E2E68D0C6E71 /* WYLoggerFormatter.h */,
-				7E8372061979796F3991F52C545476A4 /* WYLoggerFormatter.m */,
+				CD547F8230CDEF9AAD438604E8DE92A8 /* WYCoreConfigManager.h */,
+				B7192FE4F714E5A5EEFFB73272D60D0D /* WYCoreConfigManager.m */,
+				936E17E2C814DB79451C832259EA3127 /* WYFPSHelper */,
+				2A1BB12C9B972E066415BC82B661866E /* WYLoggerHelper */,
+				D5B38F4163269CB529C0FEC34134F182 /* WYPatchHelper */,
 			);
-			path = WYLoggerHelper;
+			name = WYCoreHelper;
+			path = WYModule/WYCore/WYCoreHelper;
 			sourceTree = "<group>";
 		};
 		B4D865FAFAE0283022A552985444D077 /* Support Files */ = {
@@ -1751,6 +1756,7 @@
 			children = (
 				C861FA606DA08AFE6462DB6330415ABD /* Frameworks */,
 			);
+			name = UMCCommon;
 			path = UMCCommon;
 			sourceTree = "<group>";
 		};
@@ -1767,6 +1773,7 @@
 				9498F378F0CC0C7E9901014C901670C7 /* YYMemoryCache.m */,
 				8D17855EE84CD7E264839E7070B26C2B /* Support Files */,
 			);
+			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -1778,6 +1785,7 @@
 				124484CD2A08E66FC819FC782B4FA402 /* Macros */,
 				7F26CF65881C63053EB0C6DE675F4F7C /* Support Files */,
 			);
+			name = XAspect;
 			path = XAspect;
 			sourceTree = "<group>";
 		};
@@ -1828,6 +1836,18 @@
 			path = "Target Support Files/Pods-WYModuleProject_Example";
 			sourceTree = "<group>";
 		};
+		D5B38F4163269CB529C0FEC34134F182 /* WYPatchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				06F3009C0E9DCD434787E0BDACBBD166 /* WYPathchHelper.h */,
+				275E6CC60FB618D20606898BA912557A /* WYPathchHelper.m */,
+				53B3E91B384B26D3832067A0B9E1EC7D /* WYPathchModel.h */,
+				79A745F54C1E73BD2F54D8E60F39FFBA /* WYPathchModel.m */,
+			);
+			name = WYPatchHelper;
+			path = WYPatchHelper;
+			sourceTree = "<group>";
+		};
 		E22882252B2B735AE4724637619AA4AF /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -1838,20 +1858,24 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		EB65DEEF67B51130A3ECA9A43B64A256 /* WYCore */ = {
+		ED519D7E04464AE9C0B03A06ACFE5306 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EA4DA8E5D4BCA7E84553F34CA23EB600 /* WYAppDelegate.h */,
-				6C52B50635A5B894536E353CEAB93D5C /* WYAppDelegate.m */,
-				70100090DA66EE42FCF675655E715701 /* WYBaseViewController.h */,
-				00A08C224531BB6BCD0F9ADFC11FD2DD /* WYBaseViewController.m */,
-				2179E598C94150FCF6C30086DF0B086D /* WYCore.h */,
-				0FB66F94A9799090B3BB820A5C4C430D /* WYCoreHelper */,
-				08FD5269418E52C80B39CB5DC8C2A778 /* WYMacros */,
-				A187C3DFB5AE6523886374E8DAE9DB84 /* WYMediator */,
-				F46E744BA68A0E622A5B6971A0770B18 /* WYNetwork */,
+				0FDAF30FBB0B6C3D8818F70F6EDC8195 /* LICENSE */,
+				2E4BFC71EE3B844F842F77DB3063C4B4 /* README.md */,
+				DE155EAAD1AC18424C9F2E9B478A4F07 /* WYModule.podspec */,
 			);
-			name = WYCore;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3579C1A24A9DCA0EF6D0621EECE34E0 /* WYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9CB727C45DBEF0DA08C96ABEF1691DE6 /* WYNetworkHelper.h */,
+				57D0C39BF029CD3765237C728C142325 /* WYNetworkHelper.m */,
+			);
+			name = WYNetwork;
+			path = WYModule/WYCore/WYNetwork;
 			sourceTree = "<group>";
 		};
 		F37AE107B7F56BC5CBE276A8CFCD2D1B /* Products */ = {
@@ -1870,16 +1894,6 @@
 				95042949D1065584C14CD4228D1F8FA7 /* libYYCache.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F46E744BA68A0E622A5B6971A0770B18 /* WYNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				3D4B2F2A73CD0F124D821F0E15CA9A89 /* WYNetworkHelper.h */,
-				7E7A97415768D1659E84FA0CDBDEDFD4 /* WYNetworkHelper.m */,
-			);
-			name = WYNetwork;
-			path = WYModuleProject/WYCore/WYNetwork;
 			sourceTree = "<group>";
 		};
 		FCE445160203954CC34642526B1D19D6 /* UIKit */ = {
@@ -1946,6 +1960,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5655A5542EF9A27CE3F75EE9212E9E0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA892357F19123B40CD8B7E008F81F9F /* WYAppDelegate.h in Headers */,
+				CD4C88A7E79F71740FEED5DB61C540FE /* WYBaseViewController.h in Headers */,
+				8412012F7BEEF3B66F1DFBDF59CE222C /* WYCocoaLumberjack.h in Headers */,
+				1755ADE4516E44F5815821B9A73DC673 /* WYCore.h in Headers */,
+				BD9BC6E853C1405F74399314F95833E6 /* WYCoreConfigManager.h in Headers */,
+				7C6AF62C85FFB208BC8EF200262CEFEA /* WYFileLogger.h in Headers */,
+				BD60810DC28FDEBE89FEC0BC0D704514 /* WYLoggerFormatter.h in Headers */,
+				872953711C5C3D20FA13A9FA26E4122C /* WYMacros.h in Headers */,
+				AD225D1CDCDB164CEF5CEBF0347D8DC0 /* WYMediator.h in Headers */,
+				10723B653735BA74E95C861961E15644 /* WYNetworkHelper.h in Headers */,
+				3A6001BD6BDA2C71469B9A3F9C2BBF6D /* WYPathchHelper.h in Headers */,
+				FD6799E4176E7C29EA6C317A61EE29C8 /* WYPathchModel.h in Headers */,
+				109F1601C897A89C3311480CCDBB8E96 /* WYSocial.h in Headers */,
+				E50DF797D37A54F877A3656B40FAC089 /* WYSocialConfigManager.h in Headers */,
+				8C0FD07B302423063E6F86B840A3FB0B /* WYSocialHelper.h in Headers */,
+				9444A9465E5137A6A9509360BC8BCD75 /* WYSocialPlatformHelper.h in Headers */,
+				0DB57C17FAC030102C24988863A69AE5 /* WYWebShareHelper.h in Headers */,
+				C09E444FEBFD86077D1C878C7CDE478A /* YYFPSLabel.h in Headers */,
+				51C01A7B2A637B2D7642F76C70600C9C /* YYWeakProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2065,32 +2105,6 @@
 				3D151D4A3A943BEF716CE395D3505CD8 /* FLEXViewExplorerViewController.h in Headers */,
 				EF4A5105D23024E1F30AEC6795CE1C27 /* FLEXWebViewController.h in Headers */,
 				2B51D7662E35E63CF713B130BB66F60F /* FLEXWindow.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1438FB3494610C993B88D41F10D8421 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A9B1F1477287549CF0C2CDBE936B454 /* WYAppDelegate.h in Headers */,
-				626161B09AA35F7F557B70AE3A2F15A7 /* WYBaseViewController.h in Headers */,
-				1A03E4CFA53F5E27607D118F7BF86D7F /* WYCocoaLumberjack.h in Headers */,
-				8043E0E3FF32D0D7ACE422DCA00FA20A /* WYCore.h in Headers */,
-				C4EDB785219C0C5F007476BE /* WYSocialConfigManager.h in Headers */,
-				C3F18EFCFEC460CEC61ADEEE678D6496 /* WYCoreConfigManager.h in Headers */,
-				391D6D1EC169267BDA0D3CD3ED0AF930 /* WYFileLogger.h in Headers */,
-				8DA5812C09ED40330EB5E5D85F3E557B /* WYLoggerFormatter.h in Headers */,
-				D5335B85183DD48B349197CB0ED8A4CC /* WYMacros.h in Headers */,
-				6413B9DD03241D4CD5D6FF1EF47C16B9 /* WYMediator.h in Headers */,
-				3445666388EC0C1DA05AB9D5933E6061 /* WYNetworkHelper.h in Headers */,
-				CF1D57F039FD4BA0712D78CF62990219 /* WYPathchHelper.h in Headers */,
-				A7A8D485F895F935995761A746C4A437 /* WYPathchModel.h in Headers */,
-				EC53534E8AC06B6CE9ACF1839FEA2384 /* WYSocial.h in Headers */,
-				3AE2C056057EEFA52D13FD289884038A /* WYSocialHelper.h in Headers */,
-				C4EDB793219C1FAD007476BE /* WYWebShareHelper.h in Headers */,
-				4A4D27CCBB83226822484D4EA475D530 /* YYFPSLabel.h in Headers */,
-				EC18754DD8156F62FF2500EF1465B0DA /* YYWeakProxy.h in Headers */,
-				C4EDB789219C145C007476BE /* WYSocialPlatformHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2294,8 +2308,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E980833100F71D40C1967CEC85E9AE14 /* Build configuration list for PBXNativeTarget "WYModule" */;
 			buildPhases = (
-				A1438FB3494610C993B88D41F10D8421 /* Headers */,
-				F5B721EBC554629B4D88F55575306334 /* Sources */,
+				5655A5542EF9A27CE3F75EE9212E9E0B /* Headers */,
+				556C098C55542D59DDCECD05F94D6207 /* Sources */,
 				3B6C7F639752290881CFAF51EFBCF007 /* Frameworks */,
 			);
 			buildRules = (
@@ -2374,7 +2388,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "407671883@qq.com";
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2532,6 +2545,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		556C098C55542D59DDCECD05F94D6207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD69E71B142DBB55ED9638C4C3B50DF /* WYAppDelegate.m in Sources */,
+				F5539202AE46205155EB7172116AB995 /* WYBaseViewController.m in Sources */,
+				5B0E91019095D5BE4257F0209361D940 /* WYCoreConfigManager.m in Sources */,
+				3F4093165D176EB34D09523C21B7B8B1 /* WYFileLogger.m in Sources */,
+				8FE0F247B84A214C563E05C11E58285D /* WYLoggerFormatter.m in Sources */,
+				DB38E4947177724717612CCF0E2F9038 /* WYMediator.m in Sources */,
+				8F0550807972B4D6EA69D7C00032DF42 /* WYModule-dummy.m in Sources */,
+				8332CEDD85D99D71C446697AC9245948 /* WYNetworkHelper.m in Sources */,
+				02C3A7E7C86BF7C61E30A0712E826208 /* WYPathchHelper.m in Sources */,
+				891F5DCEB3B7171E495537CC9DB0B03E /* WYPathchModel.m in Sources */,
+				B7F6808C51D8766B3671AFA89D1BCA2D /* WYSocialConfigManager.m in Sources */,
+				C0DBAF98EB4890D133DCA5678612D5AF /* WYSocialHelper.m in Sources */,
+				408E8813B848244474B9FFE8DC19D126 /* WYSocialPlatformHelper.m in Sources */,
+				5F4B4EBB588652F455D8D9C1ADD8C878 /* WYWebShareHelper.m in Sources */,
+				98FBC76B045EB2D40B957D6944FC0173 /* XAspect-ShareAppDelegate.m in Sources */,
+				56E2FEB17AE06AF0D7AB4497E5ADD2C4 /* YYFPSLabel.m in Sources */,
+				9E8581F6C1930A7C14AC707E7E2BBFA8 /* YYWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68BFEBADE9EFAA0FA2FAF290695C1BA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2610,30 +2647,6 @@
 				DD8A1B8181B22DA4CBE27D72561BC239 /* DDMultiFormatter.m in Sources */,
 				DB9A7C48D3F3B32B11A1A7948B2365D3 /* DDOSLogger.m in Sources */,
 				FD701D2D197ADAED5847FCD71B616DA8 /* DDTTYLogger.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5B721EBC554629B4D88F55575306334 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5787E43925542B9310486FA59AEA3A79 /* WYAppDelegate.m in Sources */,
-				7CE022054AB8006952B6F3D3FD92FD39 /* WYBaseViewController.m in Sources */,
-				F6EAFF2F103C77D625CD51F8E34269A5 /* WYCoreConfigManager.m in Sources */,
-				BEED0036FC48AC50A5F7BB723E36E793 /* WYFileLogger.m in Sources */,
-				C4EDB786219C0C5F007476BE /* WYSocialConfigManager.m in Sources */,
-				B39279C29562EF09C141AF3ECF9FD5FD /* WYLoggerFormatter.m in Sources */,
-				4D45836D009ABD98CB93DA266620C61B /* WYMediator.m in Sources */,
-				C4EDB794219C1FAD007476BE /* WYWebShareHelper.m in Sources */,
-				3C3020894B7B82920FFB6E194A657CFD /* WYModule-dummy.m in Sources */,
-				C4EDB78A219C145C007476BE /* WYSocialPlatformHelper.m in Sources */,
-				C4EDB790219C19D0007476BE /* XAspect-ShareAppDelegate.m in Sources */,
-				3588AB87FB9D7C957EC93F0465C1F7C8 /* WYNetworkHelper.m in Sources */,
-				95F8E208111C761F9E3A0DEB36BD4AF6 /* WYPathchHelper.m in Sources */,
-				C92A70E36A8511BA38F7295455942DD1 /* WYPathchModel.m in Sources */,
-				86B5D20493BC9FE93C8C078627ECCEB0 /* WYSocialHelper.m in Sources */,
-				96615F52C4B10441E6665057897BF90A /* YYFPSLabel.m in Sources */,
-				4333028599A9DB06198AC20A728A66F1 /* YYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2970,7 +2983,7 @@
 		};
 		53B9CAB908965E111CC9A47E2F161E37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1526474AF2A3813AC62F914C8232AF55 /* WYModule.xcconfig */;
+			baseConfigurationReference = 4BCF2F9B40448369F2337377EDF3B4BC /* WYModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3069,7 +3082,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -3258,7 +3272,7 @@
 		};
 		AF1898EE592634F3A92A58C2DFAD1BCB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1526474AF2A3813AC62F914C8232AF55 /* WYModule.xcconfig */;
+			baseConfigurationReference = 4BCF2F9B40448369F2337377EDF3B4BC /* WYModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

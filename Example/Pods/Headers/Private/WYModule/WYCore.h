@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCore.h
+../../../../../WYModule/WYCore/WYCore.h

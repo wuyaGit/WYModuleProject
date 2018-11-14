@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCoreHelper/WYLoggerHelper/WYLoggerFormatter.h
+../../../../../WYModule/WYCore/WYCoreHelper/WYLoggerHelper/WYLoggerFormatter.h

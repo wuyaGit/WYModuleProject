@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.subspec 'WYCore' do |wYCore|
-        wYCore.source_files = 'WYModuleProject/WYCore/**/*'
+        wYCore.source_files = 'WYModule/WYCore/**/*'
         wYCore.dependency 'XAspect'
         wYCore.dependency 'YYCache'
         wYCore.dependency 'JSPatch'
@@ -36,51 +36,45 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'WYAnalytics' do |wYAnalytics|
-        wYAnalytics.source_files = 'WYModuleProject/WYAnalytics/**/*.{h,m}'
+        wYAnalytics.source_files = 'WYModule/WYAnalytics/**/*.{h,m}'
         wYAnalytics.dependency 'WYModule/WYCore'
     end
 
     s.subspec 'WYPay' do |wYPay|
-        wYPay.source_files = 'WYModuleProject/WYPay/**/*.{h,m}'
+        wYPay.source_files = 'WYModule/WYPay/**/*.{h,m}'
         wYPay.dependency 'WYModule/WYCore'
     end
 
-    s.subspec 'WYSocialLogin' do |wYSocialLogin|
-        wYSocialLogin.source_files = 'WYModuleProject/WYSocialLogin/**/*.{h,m}'
-        wYSocialLogin.dependency 'WYModule/WYCore'
-        wYSocialLogin.dependency 'XAspect'
-    end
-
-    s.subspec 'WYSocialShare' do |wYSocialShare|
-        wYSocialShare.source_files = 'WYModuleProject/WYSocialShare/**/*.{h,m}'
-        wYSocialShare.dependency 'WYModule/WYCore'
-        wYSocialShare.dependency 'XAspect'
-        wYSocialShare.dependency 'UMCCommon'                         #友盟基础库
-        wYSocialShare.dependency 'UMCShare/UI'                       # U-Share SDK UI模块（分享面板，建议添加）
-        wYSocialShare.dependency 'UMCShare/Social/ReducedSina'       # 集成新浪微博(精简版1M)
-        wYSocialShare.dependency 'UMCShare/Social/ReducedWeChat'     # 集成微信(精简版0.2M)
-        wYSocialShare.dependency 'UMCShare/Social/ReducedQQ'         # 集成QQ/QZone/TIM(精简版0.5M)
+    s.subspec 'WYSocial' do |wYSocial|
+        wYSocial.source_files = 'WYModule/WYSocial/**/*.{h,m}'
+        wYSocial.dependency 'WYModule/WYCore'
+        wYSocial.dependency 'XAspect'
+        wYSocial.dependency 'UMCCommon'                         #友盟基础库
+        wYSocial.dependency 'UMCShare/UI'                       # U-Share SDK UI模块（分享面板，建议添加）
+        wYSocial.dependency 'UMCShare/Social/ReducedSina'       # 集成新浪微博(精简版1M)
+        wYSocial.dependency 'UMCShare/Social/ReducedWeChat'     # 集成微信(精简版0.2M)
+        wYSocial.dependency 'UMCShare/Social/ReducedQQ'         # 集成QQ/QZone/TIM(精简版0.5M)
     end
 
     s.subspec 'WYGT' do |wYGT|
-        wYGT.source_files = 'WYModuleProject/WYGT/**/*.{h,m}'
+        wYGT.source_files = 'WYModule/WYGT/**/*.{h,m}'
         wYGT.dependency 'WYModule/WYCore'
         wYGT.dependency 'XAspect'
         wYGT.dependency 'GTSDK'
     end
 
     s.subspec 'WYAdHelper' do |wYAdHelper|
-        wYAdHelper.source_files = 'WYModuleProject/WYAdHelper/**/*.{h,m}'
+        wYAdHelper.source_files = 'WYModule/WYAdHelper/**/*.{h,m}'
         wYAdHelper.dependency 'WYModule/WYCore'
     end
 
     s.subspec 'WYEmptyViewHelper' do |wYEmptyViewHelper|
-        wYEmptyViewHelper.source_files = 'WYModuleProject/WYEmptyViewHelper/**/*.{h,m}'
+        wYEmptyViewHelper.source_files = 'WYModule/WYEmptyViewHelper/**/*.{h,m}'
         wYEmptyViewHelper.dependency 'WYModule/WYCore'
     end
 
     s.subspec 'WYUI' do |wYUI|
-        wYUI.source_files = 'WYModuleProject/WYUI/**/*.{h,m}'
+        wYUI.source_files = 'WYModule/WYUI/**/*.{h,m}'
         wYUI.dependency 'WYModule/WYCore'
     end
 

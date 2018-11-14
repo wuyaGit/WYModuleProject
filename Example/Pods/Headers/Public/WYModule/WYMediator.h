@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYMediator/WYMediator.h
+../../../../../WYModule/WYCore/WYMediator/WYMediator.h

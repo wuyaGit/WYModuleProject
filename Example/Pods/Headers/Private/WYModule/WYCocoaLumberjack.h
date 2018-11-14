@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCoreHelper/WYLoggerHelper/WYCocoaLumberjack.h
+../../../../../WYModule/WYCore/WYCoreHelper/WYLoggerHelper/WYCocoaLumberjack.h

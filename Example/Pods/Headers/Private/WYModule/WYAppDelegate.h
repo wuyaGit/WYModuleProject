@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYAppDelegate.h
+../../../../../WYModule/WYCore/WYAppDelegate.h

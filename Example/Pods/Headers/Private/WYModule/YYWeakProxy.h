@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCoreHelper/WYFPSHelper/YYWeakProxy.h
+../../../../../WYModule/WYCore/WYCoreHelper/WYFPSHelper/YYWeakProxy.h

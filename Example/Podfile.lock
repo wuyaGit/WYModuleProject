@@ -52,8 +52,7 @@ PODS:
     - WYModule/WYEmptyViewHelper (= 0.1.0)
     - WYModule/WYGT (= 0.1.0)
     - WYModule/WYPay (= 0.1.0)
-    - WYModule/WYSocialLogin (= 0.1.0)
-    - WYModule/WYSocialShare (= 0.1.0)
+    - WYModule/WYSocial (= 0.1.0)
     - WYModule/WYUI (= 0.1.0)
   - WYModule/WYAdHelper (0.1.0):
     - WYModule/WYCore
@@ -75,10 +74,7 @@ PODS:
     - XAspect
   - WYModule/WYPay (0.1.0):
     - WYModule/WYCore
-  - WYModule/WYSocialLogin (0.1.0):
-    - WYModule/WYCore
-    - XAspect
-  - WYModule/WYSocialShare (0.1.0):
+  - WYModule/WYSocial (0.1.0):
     - UMCCommon
     - UMCShare/Social/ReducedQQ
     - UMCShare/Social/ReducedSina
@@ -128,7 +124,7 @@ SPEC CHECKSUMS:
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
   UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
-  WYModule: 9920d92a4dba3ffb64266cc5f3f688ff047a1f88
+  WYModule: cc0a68abe303c422d1f1877909baa0ec6817138f
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

@@ -23,7 +23,7 @@
   "subspecs": [
     {
       "name": "WYCore",
-      "source_files": "WYModuleProject/WYCore/**/*",
+      "source_files": "WYModule/WYCore/**/*",
       "dependencies": {
         "XAspect": [
 
@@ -50,7 +50,7 @@
     },
     {
       "name": "WYAnalytics",
-      "source_files": "WYModuleProject/WYAnalytics/**/*.{h,m}",
+      "source_files": "WYModule/WYAnalytics/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -59,7 +59,7 @@
     },
     {
       "name": "WYPay",
-      "source_files": "WYModuleProject/WYPay/**/*.{h,m}",
+      "source_files": "WYModule/WYPay/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -67,20 +67,8 @@
       }
     },
     {
-      "name": "WYSocialLogin",
-      "source_files": "WYModuleProject/WYSocialLogin/**/*.{h,m}",
-      "dependencies": {
-        "WYModule/WYCore": [
-
-        ],
-        "XAspect": [
-
-        ]
-      }
-    },
-    {
-      "name": "WYSocialShare",
-      "source_files": "WYModuleProject/WYSocialShare/**/*.{h,m}",
+      "name": "WYSocial",
+      "source_files": "WYModule/WYSocial/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -107,7 +95,7 @@
     },
     {
       "name": "WYGT",
-      "source_files": "WYModuleProject/WYGT/**/*.{h,m}",
+      "source_files": "WYModule/WYGT/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -122,7 +110,7 @@
     },
     {
       "name": "WYAdHelper",
-      "source_files": "WYModuleProject/WYAdHelper/**/*.{h,m}",
+      "source_files": "WYModule/WYAdHelper/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -131,7 +119,7 @@
     },
     {
       "name": "WYEmptyViewHelper",
-      "source_files": "WYModuleProject/WYEmptyViewHelper/**/*.{h,m}",
+      "source_files": "WYModule/WYEmptyViewHelper/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -140,7 +128,7 @@
     },
     {
       "name": "WYUI",
-      "source_files": "WYModuleProject/WYUI/**/*.{h,m}",
+      "source_files": "WYModule/WYUI/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 

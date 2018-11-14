@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYCoreHelper/WYCoreConfigManager.h
+../../../../../WYModule/WYCore/WYCoreHelper/WYCoreConfigManager.h

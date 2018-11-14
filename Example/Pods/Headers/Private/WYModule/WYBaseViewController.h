@@ -1,1 +1,1 @@
-../../../../../WYModuleProject/WYCore/WYBaseViewController.h
+../../../../../WYModule/WYCore/WYBaseViewController.h
