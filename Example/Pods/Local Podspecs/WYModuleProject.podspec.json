@@ -1,0 +1,121 @@
+{
+  "name": "WYModule",
+  "version": "0.1.0",
+  "summary": "iOS模块化开发的解决方案（不断完善中~~~）",
+  "description": "iOS模块化开发的解决方案（不断完善中~~~）",
+  "homepage": "https://github.com/wuyaGit/WYModuleProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Young": "407671883@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuyaGit/WYModuleProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "WYCore",
+      "source_files": "WYModuleProject/WYCore/**/*.{h,m}",
+      "dependencies": {
+        "XAspect": [
+
+        ],
+        "YYCache": [
+
+        ],
+        "JSPatch": [
+
+        ],
+        "RealReachability": [
+
+        ],
+        "FLEX": [
+
+        ],
+        "CocoaLumberjack": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYAnalytics",
+      "source_files": "WYModuleProject/WYAnalytics/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYPay",
+      "source_files": "WYModuleProject/WYPay/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYSocialLogin",
+      "source_files": "WYModuleProject/WYSocialLogin/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYSocialShare",
+      "source_files": "WYModuleProject/WYSocialShare/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYGT",
+      "source_files": "WYModuleProject/WYGT/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYAdHelper",
+      "source_files": "WYModuleProject/WYAdHelper/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYEmptyViewHelper",
+      "source_files": "WYModuleProject/WYEmptyViewHelper/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYUI",
+      "source_files": "WYModuleProject/WYUI/**/*.{h,m}",
+      "dependencies": {
+        "WYMoudle/WYCore": [
+
+        ]
+      }
+    }
+  ]
+}

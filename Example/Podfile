@@ -1,0 +1,13 @@
+#use_frameworks!
+platform :ios, '9.0'
+
+target 'WYModuleProject_Example' do
+  pod 'WYModule', :path => '../'
+
+  
+  target 'WYModuleProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

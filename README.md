@@ -1,44 +1,29 @@
 # WYModuleProject
 
-功能模块
+[![CI Status](https://img.shields.io/travis/407671883@qq.com/WYModuleProject.svg?style=flat)](https://travis-ci.org/407671883@qq.com/WYModuleProject)
+[![Version](https://img.shields.io/cocoapods/v/WYModuleProject.svg?style=flat)](https://cocoapods.org/pods/WYModuleProject)
+[![License](https://img.shields.io/cocoapods/l/WYModuleProject.svg?style=flat)](https://cocoapods.org/pods/WYModuleProject)
+[![Platform](https://img.shields.io/cocoapods/p/WYModuleProject.svg?style=flat)](https://cocoapods.org/pods/WYModuleProject)
 
-引导页
+## Example
 
-广告位
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-统计（友盟）
+## Requirements
 
-分享（友盟）
-支付（微信，支付宝）
-占位页面
-HUD 和 弹框
-图片选择，图片浏览器
-FPS，LOG
-网络库
-个推 和 jpush
-网络库
-mediator 中间路由
-占位页面（空、无网络刷新）
-二维码（封装）
-热更新
-定位 和 经纬度
-宏定义
-网络webview模块
+## Installation
 
+WYModuleProject is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
+```ruby
+pod 'WYModuleProject'
+```
 
+## Author
 
-功能组件
+407671883@qq.com, 407671883@qq.com
 
-搜索组件
-状态栏
-红点
-textview (placeholder + limit)
+## License
 
-
-button 
-color
-control
-searchbar
-
-
+WYModuleProject is available under the MIT license. See the LICENSE file for more info.

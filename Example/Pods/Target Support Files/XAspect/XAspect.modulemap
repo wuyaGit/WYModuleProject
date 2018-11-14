@@ -1,0 +1,6 @@
+framework module XAspect {
+  umbrella header "XAspect-umbrella.h"
+
+  export *
+  module * { export * }
+}
