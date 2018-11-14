@@ -328,8 +328,9 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example-resources.sh",
 				"${PODS_ROOT}/JSPatch/JSPatch/JSPatch.js",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -337,11 +338,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSPatch.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBEF5E7D691E968442AA7933 /* [CP] Check Pods Manifest.lock */ = {

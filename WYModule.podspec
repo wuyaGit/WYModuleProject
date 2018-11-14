@@ -38,6 +38,10 @@ Pod::Spec.new do |s|
     s.subspec 'WYAnalytics' do |wYAnalytics|
         wYAnalytics.source_files = 'WYModule/WYAnalytics/**/*.{h,m}'
         wYAnalytics.dependency 'WYModule/WYCore'
+        wYAnalytics.dependency 'UMCCommon'                         #友盟基础库
+        wYAnalytics.dependency 'UMCCommonLog'                      #友盟日志库
+        wYAnalytics.dependency 'UMCAnalytics'
+        wYAnalytics.dependency 'Aspects'
     end
 
     s.subspec 'WYPay' do |wYPay|
@@ -50,6 +54,7 @@ Pod::Spec.new do |s|
         wYSocial.dependency 'WYModule/WYCore'
         wYSocial.dependency 'XAspect'
         wYSocial.dependency 'UMCCommon'                         #友盟基础库
+        wYSocial.dependency 'UMCCommonLog'                      #友盟日志库
         wYSocial.dependency 'UMCShare/UI'                       # U-Share SDK UI模块（分享面板，建议添加）
         wYSocial.dependency 'UMCShare/Social/ReducedSina'       # 集成新浪微博(精简版1M)
         wYSocial.dependency 'UMCShare/Social/ReducedWeChat'     # 集成微信(精简版0.2M)

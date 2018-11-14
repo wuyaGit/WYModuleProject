@@ -9,12 +9,12 @@
 #import "WYSocialHelper.h"
 #import <UMShare/UMShare.h>
 
-#import "WYSharePlatformHelper.h"
+#import "WYSocialPlatformHelper.h"
 
 @implementation WYSocialHelper
 
 + (void)shareTextDataWithPlatform:(WYSocialPlatformType)platformType withTextData:(NSString *)textData completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSharePlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -29,7 +29,7 @@
 }
 
 + (void)shareUrlDataWithPlatform:(WYSocialPlatformType)platformType withShareUrl:(NSString *)shareUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSharePlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
 
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -49,7 +49,7 @@
 
 
 + (void)shareImageTextDataWithPlatform:(WYSocialPlatformType)platformType withShareImage:(id)shareImage withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSharePlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -69,7 +69,7 @@
 }
 
 + (void)shareVideoDataWithPlatform:(WYSocialPlatformType)platformType withShareVideoUrl:(id)shareVideoUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSharePlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -89,7 +89,7 @@
 }
 
 + (void)shareMusicDataWithPlatform:(WYSocialPlatformType)platformType withShareMusicUrl:(id)shareMusicUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSharePlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];

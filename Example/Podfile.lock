@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
   - CocoaLumberjack (3.4.2):
     - CocoaLumberjack/Default (= 3.4.2)
     - CocoaLumberjack/Extensions (= 3.4.2)
@@ -30,7 +31,10 @@ PODS:
     - RealReachability/Ping (= 1.3.0)
   - RealReachability/Connection (1.3.0)
   - RealReachability/Ping (1.3.0)
+  - UMCAnalytics (5.5.2):
+    - UMCCommon
   - UMCCommon (1.5.3)
+  - UMCCommonLog (1.0.0)
   - UMCShare/Core (6.9.5):
     - UMCCommon
   - UMCShare/Social/ReducedQQ (6.9.5):
@@ -57,6 +61,10 @@ PODS:
   - WYModule/WYAdHelper (0.1.0):
     - WYModule/WYCore
   - WYModule/WYAnalytics (0.1.0):
+    - Aspects
+    - UMCAnalytics
+    - UMCCommon
+    - UMCCommonLog
     - WYModule/WYCore
   - WYModule/WYCore (0.1.0):
     - CocoaLumberjack
@@ -76,6 +84,7 @@ PODS:
     - WYModule/WYCore
   - WYModule/WYSocial (0.1.0):
     - UMCCommon
+    - UMCCommonLog
     - UMCShare/Social/ReducedQQ
     - UMCShare/Social/ReducedSina
     - UMCShare/Social/ReducedWeChat
@@ -100,12 +109,15 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Aspects
     - CocoaLumberjack
     - FLEX
     - GTSDK
     - JSPatch
     - RealReachability
+    - UMCAnalytics
     - UMCCommon
+    - UMCCommonLog
     - UMCShare
     - XAspect
     - YTKNetwork
@@ -117,18 +129,21 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   GTSDK: 494ef4408b38bb637d6020068aac7f26cbe9d82e
   JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
   UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
-  WYModule: cc0a68abe303c422d1f1877909baa0ec6817138f
+  WYModule: e38df9d1136f6dcf416c902831fe93836199bdd4
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 9f3389b750a809ea2ba51b8bf7f5c38bc375480a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2

@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <XAspect/XAspect.h>
 #import <UMCommon/UMCommon.h>
+#import <UMCommonLog/UMCommonLogHeaders.h>
 #import <UMShare/UMShare.h>
-#import <WYAppDelegate.h>
 
-#import "WYSocialShareConfigManager.h"
+#import "WYAppDelegate.h"
+#import "WYSocialConfigManager.h"
 
 #define AtAspect ShareAppDelegate
 
@@ -23,41 +24,43 @@ AspectPatch(-, BOOL, application:(UIApplication *)application didFinishLaunching
 {
     NSLog(@"成功加载友盟分享");
     //打开日志
-    if ([WYSocialShareConfigManager sharedInstance].isLogEnabled) {
+    if ([WYSocialConfigManager sharedInstance].isLogEnabled) {
+        //开发者需要显式的调用此函数，日志系统才能工作
+        [UMCommonLogManager setUpUMCommonLogManager];
         [UMConfigure setLogEnabled:YES];
     }
     
     //配置友盟SDK产品并并统一初始化
-    if ([WYSocialShareConfigManager sharedInstance].shareAppKey) {
-        [UMConfigure initWithAppkey:[WYSocialShareConfigManager sharedInstance].shareAppKey channel:@"App Store"];
+    if ([WYSocialConfigManager sharedInstance].shareAppKey) {
+        [UMConfigure initWithAppkey:[WYSocialConfigManager sharedInstance].shareAppKey channel:@"App Store"];
     }
     
     //各平台的详细配置
     //分享-新浪平台已经配置
-    if ([WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Sina_AppKey &&
-        [WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Sina_AppSecret) {
+    if ([WYSocialConfigManager sharedInstance].sharePlatConfigType_Sina_AppKey &&
+        [WYSocialConfigManager sharedInstance].sharePlatConfigType_Sina_AppSecret) {
         [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina
-                                              appKey:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Sina_AppKey
-                                           appSecret:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Sina_AppSecret
-                                         redirectURL:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Sina_RedirectURL];
+                                              appKey:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Sina_AppKey
+                                           appSecret:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Sina_AppSecret
+                                         redirectURL:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Sina_RedirectURL];
     }
     
     //分享-微信平台已经配置
-    if ([WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Wechat_AppKey &&
-        [WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Wechat_AppSecret) {
+    if ([WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_AppKey &&
+        [WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_AppSecret) {
         [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession
-                                              appKey:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Wechat_AppKey
-                                           appSecret:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Wechat_AppSecret
-                                         redirectURL:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Wechat_RedirectURL];
+                                              appKey:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_AppKey
+                                           appSecret:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_AppSecret
+                                         redirectURL:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_RedirectURL];
     }
 
     //分享-微信平台已经配置
-    if ([WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Tencent_AppKey &&
-        [WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Tencent_AppSecret) {
+    if ([WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppKey &&
+        [WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppSecret) {
         [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ
-                                              appKey:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Tencent_AppKey
-                                           appSecret:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Tencent_AppSecret
-                                         redirectURL:[WYSocialShareConfigManager sharedInstance].sharePlatConfigType_Tencent_RedirectURL];
+                                              appKey:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppKey
+                                           appSecret:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppSecret
+                                         redirectURL:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_RedirectURL];
     }
 
     return XAMessageForward(application:application didFinishLaunchingWithOptions:launchOptions);

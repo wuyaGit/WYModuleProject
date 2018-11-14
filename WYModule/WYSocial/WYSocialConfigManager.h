@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, WYSocialPlatformType) {
 @property (nonatomic, copy) NSString *sharePlatConfigType_Tencent_AppSecret;
 @property (nonatomic, copy) NSString *sharePlatConfigType_Tencent_RedirectURL;
 
-+ (WYSocialShareConfigManager *)sharedInstance;
++ (WYSocialConfigManager *)sharedInstance;
 
 /**
  * 设置平台配置内容

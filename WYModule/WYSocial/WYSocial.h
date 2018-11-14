@@ -13,5 +13,6 @@
 #import "WYSocialConfigManager.h"
 #import "WYSocialPlatformHelper.h"
 #import "WYWebShareHelper.h"
+#import "WYSocialShareMenuView.h"
 
 #endif /* WYSocial_h */

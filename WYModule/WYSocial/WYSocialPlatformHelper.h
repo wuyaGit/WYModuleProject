@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UMShare/UMShare.h>
-#import "WYSocialShareConfigManager.h"
+#import "WYSocialConfigManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

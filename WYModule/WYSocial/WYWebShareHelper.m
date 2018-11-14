@@ -7,14 +7,14 @@
 //
 
 #import "WYWebShareHelper.h"
-#import "WYSocialShareHelper.h"
-#import "WYSocialShareConfigManager.h"
+#import "WYSocialHelper.h"
+#import "WYSocialConfigManager.h"
 
 @implementation WYWebShareHelper
 
 - (void)shareText:(NSString *)platformType withText:(NSString *)text {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [WYSocialShareHelper shareTextDataWithPlatform:[self getPlatformType:platformType] withTextData:text completion:^(id  _Nonnull result, NSError * _Nonnull error) {
+        [WYSocialHelper shareTextDataWithPlatform:[self getPlatformType:platformType] withTextData:text completion:^(id  _Nonnull result, NSError * _Nonnull error) {
             [self shareResultShow:error];
         }];
     });
@@ -22,13 +22,13 @@
 }
 
 - (void)shareUrl:(NSString *)platformType withShareUrl:(NSString *)shareUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImageUrl:(NSString *)thumImageUrl {
-    [WYSocialShareHelper shareUrlDataWithPlatform:[self getPlatformType:platformType] withShareUrl:shareUrl withTitle:title withDescr:descr withThumImage:thumImageUrl completion:^(id  _Nonnull result, NSError * _Nonnull error) {
+    [WYSocialHelper shareUrlDataWithPlatform:[self getPlatformType:platformType] withShareUrl:shareUrl withTitle:title withDescr:descr withThumImage:thumImageUrl completion:^(id  _Nonnull result, NSError * _Nonnull error) {
         [self shareResultShow:error];
     }];
 }
 
 - (void)shareImageText:(NSString *)platformType withShareImageUrl:(NSString *)shareImageUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImageUrl:(NSString *)thumImageUrl {
-    [WYSocialShareHelper shareImageTextDataWithPlatform:[self getPlatformType:platformType] withShareImage:shareImageUrl withTitle:title withDescr:descr withThumImage:thumImageUrl completion:^(id  _Nonnull result, NSError * _Nonnull error) {
+    [WYSocialHelper shareImageTextDataWithPlatform:[self getPlatformType:platformType] withShareImage:shareImageUrl withTitle:title withDescr:descr withThumImage:thumImageUrl completion:^(id  _Nonnull result, NSError * _Nonnull error) {
         [self shareResultShow:error];
     }];
 }
@@ -61,7 +61,7 @@
         NSLog(@"分享失败了");
         return;
     }
-    NSString *alertMessage = [WYSocialShareConfigManager sharedInstance].shareSuccessMessage ?: @"分享成功";
+    NSString *alertMessage = [WYSocialConfigManager sharedInstance].shareSuccessMessage ?: @"分享成功";
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:alertMessage delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
     [alert show];
 }

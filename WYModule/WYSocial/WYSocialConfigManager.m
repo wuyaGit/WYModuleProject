@@ -10,12 +10,12 @@
 
 @implementation WYSocialConfigManager
 
-+ (WYSocialShareConfigManager *)sharedInstance {
-    static WYSocialShareConfigManager* instance = nil;
++ (WYSocialConfigManager *)sharedInstance {
+    static WYSocialConfigManager* instance = nil;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [WYSocialShareConfigManager new];
+        instance = [WYSocialConfigManager new];
     });
     return instance;
 }

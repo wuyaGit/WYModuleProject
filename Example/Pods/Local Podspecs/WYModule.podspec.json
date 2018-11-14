@@ -54,6 +54,18 @@
       "dependencies": {
         "WYModule/WYCore": [
 
+        ],
+        "UMCCommon": [
+
+        ],
+        "UMCCommonLog": [
+
+        ],
+        "UMCAnalytics": [
+
+        ],
+        "Aspects": [
+
         ]
       }
     },
@@ -77,6 +89,9 @@
 
         ],
         "UMCCommon": [
+
+        ],
+        "UMCCommonLog": [
 
         ],
         "UMCShare/UI": [

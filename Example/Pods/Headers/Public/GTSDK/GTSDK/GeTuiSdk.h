@@ -1,1 +1,0 @@
-../../../../GTSDK/GTSDK.framework/Headers/GeTuiSdk.h
