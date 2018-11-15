@@ -11,6 +11,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WYGTConfigManager : NSObject
 
++ (WYGTConfigManager *)sharedInstance;
+
+//个推配置
+@property (nonatomic, copy) NSString *wyGTAppId;
+@property (nonatomic, copy) NSString *wyGTAppKey;
+@property (nonatomic, copy) NSString *wyGTAppSecret;
+
 @end
 
 NS_ASSUME_NONNULL_END

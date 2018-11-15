@@ -9,4 +9,14 @@
 
 @implementation WYGTConfigManager
 
++ (WYGTConfigManager *)sharedInstance {
+    static WYGTConfigManager* instance = nil;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [WYGTConfigManager new];
+    });
+    return instance;
+}
+
 @end

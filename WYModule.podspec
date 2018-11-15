@@ -47,6 +47,8 @@ Pod::Spec.new do |s|
     s.subspec 'WYPay' do |wYPay|
         wYPay.source_files = 'WYModule/WYPay/**/*.{h,m}'
         wYPay.dependency 'WYModule/WYCore'
+        wYPay.dependency 'AlipaySDK-iOS'
+        wYPay.dependency 'WechatOpenSDK'
     end
 
     s.subspec 'WYSocial' do |wYSocial|

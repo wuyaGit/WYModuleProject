@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.5.5)
   - Aspects (1.4.1)
   - CocoaLumberjack (3.4.2):
     - CocoaLumberjack/Default (= 3.4.2)
@@ -49,6 +50,7 @@ PODS:
   - UMCShare/UI (6.9.5):
     - UMCCommon
     - UMCShare/Core
+  - WechatOpenSDK (1.8.3)
   - WYModule (0.1.0):
     - WYModule/WYAdHelper (= 0.1.0)
     - WYModule/WYAnalytics (= 0.1.0)
@@ -81,6 +83,8 @@ PODS:
     - WYModule/WYCore
     - XAspect
   - WYModule/WYPay (0.1.0):
+    - AlipaySDK-iOS
+    - WechatOpenSDK
     - WYModule/WYCore
   - WYModule/WYSocial (0.1.0):
     - UMCCommon
@@ -109,6 +113,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AlipaySDK-iOS
     - Aspects
     - CocoaLumberjack
     - FLEX
@@ -119,6 +124,7 @@ SPEC REPOS:
     - UMCCommon
     - UMCCommonLog
     - UMCShare
+    - WechatOpenSDK
     - XAspect
     - YTKNetwork
     - YYCache
@@ -129,6 +135,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 7b700342e71cb3b626603ce96f9d2fb158acbcfb
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
@@ -139,7 +146,8 @@ SPEC CHECKSUMS:
   UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
-  WYModule: e38df9d1136f6dcf416c902831fe93836199bdd4
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+  WYModule: 7ef7d6e264e6b38b4d818059f9d091dca4981bb5
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
