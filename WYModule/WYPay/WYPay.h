@@ -8,5 +8,7 @@
 #ifndef WYPay_h
 #define WYPay_h
 
+#import "WYPayHelper.h"
+#import "WYPayConfigManager.h"
 
 #endif /* WYPay_h */

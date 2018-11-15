@@ -1,0 +1,1 @@
+../../../../../WYModule/WYPay/WYAppDelegate+myPay.h
