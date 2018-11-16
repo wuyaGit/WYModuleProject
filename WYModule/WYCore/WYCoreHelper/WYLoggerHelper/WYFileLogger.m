@@ -29,7 +29,7 @@ static WYFileLogger *sharedManager=nil;
 {
     static dispatch_once_t once;
     dispatch_once(&once, ^{
-        sharedManager=[[self alloc]init];
+        sharedManager = [[self alloc]init];
     });
     return sharedManager;
 }

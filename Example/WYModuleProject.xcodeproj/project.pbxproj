@@ -64,6 +64,7 @@
 		A8679DC4D929683E92AAE729 /* libPods-WYModuleProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYModuleProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA657E9EC395F19C252AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3F8EC24DE331CA615FB8223 /* libPods-WYModuleProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYModuleProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A4A662219E9B0C00AB8718 /* WYModuleProject_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WYModuleProject_Example.entitlements; sourceTree = "<group>"; };
 		C5947D031D8F91C004FC78BE /* Pods-WYModuleProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Tests/Pods-WYModuleProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBDA95F737053D7023701588 /* Pods-WYModuleProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F784F3BED41CF7EA3B78D02E /* Pods-WYModuleProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Tests/Pods-WYModuleProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				C4A4A662219E9B0C00AB8718 /* WYModuleProject_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for WYModuleProject */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -250,6 +252,17 @@
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = VG6WK6Q2ZW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -507,6 +520,8 @@
 			baseConfigurationReference = 0C781538980DA55A6CB25978 /* Pods-WYModuleProject_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = WYModuleProject_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG6WK6Q2ZW;
@@ -526,6 +541,8 @@
 			baseConfigurationReference = CBDA95F737053D7023701588 /* Pods-WYModuleProject_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = WYModuleProject_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG6WK6Q2ZW;

@@ -8,6 +8,8 @@
 
 #import "WYModuleProjectAppDelegate.h"
 
+#import <WYLaunchAd.h>
+
 @implementation WYModuleProjectAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -17,8 +19,13 @@
     coreConfig.recordlogger = YES;
     coreConfig.openDebug = NO;
     
+    // WYLaunchAd开屏广告
+    WYLaunchAdConfigManager *adConfig = [WYLaunchAdConfigManager sharedInstance];
+    adConfig.launchAdSourceType = WYLaunchAdSourceTypeLocalOrUrlVideo;
+    adConfig.sourceNameOrURLString = @"http://yun.it7090.com/video/XHLaunchAd/video_test01.mp4";
+    adConfig.openModel = @"http://www.it7090.com";
     
-    return YES;
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

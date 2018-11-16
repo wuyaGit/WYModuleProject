@@ -13,20 +13,36 @@
 
 @implementation WYPayHelper
 
++ (BOOL)isWxAppInstalled {
+    return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"weixin://"]];
+}
+
++ (BOOL)isAliAppInstalled {
+    return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"alipay://"]];
+}
+
 // https://docs.open.alipay.com/204/105295/
-+ (void)AlipayWithPayOrder:(NSString *)orderString callback:(AlipayCallback)completionBlock {
++ (void)alipayOrder:(NSString *)orderStr callback:(AlipayCallback)completion {
+    if (orderStr == nil) {
+        NSLog(@"缺少orderStr参数");
+        return;
+    }
     // NOTE: 调用支付结果开始支付
-    [[AlipaySDK defaultService] payOrder:orderString fromScheme:[WYPayConfigManager sharedInstance].aliAppScheme callback:^(NSDictionary *resultDic) {
+    [[AlipaySDK defaultService] payOrder:orderStr fromScheme:[WYPayConfigManager sharedInstance].aliAppScheme callback:^(NSDictionary *resultDic) {
         NSLog(@"reslut = %@",resultDic);
         
-        if (completionBlock) {
-            completionBlock(resultDic);
+        if (completion) {
+            completion(resultDic);
         }
     }];
 }
 
 // https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_12
-+ (void)WechatPayWithPayReqData:(NSDictionary *)payReq {
++ (void)wxpayOrder:(NSDictionary *)payReq {
+    if (payReq == nil) {
+        NSLog(@"缺少payReq参数");
+        return;
+    }
     //调起微信支付
     PayReq* req             = [[PayReq alloc] init];
     req.partnerId           = payReq[@"partnerid"];     //微信支付分配的商户号

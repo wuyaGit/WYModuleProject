@@ -15,7 +15,7 @@
     //是否开始日志记录功能
     if([WYCoreConfigManager sharedInstance].isRecordlogger)
     {
-        NSLog(@"开启日志记录功能");
+        NSLog(@"成功加载日志记录模块");
         [WYFileLogger sharedManager];
     }
     
@@ -60,9 +60,15 @@
     return YES;
 }
 
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
-{
-    return YES;
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    
+}
+
+- (void)dealloc {
 }
 
 @end

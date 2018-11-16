@@ -70,9 +70,11 @@ Pod::Spec.new do |s|
         wYGT.dependency 'GTSDK'
     end
 
-    s.subspec 'WYAdHelper' do |wYAdHelper|
-        wYAdHelper.source_files = 'WYModule/WYAdHelper/**/*.{h,m}'
-        wYAdHelper.dependency 'WYModule/WYCore'
+    s.subspec 'WYLaunchAdHelper' do |wYLaunchAdHelper|
+        wYLaunchAdHelper.source_files = 'WYModule/WYLaunchAdHelper/**/*.{h,m}'
+        wYLaunchAdHelper.dependency 'WYModule/WYCore'
+        wYLaunchAdHelper.dependency 'XHLaunchAd'
+        wYLaunchAdHelper.dependency 'AFNetworking'
     end
 
     s.subspec 'WYEmptyViewHelper' do |wYEmptyViewHelper|

@@ -130,10 +130,16 @@
       }
     },
     {
-      "name": "WYAdHelper",
-      "source_files": "WYModule/WYAdHelper/**/*.{h,m}",
+      "name": "WYLaunchAdHelper",
+      "source_files": "WYModule/WYLaunchAdHelper/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
+
+        ],
+        "XHLaunchAd": [
+
+        ],
+        "AFNetworking": [
 
         ]
       }

@@ -78,14 +78,14 @@ AspectPatch(-, BOOL, application:(UIApplication *)app openURL:(NSURL *)url optio
 }
 
 // 支持目前所有iOS系统
-AspectPatch(-, BOOL, application:(UIApplication *)application handleOpenURL:(NSURL *)url)
-{
-    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
-    if (!result) {
-        // 其他如支付等SDK的回调
-    }
-    return result;
-}
+//AspectPatch(-, BOOL, application:(UIApplication *)application handleOpenURL:(NSURL *)url)
+//{
+//    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+//    if (!result) {
+//        // 其他如支付等SDK的回调
+//    }
+//    return result;
+//}
 
 @end
 #undef AtAspectOfClass
