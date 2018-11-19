@@ -45,6 +45,9 @@
         ],
         "YTKNetwork": [
 
+        ],
+        "MBProgressHUD": [
+
         ]
       }
     },
@@ -140,6 +143,15 @@
 
         ],
         "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYIntroViewHelper",
+      "source_files": "WYModule/WYIntroViewHelper/**/*.{h,m}",
+      "dependencies": {
+        "WYModule/WYCore": [
 
         ]
       }

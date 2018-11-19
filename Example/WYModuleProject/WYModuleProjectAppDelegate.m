@@ -18,6 +18,7 @@
     WYCoreConfigManager *coreConfig = [WYCoreConfigManager sharedInstance];
     coreConfig.recordlogger = YES;
     coreConfig.openDebug = NO;
+    coreConfig.openFPS = YES;
     
     // WYLaunchAd开屏广告
     WYLaunchAdConfigManager *adConfig = [WYLaunchAdConfigManager sharedInstance];

@@ -7,6 +7,7 @@
 //
 
 #import "WYAppDelegate.h"
+#import "SYSafeCategory.h"
 
 @implementation WYAppDelegate
 
@@ -19,11 +20,22 @@
         [WYFileLogger sharedManager];
     }
     
+    //是否开启查看屏幕帧数工具
+    if ([WYCoreConfigManager sharedInstance].isOpenFPS)
+    {
+        NSLog(@"成功加载查看屏幕帧率模块");
+        [WYFPSHelper setupInView:self.window];
+    }
+    
+    //调试插件功能
     if([WYCoreConfigManager sharedInstance].isOpenDebug)
     {
-        NSLog(@"开启调试插件功能");
+        NSLog(@"成功开启调试插件功能");
         [[FLEXManager sharedManager] showExplorer];
     }
+    
+    //统一处理一些为数组、集合等对nil插入会引起闪退
+    [SYSafeCategory callSafeCategory];
     
     return YES;
 }

@@ -8,6 +8,8 @@
 
 #import "WYModuleProjectViewController.h"
 
+//#import <WYIntroViewHelper.h>
+
 @interface WYModuleProjectViewController ()
 
 @end
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+//    NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"guideMovie1" ofType:@"mov"];
+//    [WYIntroViewHelper showVideoIntroViewWithPath:videoPath inView:self.view];
+    
+//    NSArray *imageNameArray = @[@"guideImage6.gif",@"guideImage7.gif",@"guideImage8.gif"];
+//    [WYIntroViewHelper showImageIntroViewWithSource:imageNameArray bottonIsHidden:NO slideInto:NO inView:self.view];
 }
 
 - (void)didReceiveMemoryWarning

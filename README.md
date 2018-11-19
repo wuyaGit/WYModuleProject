@@ -9,18 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## 基础模块
-## 友盟分析
-## 友盟分享
-## 个推
-## 支付
-## 开屏广告
-## 引导页
-## 指纹识别
-## 脸部识别
-## IM封装
-# 
-
 ## Requirements
 
 ## Installation

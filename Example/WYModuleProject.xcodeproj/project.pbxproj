@@ -23,6 +23,15 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C4EC461721A27832001895C7 /* guideImage4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC460E21A27830001895C7 /* guideImage4.jpg */; };
+		C4EC461821A27832001895C7 /* guideImage8.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4EC460F21A27830001895C7 /* guideImage8.gif */; };
+		C4EC461921A27832001895C7 /* guideImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461021A27830001895C7 /* guideImage2.jpg */; };
+		C4EC461A21A27832001895C7 /* guideImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461121A27831001895C7 /* guideImage5.jpg */; };
+		C4EC461B21A27832001895C7 /* guideImage7.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461221A27831001895C7 /* guideImage7.gif */; };
+		C4EC461C21A27832001895C7 /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461321A27831001895C7 /* guideImage6.gif */; };
+		C4EC461D21A27832001895C7 /* guideImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461421A27831001895C7 /* guideImage1.jpg */; };
+		C4EC461E21A27832001895C7 /* guideImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461521A27831001895C7 /* guideImage3.jpg */; };
+		C4EC461F21A27832001895C7 /* guideMovie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = C4EC461621A27832001895C7 /* guideMovie1.mov */; };
 		E0DD9DE1AE19A01B66220090 /* libPods-WYModuleProject_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8679DC4D929683E92AAE729 /* libPods-WYModuleProject_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +74,15 @@
 		ABCA657E9EC395F19C252AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3F8EC24DE331CA615FB8223 /* libPods-WYModuleProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYModuleProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A4A662219E9B0C00AB8718 /* WYModuleProject_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WYModuleProject_Example.entitlements; sourceTree = "<group>"; };
+		C4EC460E21A27830001895C7 /* guideImage4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideImage4.jpg; sourceTree = "<group>"; };
+		C4EC460F21A27830001895C7 /* guideImage8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage8.gif; sourceTree = "<group>"; };
+		C4EC461021A27830001895C7 /* guideImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideImage2.jpg; sourceTree = "<group>"; };
+		C4EC461121A27831001895C7 /* guideImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideImage5.jpg; sourceTree = "<group>"; };
+		C4EC461221A27831001895C7 /* guideImage7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage7.gif; sourceTree = "<group>"; };
+		C4EC461321A27831001895C7 /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
+		C4EC461421A27831001895C7 /* guideImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideImage1.jpg; sourceTree = "<group>"; };
+		C4EC461521A27831001895C7 /* guideImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideImage3.jpg; sourceTree = "<group>"; };
+		C4EC461621A27832001895C7 /* guideMovie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie1.mov; sourceTree = "<group>"; };
 		C5947D031D8F91C004FC78BE /* Pods-WYModuleProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Tests/Pods-WYModuleProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBDA95F737053D7023701588 /* Pods-WYModuleProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F784F3BED41CF7EA3B78D02E /* Pods-WYModuleProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYModuleProject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYModuleProject_Tests/Pods-WYModuleProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +152,7 @@
 		6003F593195388D20070C39A /* Example for WYModuleProject */ = {
 			isa = PBXGroup;
 			children = (
+				C4EC460D21A277E6001895C7 /* IntroViewImages */,
 				6003F59C195388D20070C39A /* WYModuleProjectAppDelegate.h */,
 				6003F59D195388D20070C39A /* WYModuleProjectAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -196,6 +215,22 @@
 				C5947D031D8F91C004FC78BE /* Pods-WYModuleProject_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4EC460D21A277E6001895C7 /* IntroViewImages */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC461421A27831001895C7 /* guideImage1.jpg */,
+				C4EC461021A27830001895C7 /* guideImage2.jpg */,
+				C4EC461521A27831001895C7 /* guideImage3.jpg */,
+				C4EC460E21A27830001895C7 /* guideImage4.jpg */,
+				C4EC461121A27831001895C7 /* guideImage5.jpg */,
+				C4EC461321A27831001895C7 /* guideImage6.gif */,
+				C4EC461221A27831001895C7 /* guideImage7.gif */,
+				C4EC460F21A27830001895C7 /* guideImage8.gif */,
+				C4EC461621A27832001895C7 /* guideMovie1.mov */,
+			);
+			path = IntroViewImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +328,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EC461821A27832001895C7 /* guideImage8.gif in Resources */,
+				C4EC461F21A27832001895C7 /* guideMovie1.mov in Resources */,
+				C4EC461921A27832001895C7 /* guideImage2.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C4EC461D21A27832001895C7 /* guideImage1.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				C4EC461A21A27832001895C7 /* guideImage5.jpg in Resources */,
+				C4EC461E21A27832001895C7 /* guideImage3.jpg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				C4EC461B21A27832001895C7 /* guideImage7.gif in Resources */,
+				C4EC461721A27832001895C7 /* guideImage4.jpg in Resources */,
+				C4EC461C21A27832001895C7 /* guideImage6.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@
 #import "WYCocoaLumberjack.h"
 #import "WYFileLogger.h"
 #import "WYPathchHelper.h"
+#import "WYFPSHelper.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,11 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (WYCoreConfigManager *)sharedInstance;
 
 //是否开启日志记录
-@property(nonatomic, assign, getter = isRecordlogger) BOOL recordlogger;
+@property (nonatomic, assign, getter = isRecordlogger) BOOL recordlogger;
 //是否开启调试插件
-@property(nonatomic, assign, getter = isOpenDebug) BOOL openDebug;
+@property (nonatomic, assign, getter = isOpenDebug) BOOL openDebug;
+//是否开启查看屏幕帧数工具
+@property (nonatomic, assign, getter = isOpenFPS) BOOL openFPS;
 //设置Patcth 传入WYPathchModel类型的数组 有值则会启动JSPatch热更新功能
-@property(nonatomic, strong) NSMutableArray *jsPatchMutableArray;
+@property (nonatomic, strong) NSMutableArray *jsPatchMutableArray;
 
 @end
 

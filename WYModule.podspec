@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
         wYCore.dependency 'FLEX'
         wYCore.dependency 'CocoaLumberjack'
         wYCore.dependency 'YTKNetwork'
+        wYCore.dependency 'MBProgressHUD'
     end
 
     s.subspec 'WYAnalytics' do |wYAnalytics|
@@ -75,6 +76,12 @@ Pod::Spec.new do |s|
         wYLaunchAdHelper.dependency 'WYModule/WYCore'
         wYLaunchAdHelper.dependency 'XHLaunchAd'
         wYLaunchAdHelper.dependency 'AFNetworking'
+    end
+    
+    s.subspec 'WYIntroViewHelper' do |wYIntroViewHelper|
+      wYIntroViewHelper.source_files = 'WYModule/WYIntroViewHelper/**/*.{h,m}'
+      wYIntroViewHelper.dependency 'WYModule/WYCore'
+
     end
 
     s.subspec 'WYEmptyViewHelper' do |wYEmptyViewHelper|
