@@ -8,7 +8,11 @@
 
 #import "WYModuleProjectViewController.h"
 
-//#import <WYIntroViewHelper.h>
+#import <WYIntroViewHelper.h>
+
+#import <WYEmptyView.h>
+
+#import <WYLocationManager.h>
 
 @interface WYModuleProjectViewController ()
 
@@ -24,8 +28,16 @@
 //    NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"guideMovie1" ofType:@"mov"];
 //    [WYIntroViewHelper showVideoIntroViewWithPath:videoPath inView:self.view];
     
-//    NSArray *imageNameArray = @[@"guideImage6.gif",@"guideImage7.gif",@"guideImage8.gif"];
-//    [WYIntroViewHelper showImageIntroViewWithSource:imageNameArray bottonIsHidden:NO slideInto:NO inView:self.view];
+    NSArray *imageNameArray = @[@"guideImage6.gif",@"guideImage7.gif",@"guideImage8.gif"];
+    [WYIntroViewHelper showImageIntroViewWithSource:imageNameArray bottonIsHidden:NO slideInto:NO inView:self.view];
+    
+//    self.view.ly_emptyView = [WYEmptyView diyNoDataEmpty];
+//    self.view.ly_emptyView = [WYEmptyView diyNoNetworkEmptyWithTarget:self action:@selector(reload:)];
+//    [self.view ly_showEmptyView];
+    
+    [[WYLocationManager sharedInstance] startLocationWithCompletion:^(CLLocation * _Nonnull location, NSString * _Nonnull country, NSString * _Nonnull province, NSString * _Nonnull city, NSString * _Nonnull town, NSError * _Nonnull error) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning

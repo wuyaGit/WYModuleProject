@@ -28,15 +28,6 @@
         "XAspect": [
 
         ],
-        "YYCache": [
-
-        ],
-        "JSPatch": [
-
-        ],
-        "RealReachability": [
-
-        ],
         "FLEX": [
 
         ],
@@ -54,6 +45,7 @@
     {
       "name": "WYAnalytics",
       "source_files": "WYModule/WYAnalytics/**/*.{h,m}",
+      "public_header_files": "WYModule/WYAnalytics/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -75,6 +67,7 @@
     {
       "name": "WYPay",
       "source_files": "WYModule/WYPay/**/*.{h,m}",
+      "public_header_files": "WYModule/WYPay/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -90,6 +83,7 @@
     {
       "name": "WYSocial",
       "source_files": "WYModule/WYSocial/**/*.{h,m}",
+      "public_header_files": "WYModule/WYSocial/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -118,8 +112,28 @@
       }
     },
     {
+      "name": "WYPatchHelper",
+      "source_files": "WYModule/WYPatchHelper/**/*.{h,m}",
+      "public_header_files": "WYModule/WYPatchHelper/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "YYCache": [
+
+        ],
+        "JSPatch": [
+
+        ],
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
       "name": "WYGT",
       "source_files": "WYModule/WYGT/**/*.{h,m}",
+      "public_header_files": "WYModule/WYGT/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -135,6 +149,7 @@
     {
       "name": "WYLaunchAdHelper",
       "source_files": "WYModule/WYLaunchAdHelper/**/*.{h,m}",
+      "public_header_files": "WYModule/WYLaunchAdHelper/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -150,15 +165,39 @@
     {
       "name": "WYIntroViewHelper",
       "source_files": "WYModule/WYIntroViewHelper/**/*.{h,m}",
+      "public_header_files": "WYModule/WYIntroViewHelper/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
+        ]
+      },
+      "resource_bundles": {
+        "GuideImage": [
+          "WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle"
         ]
       }
     },
     {
       "name": "WYEmptyViewHelper",
       "source_files": "WYModule/WYEmptyViewHelper/**/*.{h,m}",
+      "public_header_files": "WYModule/WYEmptyViewHelper/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "LYEmptyView": [
+
+        ]
+      },
+      "resource_bundles": {
+        "WYEmptyView": [
+          "WYModule/WYEmptyViewHelper/WYEmptyView.bundle"
+        ]
+      }
+    },
+    {
+      "name": "WYLocationManager",
+      "source_files": "WYModule/WYLocationManager/**/*.{h,m}",
       "dependencies": {
         "WYModule/WYCore": [
 

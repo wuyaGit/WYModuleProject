@@ -24,20 +24,20 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
+    #基础组件（WYCategory、WYMacros、WYMediator、WYNetwork、WYCoreHelper）
     s.subspec 'WYCore' do |wYCore|
         wYCore.source_files = 'WYModule/WYCore/**/*'
         wYCore.dependency 'XAspect'
-        wYCore.dependency 'YYCache'
-        wYCore.dependency 'JSPatch'
-        wYCore.dependency 'RealReachability'
         wYCore.dependency 'FLEX'
         wYCore.dependency 'CocoaLumberjack'
         wYCore.dependency 'YTKNetwork'
         wYCore.dependency 'MBProgressHUD'
     end
 
+    #友盟分析
     s.subspec 'WYAnalytics' do |wYAnalytics|
         wYAnalytics.source_files = 'WYModule/WYAnalytics/**/*.{h,m}'
+        wYAnalytics.public_header_files = 'WYModule/WYAnalytics/*.h'
         wYAnalytics.dependency 'WYModule/WYCore'
         wYAnalytics.dependency 'UMCCommon'                         #友盟基础库
         wYAnalytics.dependency 'UMCCommonLog'                      #友盟日志库
@@ -45,15 +45,19 @@ Pod::Spec.new do |s|
         wYAnalytics.dependency 'Aspects'
     end
 
+    #支付模块
     s.subspec 'WYPay' do |wYPay|
         wYPay.source_files = 'WYModule/WYPay/**/*.{h,m}'
+        wYPay.public_header_files = 'WYModule/WYPay/*.h'
         wYPay.dependency 'WYModule/WYCore'
         wYPay.dependency 'AlipaySDK-iOS'
         wYPay.dependency 'WechatOpenSDK'
     end
 
+    #社交模块
     s.subspec 'WYSocial' do |wYSocial|
         wYSocial.source_files = 'WYModule/WYSocial/**/*.{h,m}'
+        wYSocial.public_header_files = 'WYModule/WYSocial/*.h'
         wYSocial.dependency 'WYModule/WYCore'
         wYSocial.dependency 'XAspect'
         wYSocial.dependency 'UMCCommon'                         #友盟基础库
@@ -64,31 +68,58 @@ Pod::Spec.new do |s|
         wYSocial.dependency 'UMCShare/Social/ReducedQQ'         # 集成QQ/QZone/TIM(精简版0.5M)
     end
 
+    #热更新模块
+    s.subspec 'WYPatchHelper' do |wYPatchHelper|
+      wYPatchHelper.source_files = 'WYModule/WYPatchHelper/**/*.{h,m}'
+      wYPatchHelper.public_header_files = 'WYModule/WYPatchHelper/*.h'
+      wYPatchHelper.dependency 'WYModule/WYCore'
+      wYPatchHelper.dependency 'YYCache'
+      wYPatchHelper.dependency 'JSPatch'
+      wYPatchHelper.dependency 'AFNetworking'
+    end
+
+    #个推模块
     s.subspec 'WYGT' do |wYGT|
         wYGT.source_files = 'WYModule/WYGT/**/*.{h,m}'
+        wYGT.public_header_files = 'WYModule/WYGT/*.h'
         wYGT.dependency 'WYModule/WYCore'
         wYGT.dependency 'XAspect'
         wYGT.dependency 'GTSDK'
     end
 
+    #开机广告
     s.subspec 'WYLaunchAdHelper' do |wYLaunchAdHelper|
         wYLaunchAdHelper.source_files = 'WYModule/WYLaunchAdHelper/**/*.{h,m}'
+        wYLaunchAdHelper.public_header_files = 'WYModule/WYLaunchAdHelper/*.h'
         wYLaunchAdHelper.dependency 'WYModule/WYCore'
         wYLaunchAdHelper.dependency 'XHLaunchAd'
         wYLaunchAdHelper.dependency 'AFNetworking'
     end
     
+    #更新引导页
     s.subspec 'WYIntroViewHelper' do |wYIntroViewHelper|
       wYIntroViewHelper.source_files = 'WYModule/WYIntroViewHelper/**/*.{h,m}'
+      wYIntroViewHelper.public_header_files = 'WYModule/WYIntroViewHelper/*.h'
       wYIntroViewHelper.dependency 'WYModule/WYCore'
-
+      wYIntroViewHelper.resource_bundles = { 'GuideImage' => ['WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle'] }
     end
 
+    #空页面占位图
     s.subspec 'WYEmptyViewHelper' do |wYEmptyViewHelper|
         wYEmptyViewHelper.source_files = 'WYModule/WYEmptyViewHelper/**/*.{h,m}'
+        wYEmptyViewHelper.public_header_files = 'WYModule/WYEmptyViewHelper/*.h'
         wYEmptyViewHelper.dependency 'WYModule/WYCore'
+        wYEmptyViewHelper.dependency 'LYEmptyView'
+        wYEmptyViewHelper.resource_bundles = { 'WYEmptyView' => ['WYModule/WYEmptyViewHelper/WYEmptyView.bundle'] }
     end
 
+    #定位
+    s.subspec 'WYLocationManager' do |wYLocationManager|
+      wYLocationManager.source_files = 'WYModule/WYLocationManager/**/*.{h,m}'
+      wYLocationManager.dependency 'WYModule/WYCore'
+    end
+    
+    #常用UI组件
     s.subspec 'WYUI' do |wYUI|
         wYUI.source_files = 'WYModule/WYUI/**/*.{h,m}'
         wYUI.dependency 'WYModule/WYCore'

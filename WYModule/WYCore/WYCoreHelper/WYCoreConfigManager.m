@@ -21,13 +21,4 @@
     return instance;
 }
 
-- (void)setJsPatchMutableArray:(NSMutableArray *)jsPatchMutableArray {
-    if (jsPatchMutableArray.count) {
-        NSLog(@"开启热更新功能");
-        
-        WYPathchHelper *helper = [[WYPathchHelper alloc] initWithPatchArray:jsPatchMutableArray];
-        [helper loadPathchFile];
-    }
-}
-
 @end

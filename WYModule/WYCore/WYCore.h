@@ -9,8 +9,6 @@
 #ifndef WYCore_h
 #define WYCore_h
 
-#import "WYPathchModel.h"
-
 #import "WYMacros.h"
 #import "WYMediator.h"
 #import "WYNetworkHelper.h"
