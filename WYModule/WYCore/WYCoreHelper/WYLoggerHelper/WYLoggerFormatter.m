@@ -8,6 +8,11 @@
 
 #import "WYLoggerFormatter.h"
 
+@interface WYLoggerFormatter ()
+
+@property (nonatomic, strong) NSDateFormatter *outputFormatter;
+@end
+
 @implementation WYLoggerFormatter
 
 - (NSString *)formatLogMessage:(DDLogMessage *)logMessage {
@@ -15,32 +20,37 @@
     NSString *logLevel = nil;
     switch (logMessage.flag) {
         case DDLogFlagError:
-            logLevel = @"[ERROR] >";
+            logLevel = @"[ERROR]>>";
             break;
         case DDLogFlagWarning:
-            logLevel = @"[WARN] >";
+            logLevel = @"[WARN]>>>";
             break;
         case DDLogFlagInfo:
-            logLevel = @"[INFO] >";
+            logLevel = @"[INFO]>>>";
             break;
         case DDLogFlagDebug:
-            logLevel = @"[DEBUG] >";
+            logLevel = @"[DEBUG]>>";
             break;
         default:
-            logLevel = @"[VBOSE] >";
+            logLevel = @"[VBOSE]>>";
             break;
     }
     
-    NSString *formatStr
-    = [NSString stringWithFormat:@"%@ %@ [%@][line %ld] %@ %@", logLevel,[self stringWithFormat:@"yyyy-MM-dd HH:mm:ss.S" dateTime:logMessage.timestamp], logMessage.fileName, logMessage.line, logMessage.function, logMessage.message];
+    NSString *formatStr = [NSString stringWithFormat:@"%@ [%@][line %ld] %@ %@ %@", [self stringWithFormat:@"yyyy-MM-dd HH:mm:ss.S" dateTime:logMessage.timestamp], logMessage.fileName, logMessage.line, logLevel, logMessage.function, logMessage.message];
     return formatStr;
 }
 
 - (NSString *)stringWithFormat:(NSString *)format dateTime:(NSDate *)dateTime {
-    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
-    [outputFormatter setDateFormat:format];
-    NSString *retStr = [outputFormatter stringFromDate:dateTime];
+    [self.outputFormatter setDateFormat:format];
+    NSString *retStr = [self.outputFormatter stringFromDate:dateTime];
     return retStr;
+}
+
+- (NSDateFormatter *)outputFormatter {
+    if (!_outputFormatter) {
+        _outputFormatter = [[NSDateFormatter alloc] init];
+    }
+    return _outputFormatter;
 }
 
 @end

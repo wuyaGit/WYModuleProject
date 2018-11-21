@@ -25,7 +25,7 @@
     adConfig.launchAdSourceType = WYLaunchAdSourceTypeLocalOrUrlVideo;
     adConfig.sourceNameOrURLString = @"http://yun.it7090.com/video/XHLaunchAd/video_test01.mp4";
     adConfig.openModel = @"http://www.it7090.com";
-    
+        
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

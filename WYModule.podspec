@@ -98,10 +98,9 @@ Pod::Spec.new do |s|
     
     #更新引导页
     s.subspec 'WYIntroViewHelper' do |wYIntroViewHelper|
-      wYIntroViewHelper.source_files = 'WYModule/WYIntroViewHelper/**/*.{h,m}'
+      wYIntroViewHelper.source_files = 'WYModule/WYIntroViewHelper/**/*'
       wYIntroViewHelper.public_header_files = 'WYModule/WYIntroViewHelper/*.h'
       wYIntroViewHelper.dependency 'WYModule/WYCore'
-      wYIntroViewHelper.resource_bundles = { 'GuideImage' => ['WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle'] }
     end
 
     #空页面占位图
@@ -121,7 +120,7 @@ Pod::Spec.new do |s|
     
     #常用UI组件
     s.subspec 'WYUI' do |wYUI|
-        wYUI.source_files = 'WYModule/WYUI/**/*.{h,m}'
+        wYUI.source_files = 'WYModule/WYUI/**/*'
         wYUI.dependency 'WYModule/WYCore'
     end
 

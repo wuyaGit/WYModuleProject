@@ -164,16 +164,11 @@
     },
     {
       "name": "WYIntroViewHelper",
-      "source_files": "WYModule/WYIntroViewHelper/**/*.{h,m}",
+      "source_files": "WYModule/WYIntroViewHelper/**/*",
       "public_header_files": "WYModule/WYIntroViewHelper/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
-        ]
-      },
-      "resource_bundles": {
-        "GuideImage": [
-          "WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle"
         ]
       }
     },
@@ -206,7 +201,7 @@
     },
     {
       "name": "WYUI",
-      "source_files": "WYModule/WYUI/**/*.{h,m}",
+      "source_files": "WYModule/WYUI/**/*",
       "dependencies": {
         "WYModule/WYCore": [
 

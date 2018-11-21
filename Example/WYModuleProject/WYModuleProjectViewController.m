@@ -35,9 +35,24 @@
 //    self.view.ly_emptyView = [WYEmptyView diyNoNetworkEmptyWithTarget:self action:@selector(reload:)];
 //    [self.view ly_showEmptyView];
     
-    [[WYLocationManager sharedInstance] startLocationWithCompletion:^(CLLocation * _Nonnull location, NSString * _Nonnull country, NSString * _Nonnull province, NSString * _Nonnull city, NSString * _Nonnull town, NSError * _Nonnull error) {
-        
-    }];
+//    [[WYLocationManager sharedInstance] startLocationWithCompletion:^(CLLocation * _Nonnull location, NSString * _Nonnull country, NSString * _Nonnull province, NSString * _Nonnull city, NSString * _Nonnull town, NSError * _Nonnull error) {
+//
+//    }];
+    
+    //输出信息
+//    DDLogError(@"错误信息"); //红色
+//    DDLogWarn(@"警告"); //橙色
+//    DDLogInfo(@"提示信息"); //默认颜色
+//    DDLogDebug(@"调试信息"); //默认颜色
+//    DDLogVerbose(@"详细信息"); //默认颜色
+
+//    NSLog(@"错误信息");
+//    NSLog(@"警告");
+//    NSLog(@"提示信息");
+//    NSLog(@"调试信息");
+    
+    DDLogInfo(@"错误信息");
+    DDLogInfo(@"警告");
 }
 
 - (void)didReceiveMemoryWarning
