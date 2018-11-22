@@ -14,6 +14,8 @@
 
 #import <WYLocationManager.h>
 
+#import <WYSearchBar.h>
+
 @interface WYModuleProjectViewController ()
 
 @end
@@ -53,6 +55,9 @@
     
     DDLogInfo(@"错误信息");
     DDLogInfo(@"警告");
+    
+    WYSearchBar *sear = [[WYSearchBar alloc] initWithFrame:CGRectMake(0, 100, 400, 30)];
+    [self.view addSubview:sear];
 }
 
 - (void)didReceiveMemoryWarning

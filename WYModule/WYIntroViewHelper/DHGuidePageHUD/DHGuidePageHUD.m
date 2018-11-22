@@ -68,12 +68,16 @@
             
             // 设置在最后一张图片上显示进入体验按钮
             if (i == imageNameArray.count-1 && isHidden == NO) {
+                NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+                NSString *path = [currentBundle pathForResource:@"guideImage_button_backgound.png" ofType:nil inDirectory:@"GuideImage.bundle/GuideImage.bundle"];
+                UIImage *image = [UIImage imageWithContentsOfFile:path];
+
                 [imageView setUserInteractionEnabled:YES];
                 UIButton *startButton = [[UIButton alloc]initWithFrame:CGRectMake(DDScreenW*0.3, DDScreenH*0.8, DDScreenW*0.4, DDScreenH*0.08)];
                 [startButton setTitle:@"开始体验" forState:UIControlStateNormal];
                 [startButton setTitleColor:[UIColor colorWithRed:164/255.0 green:201/255.0 blue:67/255.0 alpha:1.0] forState:UIControlStateNormal];
                 [startButton.titleLabel setFont:[UIFont systemFontOfSize:21]];
-                [startButton setBackgroundImage:[UIImage imageNamed:@"guideImage_button_backgound.png"] forState:UIControlStateNormal];
+                [startButton setBackgroundImage:image forState:UIControlStateNormal];
                 [startButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
                 [imageView addSubview:startButton];
             }

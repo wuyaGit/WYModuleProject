@@ -101,6 +101,7 @@ Pod::Spec.new do |s|
       wYIntroViewHelper.source_files = 'WYModule/WYIntroViewHelper/**/*'
       wYIntroViewHelper.public_header_files = 'WYModule/WYIntroViewHelper/*.h'
       wYIntroViewHelper.dependency 'WYModule/WYCore'
+      wYIntroViewHelper.resource_bundles = { 'GuideImage' => ['WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle'] }
     end
 
     #空页面占位图
@@ -122,6 +123,16 @@ Pod::Spec.new do |s|
     s.subspec 'WYUI' do |wYUI|
         wYUI.source_files = 'WYModule/WYUI/**/*'
         wYUI.dependency 'WYModule/WYCore'
+        
+        wYUI.subspec 'WYSearchBar' do |wYSearchBar|
+          wYSearchBar.source_files = 'WYModule/WYUI/WYSearchBar/**/*.{h,m}'
+          wYSearchBar.resource_bundles = { 'WYSearchBar' => ['WYModule/WYUI/WYSearchBar/WYSearchBar.bundle'] }
+        end
+        
+        wYUI.subspec 'MBProgressHUD' do |mBProgressHUD|
+          mBProgressHUD.source_files = 'WYModule/WYUI/MBProgressHUD/**/*'
+        end
+        
     end
 
     s.frameworks = 'UIKit'

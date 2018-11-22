@@ -170,6 +170,11 @@
         "WYModule/WYCore": [
 
         ]
+      },
+      "resource_bundles": {
+        "GuideImage": [
+          "WYModule/WYIntroViewHelper/DHGuidePageHUD/GuideImage.bundle"
+        ]
       }
     },
     {
@@ -206,7 +211,22 @@
         "WYModule/WYCore": [
 
         ]
-      }
+      },
+      "subspecs": [
+        {
+          "name": "WYSearchBar",
+          "source_files": "WYModule/WYUI/WYSearchBar/**/*.{h,m}",
+          "resource_bundles": {
+            "WYSearchBar": [
+              "WYModule/WYUI/WYSearchBar/WYSearchBar.bundle/*.png"
+            ]
+          }
+        },
+        {
+          "name": "MBProgressHUD",
+          "source_files": "WYModule/WYUI/MBProgressHUD/**/*"
+        }
+      ]
     }
   ]
 }

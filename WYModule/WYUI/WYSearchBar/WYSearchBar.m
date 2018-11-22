@@ -72,8 +72,16 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
     //    self.backgroundColor = [UIColor colorWithRed:0.733 green:0.732 blue:0.756 alpha:1.000];
     [self addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
     
+//    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+//    NSString *path = [currentBundle pathForResource:@"searchImageTextColor@2x.png" ofType:nil inDirectory:@"WYSearchBar.bundle"];
+//    UIImage *image = [UIImage imageWithContentsOfFile:path];
+
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"/WYSearchBar.bundle/WYSearchBar.bundle"];
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    UIImage *image = [UIImage imageNamed:@"searchImageBlack" inBundle:resource_bundle compatibleWithTraitCollection:nil];
+    
     // 默认
-    self.iconImage = [UIImage imageNamed:@"searchImageTextColor"];
+    self.iconImage = image;
     self.iconAlign = WYSearchBarIconAlignCenter;
     self.placeholder = @"请输入关键字";
     self.placeholderColor = WY_SBAR_COLOR_HEX(0x666666);
