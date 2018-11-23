@@ -1,6 +1,6 @@
 {
   "name": "WYModule",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "iOS模块化开发的解决方案（不断完善中~~~）",
   "description": "iOS模块化开发的解决方案（不断完善中~~~）",
   "homepage": "https://github.com/wuyaGit/WYModuleProject",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wuyaGit/WYModuleProject.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,7 +23,7 @@
   "subspecs": [
     {
       "name": "WYCore",
-      "source_files": "WYModule/WYCore/**/*",
+      "source_files": "WYModule/WYCore/*.{h,m}",
       "subspecs": [
         {
           "name": "WYCoreHelper",

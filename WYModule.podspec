@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WYModule'
-    s.version          = '0.0.2'
+    s.version          = '0.0.3'
     s.summary          = 'iOS模块化开发的解决方案（不断完善中~~~） '
 
     s.description      = <<-DESC
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
 
     #基础组件（WYCategory、WYMacros、WYMediator、WYNetwork、WYCoreHelper）
     s.subspec 'WYCore' do |wYCore|
-        wYCore.source_files = 'WYModule/WYCore/**/*'
-        
+        wYCore.source_files = 'WYModule/WYCore/*.{h,m}'
+
         wYCore.subspec 'WYCoreHelper' do |wYCoreHelper|
           wYCoreHelper.source_files = 'WYModule/WYCore/WYCoreHelper/**/*.{h,m}'
           wYCoreHelper.dependency 'XAspect'

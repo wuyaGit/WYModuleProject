@@ -49,64 +49,64 @@ PODS:
     - UMCCommon
     - UMCShare/Core
   - WechatOpenSDK (1.8.3)
-  - WYModule (0.0.1):
-    - WYModule/WYAnalytics (= 0.0.1)
-    - WYModule/WYCore (= 0.0.1)
-    - WYModule/WYEmptyViewHelper (= 0.0.1)
-    - WYModule/WYGT (= 0.0.1)
-    - WYModule/WYIntroViewHelper (= 0.0.1)
-    - WYModule/WYLaunchAdHelper (= 0.0.1)
-    - WYModule/WYLocationManager (= 0.0.1)
-    - WYModule/WYPatchHelper (= 0.0.1)
-    - WYModule/WYPay (= 0.0.1)
-    - WYModule/WYSocial (= 0.0.1)
-    - WYModule/WYUI (= 0.0.1)
-  - WYModule/WYAnalytics (0.0.1):
+  - WYModule (0.0.3):
+    - WYModule/WYAnalytics (= 0.0.3)
+    - WYModule/WYCore (= 0.0.3)
+    - WYModule/WYEmptyViewHelper (= 0.0.3)
+    - WYModule/WYGT (= 0.0.3)
+    - WYModule/WYIntroViewHelper (= 0.0.3)
+    - WYModule/WYLaunchAdHelper (= 0.0.3)
+    - WYModule/WYLocationManager (= 0.0.3)
+    - WYModule/WYPatchHelper (= 0.0.3)
+    - WYModule/WYPay (= 0.0.3)
+    - WYModule/WYSocial (= 0.0.3)
+    - WYModule/WYUI (= 0.0.3)
+  - WYModule/WYAnalytics (0.0.3):
     - Aspects
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
     - WYModule/WYCore
-  - WYModule/WYCore (0.0.1):
-    - WYModule/WYCore/WYCategory (= 0.0.1)
-    - WYModule/WYCore/WYCoreHelper (= 0.0.1)
-    - WYModule/WYCore/WYMacros (= 0.0.1)
-    - WYModule/WYCore/WYMediator (= 0.0.1)
-    - WYModule/WYCore/WYNetwork (= 0.0.1)
-  - WYModule/WYCore/WYCategory (0.0.1)
-  - WYModule/WYCore/WYCoreHelper (0.0.1):
+  - WYModule/WYCore (0.0.3):
+    - WYModule/WYCore/WYCategory (= 0.0.3)
+    - WYModule/WYCore/WYCoreHelper (= 0.0.3)
+    - WYModule/WYCore/WYMacros (= 0.0.3)
+    - WYModule/WYCore/WYMediator (= 0.0.3)
+    - WYModule/WYCore/WYNetwork (= 0.0.3)
+  - WYModule/WYCore/WYCategory (0.0.3)
+  - WYModule/WYCore/WYCoreHelper (0.0.3):
     - CocoaLumberjack
     - FLEX
     - XAspect
-  - WYModule/WYCore/WYMacros (0.0.1)
-  - WYModule/WYCore/WYMediator (0.0.1)
-  - WYModule/WYCore/WYNetwork (0.0.1):
+  - WYModule/WYCore/WYMacros (0.0.3)
+  - WYModule/WYCore/WYMediator (0.0.3)
+  - WYModule/WYCore/WYNetwork (0.0.3):
     - YTKNetwork
-  - WYModule/WYEmptyViewHelper (0.0.1):
+  - WYModule/WYEmptyViewHelper (0.0.3):
     - LYEmptyView
     - WYModule/WYCore
-  - WYModule/WYGT (0.0.1):
+  - WYModule/WYGT (0.0.3):
     - GTSDK
     - WYModule/WYCore
     - XAspect
-  - WYModule/WYIntroViewHelper (0.0.1):
+  - WYModule/WYIntroViewHelper (0.0.3):
     - WYModule/WYCore
-  - WYModule/WYLaunchAdHelper (0.0.1):
+  - WYModule/WYLaunchAdHelper (0.0.3):
     - AFNetworking
     - WYModule/WYCore
     - XHLaunchAd
-  - WYModule/WYLocationManager (0.0.1):
+  - WYModule/WYLocationManager (0.0.3):
     - WYModule/WYCore
-  - WYModule/WYPatchHelper (0.0.1):
+  - WYModule/WYPatchHelper (0.0.3):
     - AFNetworking
     - JSPatch
     - WYModule/WYCore
     - YYCache
-  - WYModule/WYPay (0.0.1):
+  - WYModule/WYPay (0.0.3):
     - AlipaySDK-iOS
     - WechatOpenSDK
     - WYModule/WYCore
-  - WYModule/WYSocial (0.0.1):
+  - WYModule/WYSocial (0.0.3):
     - UMCCommon
     - UMCCommonLog
     - UMCShare/Social/ReducedQQ
@@ -115,14 +115,14 @@ PODS:
     - UMCShare/UI
     - WYModule/WYCore
     - XAspect
-  - WYModule/WYUI (0.0.1):
+  - WYModule/WYUI (0.0.3):
     - WYModule/WYCore
-    - WYModule/WYUI/MBProgressHUD (= 0.0.1)
-    - WYModule/WYUI/WYSearchBar (= 0.0.1)
-  - WYModule/WYUI/MBProgressHUD (0.0.1):
+    - WYModule/WYUI/MBProgressHUD (= 0.0.3)
+    - WYModule/WYUI/WYSearchBar (= 0.0.3)
+  - WYModule/WYUI/MBProgressHUD (0.0.3):
     - MBProgressHUD
     - WYModule/WYCore
-  - WYModule/WYUI/WYSearchBar (0.0.1):
+  - WYModule/WYUI/WYSearchBar (0.0.3):
     - WYModule/WYCore
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
@@ -181,7 +181,7 @@ SPEC CHECKSUMS:
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
-  WYModule: f0222741f345248731fef2133f4eb1482df1849d
+  WYModule: 9deb380b5817db66fd7ba7c4f41e491c8eaac459
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
