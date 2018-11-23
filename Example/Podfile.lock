@@ -116,14 +116,11 @@ PODS:
     - WYModule/WYCore
     - XAspect
   - WYModule/WYUI (0.0.3):
-    - WYModule/WYCore
     - WYModule/WYUI/MBProgressHUD (= 0.0.3)
     - WYModule/WYUI/WYSearchBar (= 0.0.3)
   - WYModule/WYUI/MBProgressHUD (0.0.3):
     - MBProgressHUD
-    - WYModule/WYCore
-  - WYModule/WYUI/WYSearchBar (0.0.3):
-    - WYModule/WYCore
+  - WYModule/WYUI/WYSearchBar (0.0.3)
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
     - XAspect/Macros (= 1.0.5)
@@ -181,7 +178,7 @@ SPEC CHECKSUMS:
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
-  WYModule: 9deb380b5817db66fd7ba7c4f41e491c8eaac459
+  WYModule: e2fd606d895333a49d769672c4458c512c653376
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0

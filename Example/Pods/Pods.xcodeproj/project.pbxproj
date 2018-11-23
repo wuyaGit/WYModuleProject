@@ -76,30 +76,40 @@
 
 /* Begin PBXBuildFile section */
 		002246E1B82F3F96A214A07D4959B6EB /* FLEXWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A8636700FB85A0EF9EF0407F69239163 /* FLEXWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0052C2625544BF471BAC08CAB19BB828 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CA745E748EF7827B15E3E411A0FB2 /* YYWeakProxy.m */; };
 		0067D706D7CC2EBD1B1BC01593D69817 /* FLEXArgumentInputNotSupportedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FB6A9398711D702594F1E411429BC1 /* FLEXArgumentInputNotSupportedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0075FE0DAC61AFB00BCBCE101C817A75 /* WYPatchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E37572A4555A95F219F07E0DBE989D85 /* WYPatchHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00D53355411B546AF443D0A39C3D8665 /* WYAnalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC962037036F325059FC7A94240C3E3E /* WYAnalyticsHelper.m */; };
 		00F2C35DDD27875CB06AD99030B5EEEF /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF9528C57A061DED6709B9D1F6C4D43 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		01380FCE989FF28DB9E9119EDC3905F3 /* FLEXTableLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5384B0BE20D16CCF50913C48D44C1D /* FLEXTableLeftCell.m */; };
-		018587B776E2EF104D8FE58FFCCF8A8B /* WYPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9883DA9336D3E3B8DA0828B29A4ACBAB /* WYPatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		02794415CFB98D0EB1F727271F5AE4D8 /* FLEXArgumentInputViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE335566306D3155055E6363604512D /* FLEXArgumentInputViewFactory.m */; };
+		033B0286362D6A1EE2BC289BC6AAB2F4 /* WYSocialPlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A3BFE58D1EDCCEBBE7996A8A7BD81 /* WYSocialPlatformHelper.m */; };
+		057D9107111BBE6D423B159F0E562102 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BA275052F3B0A9421B2EAA6A5E02E1 /* JRSwizzle.m */; };
 		0605B813564C11D5CDBDE91C7240FCD4 /* FLEXExplorerToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AFC6CE233BB54FBBCC5BDC8C949678 /* FLEXExplorerToolbar.m */; };
 		061B4BA7D7E796D82F6A8834314E30DE /* XHLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97078D2DAD9522A14106D66AA8EC8060 /* XHLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08D1D55C3FDDE8F6964C5C89945F4ABF /* MBProgressHUD+WY.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D42627E4B471AA75EE14570C2003169 /* MBProgressHUD+WY.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06680C9BF40D8F5CEB1161E02A954FD8 /* UITextView+WZB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1CE30AB82918CB23AE054C9FC433D /* UITextView+WZB.m */; };
+		068FE180A30EA7C70D22A07BB17C347B /* MBProgressHUD+WY.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0D3D9E4F17C77F533DBE0FC06B076D /* MBProgressHUD+WY.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06C4560D973C380E3381EA78D6C55EA8 /* UIView+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 592F1527251B4D9D4B7BA9FDC945FEE2 /* UIView+RoundedCorner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06FCFF8A07EF98BB3ED309227245F9D6 /* WYLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2754E8174E069A8DEA3821072ED800 /* WYLaunchAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		077959BBF8843741914B97C9AE59E751 /* WYLocationConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF84391CCBB6859D16D80B659B10E83 /* WYLocationConvert.m */; };
+		082C33901D0824A44FDFC0B6358FAB6C /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D322C88BC4F6FBD3580315BE27E98B3 /* YYFPSLabel.m */; };
 		0941A9CEB822D89404A0A2D1AB238EDC /* FLEXMultilineTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA27270D2AB528FC8ECB541D0BF3C80 /* FLEXMultilineTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0A542823E98B6F5BA615D9ECB75591DA /* FLEXObjectExplorerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 421F4BFACF445F2B09E43734B0729308 /* FLEXObjectExplorerFactory.m */; };
 		0A5A7F508454E32D90BC87D5AEB7B089 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC2CD3FDCA116AFA0E57BC02CDC1C2 /* Aspects-dummy.m */; };
 		0A6BD5D01A027B978B1DBC0F5847198E /* FLEXArgumentInputDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = F982BE9355B768855DB2F6F6F01BABE1 /* FLEXArgumentInputDateView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0ACF23BD7428F7379CCA1D824FD1EAAC /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6F8349D5895C7B11DE09232865FA8C /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B612F762630B7F82DC2A992836CF352 /* WYPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9883DA9336D3E3B8DA0828B29A4ACBAB /* WYPatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B880832D8C61B3E5DF46DF717917575 /* WYNetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B5690AF8094A8965EA87F0D2F7EAFD5A /* WYNetworkHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C624D44B41349E7781A6791B68DCB58 /* FLEXArgumentInputJSONObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FE4265BB5AA8534DDA76C8720CD897 /* FLEXArgumentInputJSONObjectView.m */; };
 		0D1F985E638473E54D55CB83540D0263 /* FLEXNetworkSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3F1841A0A7842B754C4B89829F09A /* FLEXNetworkSettingsTableViewController.m */; };
 		0D7757DC8977C51B71E6D3F33201C444 /* FLEXArgumentInputColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4478EAD5B8932123064636494959ADA /* FLEXArgumentInputColorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0ECD4630DBACAFEC07B7E1D81DF20965 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A5C07370D3870AE563BA7D737F4EDC /* Aspects.m */; };
 		0F208F635FCD11A5DF9480E07DEEB8D1 /* XHLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DB17775F0DE0C7F83992805708EE30 /* XHLaunchAdConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FDDBBE26FF32717D270FE651D84659F /* UIViewController+BackButtonItemTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBE81D71AA0DF3DDDF4C5A8AD9AE60B /* UIViewController+BackButtonItemTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0FF8CF32707D779B29A57DF9318C22D5 /* XHLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E51367592D912562FA4A8D7E4F6B25 /* XHLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10CF32AF23E39F1946220B890B1ABA7D /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011169E5DDFC38D8448E03109B53C3 /* YYCache.m */; };
-		112E6D671782379C695E7EEA40B10579 /* WYWebShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B593D5FFF0EAFBA2F80A5AFD7B6AED /* WYWebShareHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11EDCAAF1B9B519CDAF6ACF4E4E215DC /* WYSocialConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E735D4BE1A43A3B59E3227F59C3 /* WYSocialConfigManager.m */; };
+		111F22C0F15E96B26E710942FF09FB88 /* XAspect-GeTuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED548A95D38C5121AFF94700A5C22A4 /* XAspect-GeTuiAppDelegate.m */; };
 		13B305E40B29C5C5FFD90FFBD81EBC79 /* FLEXArgumentInputNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9AF9E63C0BCDE585AA01F51F1D3DEF /* FLEXArgumentInputNumberView.m */; };
-		142AB4F98E26951DEDF42B24B77899E2 /* UIViewController+BackButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 889037F4D99DC78BF154EA481A618C83 /* UIViewController+BackButtonHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		14476C6F6647EEC022CC768D77313407 /* FLEXArgumentInputStructView.h in Headers */ = {isa = PBXBuildFile; fileRef = E491EBA997977DC1D06C4B005DDE79F5 /* FLEXArgumentInputStructView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15F2F1C77777ED9EC35E8793788B480B /* FLEXImagePreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A346405417374FD2F9FF60B2B20C5FF6 /* FLEXImagePreviewViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		164032C9B95D6AF7DD83676B652AA770 /* FLEXFieldEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4955EF23DAB183044E0C04DEB7198352 /* FLEXFieldEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -107,24 +117,20 @@
 		175EFBB013B9A916A44C3C659765116A /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837522B381946A6B59BDDC434736D58 /* FLAnimatedImage-dummy.m */; };
 		178546F8DF8C3B8193E957E94E3E3E59 /* FLEXFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30097703FEAA833EE41473311FD43A /* FLEXFieldEditorViewController.m */; };
 		185DD7C4226BE9DF38FF86E28B2D65C6 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB8ED183B47661378D209B1CD4ACE4E /* YTKRequest.m */; };
-		186D21EBBE77FE0FCF8AF2DA1B72BDC5 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8CEF076DB3898447A0BC81F55D9C1D /* JRSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		186DB86345A9B16C3447E00DD52B3987 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = E84BAD77982E150E6097786F712BF496 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19F3BC228A390758CFADC94C32D8513B /* FLEXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E288EE8C98310698C4FD3EDA13B82D98 /* FLEXWindow.m */; };
 		1A719171D88976CA221233E70DBA42CA /* FLEXHierarchyTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F17542071B2392685BAAD4B827D019AC /* FLEXHierarchyTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1AF89D5277BFCAE188F832F7EA54C370 /* YTKNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 551BD98B528C364368CFDBCFB846C4B7 /* YTKNetworkConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1B3870B2B92310A582A04A8D5A39E386 /* WYCoreConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89270DC984DC417C320E5BC5F2F68CA3 /* WYCoreConfigManager.m */; };
+		1B89F68ABE82AA23B45F5D372F1E40EC /* WYPatchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DC41BDFD550C2FFC470C1B26A81090 /* WYPatchModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1C64E03CFA30685A51622A3D48BB9027 /* FLEXArgumentInputStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FE2B6E60CAA3BC74C4E55BF46B9E77 /* FLEXArgumentInputStringView.m */; };
 		1C827F0D8A881C2A0E61299B0136B665 /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 87440DA98BC201B32B1AE6E70BB60746 /* XHLaunchAdDownloader.m */; };
 		1CCBAF7987974E6F4733F100AFE065D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AE75383A9DBA561406E538767A9290 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CF5A9FBAD5F1C3BEE06F226B0D80015 /* WYSocialHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E90C1FB7234701CAEF5B38477CC07261 /* WYSocialHelper.m */; };
 		1D9766782156C46C7E3A09F04ACAD81E /* FLEXLiveObjectsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4128988BCE2B353665C948CE80C07E9 /* FLEXLiveObjectsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E1D922CFBB73AEC1B082A09D614C62C /* FLEXArgumentInputTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4EC79BDD95B5FD23552451FED9785C /* FLEXArgumentInputTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1EB1B478E0DACFF191F46D4E5360E4E3 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DBE0A1A5DDB9FA12858CB20D8DDFB4 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EDF23795F7122F86B397DE56E2EA4EB /* SYSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 996A1F5EC8CD4690F8E83AE1543C7501 /* SYSafeCategory.m */; };
-		1F0ED1D306E237D16FC775A7BAF6DEA5 /* WYModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E154D4898981DA97F05FFBF021244E21 /* WYModule-dummy.m */; };
 		1F362EEAD5B697F9A40B06497C4FC71A /* FLEXLibrariesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 914A142F86ED2A7C81EF648FF0F9C413 /* FLEXLibrariesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F5A78B9796462328A2503A0D7A7CDDC /* SYSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 169C6475C15A3BE9C3E5A627A6D7AF80 /* SYSafeCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1F96C9936048AFB699C1B69DA9E74AB3 /* FLEXViewExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABEB23FBC0BDA76F2FA338DB169B9AC /* FLEXViewExplorerViewController.m */; };
-		1FEA03A26BD16960121FF970BFFF0B2E /* WYIntroViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DF4E0EB8CAD12059CBB73880ACF48A /* WYIntroViewHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2012B976F2B0E66A05AD295B02A6C0EB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 789580FD575ED06DAF1FF1A42CB68CA9 /* UIProgressView+AFNetworking.m */; };
 		2040527B6B75B26EC8E97D5515F2AA62 /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA410094FC4A8EA0AA9E8BCE93F4D7 /* XHLaunchAdCache.m */; };
 		2053DAACED0E74CA070D91AE0E6E9F73 /* FLEXTableContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4009EF4BA2286E62FB1FCB0E24321C73 /* FLEXTableContentViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -134,210 +140,205 @@
 		20C7BCD52F9C0896870246CC08298549 /* XHLaunchAd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B466248002E36A6B2B63336072FC2F7 /* XHLaunchAd-dummy.m */; };
 		20F538B72AA58877EE2C8749003D217B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D15CE5AFBABEDAE48E638B2878EEE41B /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2108BF62CCDD149A53448A55E4162964 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C421BDC2C42A0260245492F7A056ECA /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2202D7331B20C2C849BAC1D81AD0B350 /* WYPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 298B24050B827519670CC97DE7C41E04 /* WYPayHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		223C9F60318578597D746E87B6D01E03 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84501A4CF601460A9AC8EF38730005E9 /* LYEmptyView.m */; };
-		229598EC6A1C1A87F4CFB58D7C6999DA /* UIButton+WYImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F32FFF1A9958E40D73869A8864423C0 /* UIButton+WYImagePosition.m */; };
-		229CD68C9EC960EF0D38CDE272F0115B /* WYNavigationBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A387A209E729C0AAE1C1510127D1AA26 /* WYNavigationBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22774211B4FD712916B35C53B352197A /* WYAppDelegate+myPay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1484DC7E6431BA067897FF8BC5B003 /* WYAppDelegate+myPay.m */; };
+		231052786A2645798F2874B14849A99B /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF983EDAD020D816888916591F26F97 /* WYAppDelegate.m */; };
 		2377E8D464F1E7C84149C4EFCBCCBF3E /* FLEXRuntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C44988B0B9084F3AD198F93C8FCE2CF0 /* FLEXRuntimeUtility.m */; };
 		24643D9F3B8B0013FF8C423014402DA3 /* XHLaunchAdImageView+XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3160D98D6E066F7AA77801DECBB9953B /* XHLaunchAdImageView+XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24A29C7C58A404119643256BE1A7FD46 /* WYFPSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C80BC31B4EC36FCFF8A123A78B4A63 /* WYFPSHelper.m */; };
 		2531C54F5F840976AECA7164E0148158 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1587D8CB77C9AEE50D6CAAF3A3017 /* AFSecurityPolicy.m */; };
 		25855B5858B70EBFB445E6F590C1E3E1 /* FLEXRealmDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DB44C1F1B26D8965BD2E42F9088DD00F /* FLEXRealmDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26425C53F449EA0EF225B52A81577D69 /* WYPatchConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DADD822EB0DB11B562E90699D8D237C /* WYPatchConfigManager.m */; };
-		27121B72BCA34861E5454FE513393F9B /* WYPayConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C498EE7B3A44FECE3BD62844C40D72A7 /* WYPayConfigManager.m */; };
 		27203E367DED931374F7E501F7638835 /* FLEXRuntimeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EC8CD840E4264F3C40E1F780D434FC /* FLEXRuntimeUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		272663B25039AD7D5086229E704F15D7 /* WYCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932D8E8232D4BE9003FEF88A912CD87 /* WYCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		27A9EF68ADA541071B10BBBFAD4C03F1 /* UIButton+WYImagePosition.h in Headers */ = {isa = PBXBuildFile; fileRef = D72AA1F700E76D9BBFD380AC64F5C09B /* UIButton+WYImagePosition.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		28E89687B990122B1D2AC999E9320915 /* FLEXLayerExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831867E9F3AC581092CE8939EB97AFE4 /* FLEXLayerExplorerViewController.m */; };
 		290E933B757AFD5974F10FF166936539 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 30595E45CB78538E4A4FC10F94DD4CCD /* DDASLLogger.m */; };
-		294387C3B48CD95C46583819FF69840C /* WYSocialShareMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4D5A2C551F56BD0485D29E3152A728 /* WYSocialShareMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29AC7503DDB5EBAF41D426F9797F068E /* WYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DC168AA0296469B550C8220949845 /* WYLocationManager.m */; };
 		2A592546608EE410C06413202CEE55DF /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B8C4A8184D4A478B4F6361C1E27DE /* UIWebView+AFNetworking.m */; };
-		2B797B80822452499E533C858CCB9D1C /* WYFPSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1524CB444A24B433D12D9070C88792 /* WYFPSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B68B5644FDF0AB0765C08C6481AED54 /* WYSocialPlatformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FD494661E8C5BFED6B82F5E696B35ED6 /* WYSocialPlatformHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2C1E17D53F00A5A8700526DA26DAA7C5 /* FLEXGlobalsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8443E6CB5815D9A039E9F4A8C9D66BB9 /* FLEXGlobalsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2CFBA58D5F5A3A8A1D9293FBA4AF2E46 /* WYAnalyticsConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D165231C7C7B062A5CC6153C03976EA5 /* WYAnalyticsConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EA726A0F4B5B9FB9668A53971696B6D /* FLEXNetworkTransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB9504AEB455E6CFE500297C4857F4 /* FLEXNetworkTransactionTableViewCell.m */; };
 		313B41EC153143D005F40FB14D307C82 /* FLEXNetworkTransactionDetailTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 816BF44CE56BCA01AEB55117B79B2CBA /* FLEXNetworkTransactionDetailTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3147391B3968D5E8E4DA38A90E5C607F /* FLEXSetExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E354FC7EEE2283E2411D8AB1DBB76B97 /* FLEXSetExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		315BA2A39328197556E0FC4B31F78A90 /* FLEXViewExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CF359C7DA1D6A8AC538B7E2BD1EF78 /* FLEXViewExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		32C052E0E800E7022A43842F0F969964 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F63FD6BCEFD38709D71F3646D3C3A148 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3339327BD5883DEE85842664604E6B02 /* WYPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E3145FDFEF03E741B0835F6DBB7DFAD1 /* WYPayHelper.m */; };
 		349B1486264499990EF066225D50C3E0 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C437D4BE2A2EF0D0190DCE5B98ECE4 /* YTKNetworkPrivate.m */; };
 		34F7D85BB841F0CA76CB6FFF29C9C24A /* FLEXTableColumnHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A98AE116347DEAA363B55D2D8F546789 /* FLEXTableColumnHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35157697BFF8D2813B0A865FD8CB0FFB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0995A4FA32063156A21480259EE7A7 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35ED3A0D7708A1BEE90E6031C30F753F /* WYIntroViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E34D677BCDAA7CD4931A2EE3E4DF70 /* WYIntroViewHelper.m */; };
 		3619DA077F5CCDF322E644DFE03802FD /* FLEXViewControllerExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F08A637AC0DB5686AE9327C3CD5034C /* FLEXViewControllerExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		367B3543EB4A1B60EBC30224EFE9B832 /* XAspect-GeTuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED548A95D38C5121AFF94700A5C22A4 /* XAspect-GeTuiAppDelegate.m */; };
+		365BCB247AF87A7E6F0741B62D9DBD65 /* UIButton+WYImagePosition.h in Headers */ = {isa = PBXBuildFile; fileRef = D72AA1F700E76D9BBFD380AC64F5C09B /* UIButton+WYImagePosition.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		36DBA755F920CB8233D60D034A6DAC57 /* FLEXDefaultsExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A17257A587768256C466B855D18D5 /* FLEXDefaultsExplorerViewController.m */; };
-		375D27E831EABA054E5206440B7C891D /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C702436D043DDBCCEFA75DF8B8F2FB /* UIImage+RoundedCorner.m */; };
+		36FAB6BFCB897D4240A1ECE13D787AE4 /* WYAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = BE24906DD00C5314D8E06DEBA5CB56AA /* WYAnalytics.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37FEB5AFA20D7257C43E782233598C48 /* WYAppDelegate+myPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4E2D689C4F5832C9EB7C1870BD3C3 /* WYAppDelegate+myPay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		384871EDC5C29AE3291348C14DDC7BA7 /* FLEXDictionaryExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462CC93A5FC5B46644E7820C03D1762 /* FLEXDictionaryExplorerViewController.m */; };
 		3851054648D203968CC046B9D8C5DA02 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE9F63BAE55DA50A59E374489E06BB7 /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3890293AFA9C60C89BA0913EC5F24747 /* UIButton+WYCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20A37380ADF8F56FB311E1A1EEFC5D /* UIButton+WYCountDown.m */; };
-		38A4E04A12783EDEA472FABBAE5B7A42 /* WYAppDelegate+myGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFD6D7DEE6CCC4F6AE0F628EC1BC5DD /* WYAppDelegate+myGT.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		38D18F025B74A0252507953FBDC98A4C /* WYLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E56265B140F342D2CD6088179979B0 /* WYLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		390640FDAA4ACB62FAA699F2916F1316 /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E002CBF1712CF13D7C8A90CBA93740 /* UIView+Empty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		395A2F7C22764A195CA326107B0CE9D3 /* WYPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 298B24050B827519670CC97DE7C41E04 /* WYPayHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A0DE4AFD8E42C0E44D2DD8C59C1062F /* FLEXWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE1A62CCE2A15C6507A8533F9531868 /* FLEXWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3B9B514AE73E6AADDC0A4E6E530E1004 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C5000547A7E2EB88F3EFF62D52F0F363 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3C0173E3505E6F5213A90F57BC90FDAB /* FLEXInstancesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE501D4E0227F0C2483CC44AC8B3A60 /* FLEXInstancesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3CBBF9535427FDF451149E6C13E65417 /* WYAppDelegate+myPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4E2D689C4F5832C9EB7C1870BD3C3 /* WYAppDelegate+myPay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CC60DC2F529B67F742DCAA1223BB73F /* FLEXNetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CA62FA7E8CF2C9EF550081D8D718B9 /* FLEXNetworkObserver.m */; };
 		3D556E80B4B165A5EEA48CE19098E1EB /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A3202682C55268A15EE3F9463E6C2B /* LYEmptyBaseView.m */; };
 		3D61793CC50C51FCA3DEEB86D896F114 /* FLEXGlobalsTableViewControllerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = EB13E7C395A40AB971ACEF6E169A684C /* FLEXGlobalsTableViewControllerEntry.m */; };
+		3D6F5C8D70F111A87B26B0F9717252CD /* WYPayConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA128C09CEB971AF1795E67946647DE0 /* WYPayConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D8298127256AD43BA17C2CE5CDF58EB /* FLEXResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF281100B6077FAC04945A1249A076 /* FLEXResources.m */; };
 		3D8BE029141F5BD1E41379E87B298BC3 /* FLEXCookiesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C2C6617146CF435B507C82DC8C05C5 /* FLEXCookiesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E75864C56D249A38FACB7A18FD032CC /* WYLaunchAdHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B55E2C475D4DB0DE1BD1D185D50CAA7 /* WYLaunchAdHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3EB083B7FFC00AA654B2D0FE132E8EA7 /* FLEXPropertyEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC1EEECF008EC7C50ABA754266F103B /* FLEXPropertyEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3EF9E9AFC1773507AAEE4E13C75A3C8E /* FLEXRealmDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F85B50E659CC87ED0E92A292B6203993 /* FLEXRealmDatabaseManager.m */; };
-		3F13948233B7D0E601C3C44D2C6AC912 /* WYLocationConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF84391CCBB6859D16D80B659B10E83 /* WYLocationConvert.m */; };
 		40B7938062FFDAAD3AFEB92A54CC146A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC0744E673C808DF52B83F367CA3224 /* DDContextFilterLogFormatter.m */; };
-		40E0409D47EAA3AF5917EE8F0E1B0394 /* XAspect-AnalyticsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B6DFF4C51E5B1CD2D42C412844B196 /* XAspect-AnalyticsAppDelegate.m */; };
 		413D12269AB423A54764AF4A501E60F5 /* FLEXNetworkTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C5529A2E26013840F3D0006FCC1ED0AE /* FLEXNetworkTransaction.m */; };
+		4143F510AD7A8F03CC1991B38BC30E42 /* WYModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E154D4898981DA97F05FFBF021244E21 /* WYModule-dummy.m */; };
 		414C396766C51109D2FF28587EA5FE82 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA782C28432787D7D7AF9B69674B241 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		414DFD42600163FE06933E4BE46000FF /* WYSocialPlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A3BFE58D1EDCCEBBE7996A8A7BD81 /* WYSocialPlatformHelper.m */; };
 		41AD991483161DD1E56B5CB653EC0A2B /* FLEXInstancesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D9D873B5AA5B77489C3FA702B1886 /* FLEXInstancesTableViewController.m */; };
 		423FCD167FE63CCCC7229F83EE0A5801 /* FLEXMultiColumnTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2338CAA4CE3DC5DE90FBC0B99D8E096F /* FLEXMultiColumnTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42A610346E22F9358942526B5BFF45EF /* WYPay.h in Headers */ = {isa = PBXBuildFile; fileRef = C54DD4717631A6D8A6B110F097639359 /* WYPay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		429B5BE7A16B3FA3C14871EEF847210C /* WYSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BA28C26AE0D2E45E9B866B27C6AF65 /* WYSocial.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42CD3857C2B9755BADE752C1D7CAF54A /* FLEXResources.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C8DFD05031A5EA590A87C51FA182E2 /* FLEXResources.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4341B58E2F21ACF94769776EB43FA4AD /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4CFACCF0921895113616B199959F46 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45CAB0BAE5CDBD03BEAAEA3C9A071026 /* WYPayConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA128C09CEB971AF1795E67946647DE0 /* WYPayConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44B9C4A4B05238CFBF632E70EF66B0BF /* SYSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 996A1F5EC8CD4690F8E83AE1543C7501 /* SYSafeCategory.m */; };
+		46186789A7BCC227679A2B54CF4B2149 /* WYLaunchAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 025511D90ED245DE672783DEF3FB1118 /* WYLaunchAdModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		467CE207207033A06A8D6B3A78ED1396 /* DHGuidePageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D17A5A28FB65E30EA698F71BB0C296D1 /* DHGuidePageHUD.m */; };
 		47156FA49A7082CC0BCFB700A2389B4A /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ACFA17AC7B23684C5048D790BDAF1 /* DDDispatchQueueLogFormatter.m */; };
 		4722DF369D832BD1ACF7B7A37AA2D5E2 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F47BB0005251134EA96AD24EF713E7FF /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		473DB368A49FBE2A09954B30E1AF060C /* JPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7973A5394B869B1976600625D5A7DBA2 /* JPEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		474A76BDE046D823FCF93C75B7C782D3 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA686C8CE69562815FD0046D6A845306 /* XACExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47AFD71930D6156AC35D7B56BF9E1A33 /* XAspect-AnalyticsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B6DFF4C51E5B1CD2D42C412844B196 /* XAspect-AnalyticsAppDelegate.m */; };
 		48ADB4A9716AAD49412AABAAFA92D868 /* FLEXClassExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEBBDD72B3C4DEE67810F49425A3863 /* FLEXClassExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		492CA8D0EE1E07C444A3F254B60E78D6 /* FLEXKeyboardShortcutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E7FFE8FF29A44739734C2E44BF2FE /* FLEXKeyboardShortcutManager.m */; };
 		49910B71C8920DE1695E4C0CFD63ACFA /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7515C73147F81F6661F210DB5204A5 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4BEF78FFB0CF9127BB3FE96260B54509 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C34533371926DCF9423939FA26B909F2 /* AFURLResponseSerialization.m */; };
 		4C1686EBAE7B4F853767F5E0441214D4 /* FLEXManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A41A3BF17077147BFB3A2955C9385743 /* FLEXManager+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C459D91A1E3922FABF4BC0C86E8F39E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CA745E748EF7827B15E3E411A0FB2 /* YYWeakProxy.m */; };
+		4C193EEF63821C000C65C3EF7BE35A91 /* UIViewController+CurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5632F617149710300EAFD79C119EE41 /* UIViewController+CurrentViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CA643F7FE4775DDF41684810BA71A1F /* FLEXArgumentInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E259D6AE2F3E94ACCD257A42B2067A8B /* FLEXArgumentInputTextView.m */; };
 		4D28856BA6F60BA0B8A6A6474A3CDF24 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FEF94C70876761814D9CD8930EC0 /* YTKBatchRequestAgent.m */; };
-		4D62B0D0B82BDD1F9994F78F2424C3AB /* WYLoggerFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142DE1C1EBD337C19D34A915EEFC49E /* WYLoggerFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E022D6A0DB529B436D1E08AFC6C4628 /* FLEXViewControllerExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707C361AD370F1AA8764C7FD9269662 /* FLEXViewControllerExplorerViewController.m */; };
 		4FEBCD74FB239D6A43902824863D6FAB /* FLEXNetworkRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F2CEE86E0DF344160A4068641C0453 /* FLEXNetworkRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		50E1AD4D9D7EE4EE2A085EF8692351DA /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA17F38DB9EE0817616C35EC6A04B6AE /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51BD0A47C1529FE86B9FF8F7275E586C /* FLEXArrayExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14466AB219ECBDB011E4AA79F245DACB /* FLEXArrayExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5248FA16A5E3BE7911EAAA727989A561 /* FLEXSystemLogTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A46FCE04470420272A7D35C0E4881D0 /* FLEXSystemLogTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		52D71738D319E3C281C73C374F3A4B2E /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B7240B9CE90612C14B6C9B1A69DBD2AF /* DDOSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53334268A8A133BDB4AB224A91088138 /* WYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C218F9C1CA073857AB18D07232D938AE /* WYMediator.m */; };
 		53B068D91492278FB3240C36BF7C324C /* FLEXClassExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB95D9A3F1452C6F718CEC5CC683D6 /* FLEXClassExplorerViewController.m */; };
-		5498FA1DC28B62F0991B5CEFB3F67E36 /* WYLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF86A23BF2A4401F0940A7C15B0A35FD /* WYLaunchAdModel.m */; };
 		552380F413CC38DFD1249071577527ED /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4994FEDA2C037F794B2CA4D9B48A /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5571AA742B6167C0B8C0C280A34E6876 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA961ECF20A8140625A6B6835DD0AE /* UIButton+AFNetworking.m */; };
 		5591C14F027EA072BE77C77878A53970 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 418CB9526B19EE6CD4D44A6344FAA142 /* YYMemoryCache.m */; };
+		565FE5D711A68B5F095D2E9A9A4AF55E /* WYLaunchAdConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC256750C727A965403245866AF98D27 /* WYLaunchAdConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		567A87F55FE81921A76F09E344CABA63 /* FLEXFileBrowserTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8924CCEB5D6BFF9FB2701CC88A217B /* FLEXFileBrowserTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		569A7F8E89F6F9E20B6AAE119028D549 /* WYNavigationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B3F8A33B6E9F45A5FDE97AF7EAB2F /* WYNavigationBaseViewController.m */; };
 		569F2010BF85A0B72FFC3BE05A640C6A /* FLEXGlobalsTableViewControllerEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 220D9FB2D21A0CB4D1D2CBD0491EE14E /* FLEXGlobalsTableViewControllerEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		56EAC03502E2D117AAF49D7F7351AA03 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E3ACA5553A1D4F742BE4168B4D9CA /* YTKBatchRequest.m */; };
+		575EC93E48E54DD89089EAB1B7BFCC2C /* WYPatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87250A3B21D64FB25ED27082C0ABF7 /* WYPatchHelper.m */; };
 		5791FC3F455A8BC0FAB22D99D4035A48 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6039C01FB28791417214F3EF4BA0C410 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		582CB17A6760387AAA8D8A8BB925AA65 /* WYLaunchAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 128C2B2F904B303E7ABBB60E683DAFD0 /* WYLaunchAdHelper.m */; };
 		586B0CD56BF462581E1C9644ED5AF623 /* FLEXTableListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 798A220889D2F92F684D835A78FE7EEF /* FLEXTableListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58795A316D6ADB8A9116A8922DD835D0 /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05895877F7463DAC9858A3EA55FD0C94 /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5886E8BFF3CC0B46187BA2A23B2AEDAB /* FLEXObjectExplorerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D328287263868E625A91D358B21B7DE8 /* FLEXObjectExplorerFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59E00828D595FAAF955EE47FFF8BFEAE /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B86033DF764933B702B283B9165719BB /* XHLaunchImageView.m */; };
 		5A1BCB7913C17E4DD421D1957E60F599 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7215C150BED82BCFA37CE00954F0F1 /* YYCache-dummy.m */; };
-		5AC67FA918EC880037ECE271154A39AC /* WYLaunchAdConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC256750C727A965403245866AF98D27 /* WYLaunchAdConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C33E6471D4BD5B6CD7CD54EB7429188 /* UIButton+WYCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = C8649AD95B59D72B0FF8BB34A512A6AA /* UIButton+WYCountDown.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C684B0A9D214B453D20321D7BBE5810 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = A324428504E1B504AC81516F398D78A9 /* UIViewController+BackButtonItemTitle.m */; };
+		5CD46309F1601C9BD552E6A0F6C3143C /* WYCoreConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE3D460FC78C140B469623E7AC4F407 /* WYCoreConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D00C7903B2468062CEFEAC3A82B21A1 /* FLEXDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9BEB0B26A1A80EBF1E203ED42EB5B8 /* FLEXDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D7CECDEDE65A605B6CF27BD5F7E6D31 /* FLEXLibrariesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448F2695BB0DFAC09F9C5C80B3C4522 /* FLEXLibrariesTableViewController.m */; };
+		5DEFB4A3A68C45305F54959230480142 /* XAspect-LaunchAdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7815DB2D03F2BD394A02AE71846A81D /* XAspect-LaunchAdAppDelegate.m */; };
 		5E1C861341644B714D5E8A077A36EBB0 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F80499A37B334E1F740DE76BF4738 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5E5E1D59F550FC98396D8BD5F31ADE01 /* FLEXObjectExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405022E51245FF16C5660F6E45E22D50 /* FLEXObjectExplorerViewController.m */; };
+		5EA84BF93502516F5D96D18E3FF1B3AE /* DHGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF273CA2C261576A7AF6A47DE5042072 /* DHGifImageOperation.m */; };
+		5F33178692E37AD9EA1A9D0C0B7CE546 /* XAspect-PayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C8B07D4BFDD6E9C996723D3AD1FE2 /* XAspect-PayAppDelegate.m */; };
 		5F6C9E1E6269820CB6545FDA031DE06C /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B10528280A556EF5E3AC0322FE0297C /* DDLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5FA31564F95C734F881037635E41ACBE /* FLEXTableColumnHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F8235050C9F26BECDD02DB49CBD7AF3C /* FLEXTableColumnHeader.m */; };
-		603F2B5B4619DBD86E749FAA612E8F24 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D88F9F42DAD598EE9E71CA3D9B820B1 /* UIViewController+BackButtonHandler.m */; };
+		5FD8BBF9315C5A3ABA7A0273E7BCEA05 /* DHGuidePageHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 924D84E981917F05513E9D94387B5D4D /* DHGuidePageHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		63446163908062C111DEB18B597F37A2 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00482402F11844568503492AF5B206F7 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		63E1DBD2A497654EB856631826457FB6 /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFADBA3A4AD58F02B3A2A9DE2A69BF0 /* XHLaunchAdButton.m */; };
 		645DD40B05E7890613CC017853567BB6 /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 882ED4F81D957A6E3788E16BB669B8BC /* LYEmptyBaseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6461A2A407172F245F5C0595EEB27E62 /* WYLocationConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D42FAD98951F9F4954F96678FF32DA /* WYLocationConvert.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		647A988A80EDFAF6F3B357EFF68CB66A /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAA741579EB8A7EFD834F068EE500C /* DDFileLogger.m */; };
-		64AC8D19B7A35C4700513FD740089CDC /* WYFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D72AF4F7A519E42B1C5569B5BCF23F /* WYFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64BFB0993DBE739ECB76F8084D66AD4C /* WYAppDelegate+myGT.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4F7B9076AA4C4D43FCDB0DDAEB8C5 /* WYAppDelegate+myGT.m */; };
 		653B114AE2A704847A220B7822C6183A /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D715B1642DBECB1390C8D2222880A4B /* UIView+LYExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66586673F7E88E57D5454DE94CE70AC7 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 438BD1783D66DAF7527C7D7B4731FED9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		67FF81C189E117756ED119D8275A6412 /* FLEXSystemLogTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E3184F63989CCEBAEF2E13E027685D21 /* FLEXSystemLogTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		685D0FD57CF8650629CF68957CCCA229 /* GuideImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D96F32BEFCE88C3508BCDB4457385284 /* GuideImage.bundle */; };
-		695FFD76486A487932957CB5AF33F602 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = A324428504E1B504AC81516F398D78A9 /* UIViewController+BackButtonItemTitle.m */; };
+		68E78001C90E52343E4312A6F7E9FFE1 /* WYLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF86A23BF2A4401F0940A7C15B0A35FD /* WYLaunchAdModel.m */; };
+		6A4A23DEA8C50BDAB87F6E779CB871E7 /* UIButton+WYCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = C8649AD95B59D72B0FF8BB34A512A6AA /* UIButton+WYCountDown.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6A61259B67396B7279968591B38506C4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5019C0BDCC09F7D52770C19C2BB9811 /* AFNetworking-dummy.m */; };
+		6AB03E0FC6F799BD5902136952B29BF2 /* MBProgressHUD+WY.m in Sources */ = {isa = PBXBuildFile; fileRef = A709DFD28DAE089D6CB61A8FF564ACBE /* MBProgressHUD+WY.m */; };
+		6B3534785B39652C8F7518E0498C02AD /* WYPatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD1BF7C180D323CEB9DA46D950252C /* WYPatchModel.m */; };
+		6B6CFFC9AA06E6C11F08A108577988DD /* WYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A9EB25823A69673B60631E8AC9425F /* WYEmptyView.m */; };
 		6C0E8B7590333715C635F5A2B3400578 /* FLEX.h in Headers */ = {isa = PBXBuildFile; fileRef = 93601B60889A9E838565CF92A42A928E /* FLEX.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6C3E1D45AC08087B4102E422E0433A53 /* FLEXIvarEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F031C4EE10F7DD19945C295CC727CD /* FLEXIvarEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D523DB2E2C0467231CF0EDDDC0A45C8 /* WYSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A246DFDD104D9C5B744311748082D5C1 /* WYSearchBar.bundle */; };
 		6E0AB0ABE7132628C9C0133FBBC3A550 /* YTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4285F4E37BDB6FD52B0AC0DCA2E00 /* YTKNetwork-dummy.m */; };
 		6ECF6359D230C0D302E305E1B759803A /* FLEXMethodCallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB637B293CEE33059F7C148A85A095DD /* FLEXMethodCallingViewController.m */; };
 		6ED1CDDF1348633F0BDBC45836EE52D9 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D888461967383AAEE4B6986AF99167 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6F1EFD23A00A418B6615BD352CCD416D /* WYSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 30524888F8C81A85B4BB4D5FF57C99D1 /* WYSearchBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6F5A2E91E400DF8F153357C7536993E2 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 357302DE87E4A5A4DAC71A3D4CE71504 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		703CACCFA7D691E10DA9722B87453A20 /* UITextView+WZB.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF8E9ACC5A922C83819D0B7B47DAF26 /* UITextView+WZB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F8D94B66F0688540D9AE097BB8C30D8 /* WYFPSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1524CB444A24B433D12D9070C88792 /* WYFPSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		713FBB42BDEB160FDC9E3FE73559CDFF /* FLEXIvarEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC00DA227988203ED668A262EB08E2E /* FLEXIvarEditorViewController.m */; };
 		7157CDA20EE5080F3F2E98440639A460 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A187736768306AAB01097EB77C6FB9 /* MBProgressHUD.m */; };
-		720C757CD2DD87ADDCA9EF3EBAAB5561 /* XAspect-ShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFC5FEFC0896F77B15994BF611E2999 /* XAspect-ShareAppDelegate.m */; };
-		721B92357BB2A717ADB3A50F7502A132 /* DHGuidePageHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 924D84E981917F05513E9D94387B5D4D /* DHGuidePageHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7158C7C9B602DF2D224C7142EB086724 /* WYSocialConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 199B1C7FB25492D5FA0EF27CB3AEE2BF /* WYSocialConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71F6DFEC953289C9889E38D8AD19C5E0 /* WYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8104E9859B316AAFF0619E5ED97CEB /* WYEmptyView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71F981CFD3AE35D497C0B658C40E4441 /* WYLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E56265B140F342D2CD6088179979B0 /* WYLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7225E2A38497DEDDAE31421FDD2B47BD /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF4921A292A07A1ABDB2B7A479C24EF /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72D147540BA1EFB43D1B82B9A98B3768 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4194EF19D73BE5A7587007976254DC /* AFNetworkReachabilityManager.m */; };
-		7460BED6A024A1B9A12C6D3918BDBEBC /* XAspect-PayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C8B07D4BFDD6E9C996723D3AD1FE2 /* XAspect-PayAppDelegate.m */; };
+		741ACB053DC8C6EFF45387DB7914D109 /* UIViewController+BackButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 889037F4D99DC78BF154EA481A618C83 /* UIViewController+BackButtonHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		74B5DB540F5B9DBA11BF728E120DAFF8 /* FLEXNetworkTransactionDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFFC2D4EE0925E24D4807DE9F5F74 /* FLEXNetworkTransactionDetailTableViewController.m */; };
 		74DFE8443B2CB58B83B549BD40DC0386 /* FLEXArgumentInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F3F0EF64EE632E07470BB890A26684 /* FLEXArgumentInputView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7507E837A8DB71F4F8B376511BA5CC8B /* WYLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 616D6D0C7DAEACC7BB11C69FB564489C /* WYLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7577AD26F00DAF47028EBFD2246D43F2 /* WYFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D72AF4F7A519E42B1C5569B5BCF23F /* WYFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75A888FB4F64822033F665B34E3865CA /* WYSocialHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E90C1FB7234701CAEF5B38477CC07261 /* WYSocialHelper.m */; };
 		76EB811127F5D002941C3B601F5CB769 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F677056A68E522B929B390A89F2BB82E /* YYDiskCache.m */; };
-		77B0BBDFB5613E6A6EA08AEB483C991B /* WYIntroViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E34D677BCDAA7CD4931A2EE3E4DF70 /* WYIntroViewHelper.m */; };
 		77B84F456607D8BCA1219C8BF2F6EC76 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2582DDF0D1A5579E3AB1DC7730E023DA /* YTKNetworkConfig.m */; };
 		77F6DAB95EA52703E1AD3A1DAF03BB66 /* XHLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 025331585EBDC482A3CFCBFC840CBC2E /* XHLaunchImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78F271E495ADC182CD7ADF5031BF465A /* FLEXSQLiteDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325CA1134213B4257DC3DC1E1D98EB1 /* FLEXSQLiteDatabaseManager.m */; };
 		7946BAAF97596525D5D08C88F85A1662 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F304D2A55D47092D3B0B82FDF237E /* AFHTTPSessionManager.m */; };
 		7A8A5F74B1E09BD41A9E82EDB22C940E /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C615FA97D94D662BCAEA25C24C224727 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B0E8C7446F6FE31F0F93EEF23D816B5 /* WYSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BA28C26AE0D2E45E9B866B27C6AF65 /* WYSocial.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B70A230D0035B588662225F3707E868 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BA275052F3B0A9421B2EAA6A5E02E1 /* JRSwizzle.m */; };
+		7B2AA8FDE8AFAAE050DCD005588DDFFC /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8CEF076DB3898447A0BC81F55D9C1D /* JRSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7B8324B7B84C8C4B3E73482B710270CC /* FLEXArgumentInputStructView.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A81AB027FB8EB281DB045CEA6F9FC /* FLEXArgumentInputStructView.m */; };
 		7C97A6B5F9EEBDB2A28A6DF243FF030B /* FLEXNetworkSettingsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 845FAB444F27CDC8DFB65DE8C7605A7E /* FLEXNetworkSettingsTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7FD40E4B747351C4B9D2144B9B62A183 /* MBProgressHUD+WY.m in Sources */ = {isa = PBXBuildFile; fileRef = E423A43FB05292F96B9F6FEB3044F553 /* MBProgressHUD+WY.m */; };
-		7FF0A92A02FD901A2D264025795534A4 /* WYLaunchAdConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA47E4D79EFFC091EB28111453BDB96 /* WYLaunchAdConfigManager.m */; };
-		8025BBDDE1764BF9F0BBE486CA3DFBB0 /* WYCoreConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE3D460FC78C140B469623E7AC4F407 /* WYCoreConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80BAFF9C8D1DBACD14A59D2502E5EAA1 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF983EDAD020D816888916591F26F97 /* WYAppDelegate.m */; };
+		7CCEA9F901A63EC0F916410D6CDB236E /* WYPay.h in Headers */ = {isa = PBXBuildFile; fileRef = C54DD4717631A6D8A6B110F097639359 /* WYPay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E6637ED6297221BC5181C84CCB8741F /* WYGTConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FA94A158778E18A7400E53EFC52E0B /* WYGTConfigManager.m */; };
+		7EBA310C295BF21406EE770A44621F2B /* WYLaunchAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 128C2B2F904B303E7ABBB60E683DAFD0 /* WYLaunchAdHelper.m */; };
+		7EC8E495CABE76B893C31A03B2EC49B6 /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FA378F969CB0FB4565759BFD7E79B1 /* YYFPSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FA5558C1D985067F69377CF5C5C7332 /* WYLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 616D6D0C7DAEACC7BB11C69FB564489C /* WYLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		810B5CE04EB63C8560A8D7F8D212782F /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF264F4D2C1CFA105287011452590D6 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81CD3A0EA14B33D418654F082799C039 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A26404F7693ED6032DDED6D0D020ED /* UIImageView+AFNetworking.m */; };
 		81F72E9DA40BCAAA66DF7084D6E54D72 /* FLEXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17A03B42039EC4FA5061F473135A2C /* FLEXWebViewController.m */; };
 		8244289D15D582D8E5652B536195F833 /* XHLaunchAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 211214CD7A790DC60318C5F20FF15D47 /* XHLaunchAdController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		82D15D67DAEE053AC1D5880A90D0A36D /* searchImageBlack@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0F347E7E7370173199B66739A1A8F77A /* searchImageBlack@2x.png */; };
 		8446F34DD09A10815D24B8D502A58750 /* FLEXArrayExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1037186FEC80CEC4D608514D649D8B4B /* FLEXArrayExplorerViewController.m */; };
 		84FF2C0E3FC4F123E837399086A87967 /* FLEXNetworkObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 93842FD391A9EE600C74A8646685A45B /* FLEXNetworkObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		868DDA6C46B3925E24C44277517E80C2 /* guideImage_button_backgound.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E0A036AFAB5C90CC7F56DB5253645F /* guideImage_button_backgound.png */; };
+		8581BEF885EBCA66FA11F985EE9C434A /* WYCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932D8E8232D4BE9003FEF88A912CD87 /* WYCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		866A8A5F36580BFB7B9985D3ECD83994 /* WYAnalyticsConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A93E8606D15FD6D05FD2696A83CB80 /* WYAnalyticsConfigManager.m */; };
 		8729EEA4A9210999540089693E5DD7E1 /* FLEXMultilineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13E8139E8389D93D8A5D02E3A45B48 /* FLEXMultilineTableViewCell.m */; };
-		87CE48C5BC65647DF235008269DF7513 /* WYPatchConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E67FC91ED5C7F286759463E13FDAD7 /* WYPatchConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		89CE83AADDB3E30B0503635941CF3CF1 /* WYSocialShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A8FAF1FB29F7962D84339A596516E /* WYSocialShareMenuView.m */; };
+		88E6356231F23E5EBEC7DC069C311A96 /* WYLaunchAdConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA47E4D79EFFC091EB28111453BDB96 /* WYLaunchAdConfigManager.m */; };
+		88E8E905693649E2544B1EA697B1CAF6 /* guideImage_button_backgound.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E0A036AFAB5C90CC7F56DB5253645F /* guideImage_button_backgound.png */; };
+		89CB7B0C4A456F988F3A688C2B03312F /* WYFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE30C2D5E51FE0A0128FD1F6BBA0E94 /* WYFileLogger.m */; };
 		8A05585056C1023A3E00538F25ECEC65 /* FLEXRealmDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5ADA1BE3861DB87C876F82724E4B7B4 /* FLEXRealmDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8AAAF0E7979B27E0277FF489C43054A4 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF296F06D8F83CF8329BA3A1503030 /* AFNetworkActivityIndicatorManager.m */; };
-		8AE413B750838B76988C7F50F5B3FB56 /* WYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A9EB25823A69673B60631E8AC9425F /* WYEmptyView.m */; };
-		8AF53D7ABB270272FA7B2B9EB04F4BAE /* WYWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDB327C168A4148B1F7E8E9307F190 /* WYWebShareHelper.m */; };
+		8AD79261E1D1D4891027E95222BC1108 /* WYSocialShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A8FAF1FB29F7962D84339A596516E /* WYSocialShareMenuView.m */; };
 		8BB9C9B5C6FFDCFA9C1E595F81A01814 /* WYEmptyView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6CE8A7137DE63CAAC7A0FAC15CE431A /* WYEmptyView.bundle */; };
+		8C54086D10A7C53B953E7BF79CFD9D92 /* WYSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 31877BFA157C5656D007AC1212A630C2 /* WYSearchBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C6FBD22A384FEEE8AAEDE93BAB2E1D5 /* FLEXTableContentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 16092173DC632B9D92C11149EF73775C /* FLEXTableContentCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8CA0C377A17635C2CA06CBE27F673F84 /* WYAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = BE24906DD00C5314D8E06DEBA5CB56AA /* WYAnalytics.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8CC511AE48F2063D8CD402FA98824D0E /* FLEXObjectExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EEE5269543A1E2CF4EB95BE96BCB2D /* FLEXObjectExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D0FED73DD0F7207E69291E95A92F356 /* WYNetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B5690AF8094A8965EA87F0D2F7EAFD5A /* WYNetworkHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E9DBA209AA93AA0548FFD9A798CE134 /* FLEXHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 61345EED19FB4D441C06947B919DA1D3 /* FLEXHeapEnumerator.m */; };
 		8F16509D24F7DFF6AA7576547D0CC12A /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E3BE53E65533E43B417C055B1D3628 /* CocoaLumberjack-dummy.m */; };
-		8F5E398453135159DCA8DAE17EDFE602 /* WYLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2754E8174E069A8DEA3821072ED800 /* WYLaunchAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F8B7BD1399CF5B4F421FC726539E7E4 /* FLEXSystemLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C455C38E3FEB1A5719546B1829D93167 /* FLEXSystemLogMessage.m */; };
 		8FA556B49D0CF46E79DBBA5716EBBD5A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA073D400D755AE39575B7A2BD75ED63 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		905675D9B3E1E9635291452AABCBCAF6 /* FLEXLiveObjectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54422CE310ADEA340EC3149181664100 /* FLEXLiveObjectsTableViewController.m */; };
 		9089970A8808BC01011782B737B6DFE5 /* FLEXKeyboardHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F19DED8E655DA20F236665136DC87 /* FLEXKeyboardHelpViewController.m */; };
 		9115C67C99768DE2605118B055DEC275 /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F792978BA6CDF1B2921CBEAA07672783 /* XHLaunchAdConfiguration.m */; };
 		920E97BE409DA782272A15E11A9CA6B7 /* XHLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF1DC68668C5084AD27FA4C0C020EF /* XHLaunchAdConst.m */; };
-		927B7799E197A3D805713B5F88950EB4 /* WYPatchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DC41BDFD550C2FFC470C1B26A81090 /* WYPatchModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92FA5172985C9A785BFBCDB0197FAE52 /* FLEXToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1948C11E25660ED064682C343798224D /* FLEXToolbarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93B49B3910B6830D416433730828F90B /* FLEXFileBrowserFileOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ECD4EB57CC8887E4384F89FB05D9DA /* FLEXFileBrowserFileOperationController.m */; };
 		9451E69210358F592A4F1C0DA0715149 /* FLEXFileBrowserFileOperationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9341433F2397E34893E36B0DD43B51E /* FLEXFileBrowserFileOperationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		947A68689250687ABCB59536F436E09A /* FLEX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8463060C03260E7674BEB232FAA1D9 /* FLEX-dummy.m */; };
 		948E6C14F71C36CAE86B5FB0ED478BBA /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA30034434D8534E830091C09D8417E /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9497B24439A853A29E18D20AA91ADD6A /* WYNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C23F8CB449A9777478DF27DB5B1D9 /* WYNetworkHelper.m */; };
 		96A5597BFB6EE5FA5D1B77CDBE0ADD01 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC6B049336983F9877AEAFD65929E /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9748C9BB3D37AB4997833ACD55B45BCE /* FLEXNetworkRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DD578797D9A376F978E146AE83493B /* FLEXNetworkRecorder.m */; };
-		98106E0AFCA366C6F75E5D883928B324 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D322C88BC4F6FBD3580315BE27E98B3 /* YYFPSLabel.m */; };
 		9847AFDE401C16AF51D2D69386EB386D /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C22363C75CE0A29CE0D34237760D3746 /* DDLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		98B30F67A336677C062B52F53026D1BA /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF368403578BE066AC96A6F0583F81A /* FLEXExplorerViewController.m */; };
 		98CE1F4DC8F68AC3F170E71FC60AFAB5 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1906DDC4BF06347081E2B7424BD7 /* UIView+Empty.m */; };
-		998CDCED6EED46931B5B265D84C838C2 /* WYAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD62E6E11BC4615792F0DBA8E5CB9CAF /* WYAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		99D0615E43C0AC4E1A5B61AD0CE94E3F /* FLEXSystemLogMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CFD892A260DB907F8755AB6E695A03 /* FLEXSystemLogMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A42E154BDB85677A5E87D107B3D3BAB /* FLEXExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 831FDB32FF90B9129051B3809856B516 /* FLEXExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9ABC9A73A0F1CD434FFB1DFC39AE1086 /* FLEXFileBrowserSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D72DA505AE2D5F3A14348F720E26FB27 /* FLEXFileBrowserSearchOperation.m */; };
 		9C20F16E7EF22839A2C27169CEC2E331 /* XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 686A5EDB9FF3DDDA2316EAB9BA7B4552 /* XHLaunchAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C549D3A05F31D15DE3E4E56A66BCDCC /* UIViewController+BackButtonItemTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBE81D71AA0DF3DDDF4C5A8AD9AE60B /* UIViewController+BackButtonItemTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D36C71D743878D5C359C8A6DC9D7621 /* WYLoggerFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142DE1C1EBD337C19D34A915EEFC49E /* WYLoggerFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9E9105C58265F4ECAA7C57E04D531AFE /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A977613DFD30B542F211227849BC1D55 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9E9A9ADA59E153AA35AA6558EA018380 /* XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C14A801087B9624660BBE0383AB61AF /* XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EB9F90FDC7578F3E1EE2E9CB46CED53 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266981F81C016DDA35BF7955354D8198 /* WYBaseViewController.m */; };
 		9F7C1F4F75D86CBB144F3AEF5EBB97B5 /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 280962C615270C58356C460963B6B3F1 /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FBCFD7E2DB9D3298AA6CF1487A6ED99 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BB438736A031A81CF440898325307E /* AFImageDownloader.m */; };
+		9FC1C9BA6A6ABC44399B914FA5FFE16A /* UIButton+WYCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20A37380ADF8F56FB311E1A1EEFC5D /* UIButton+WYCountDown.m */; };
 		9FDC3353891FC3AD8D6E70D27938C630 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14297DDB5F3A1DEB071D29E31681B214 /* YYKVStorage.m */; };
 		A003A3BC6BA175953725B0F0A9C6689C /* FLEXDictionaryExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A993FCFFABBA7025B581BBB7A49608D /* FLEXDictionaryExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A10287EDD0ABAB11E1F7F3FDFB91A18F /* FLEXArgumentInputSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B0E80E813AD450899D566B0FD19BA3 /* FLEXArgumentInputSwitchView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -345,155 +346,153 @@
 		A1F045E95561ECD96576AC193CF06A0B /* FLEXImageExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821888645AA6EEC80490204895C90FA0 /* FLEXImageExplorerViewController.m */; };
 		A224321F379771CC2C70F178AC9EBDF1 /* FLEXDefaultEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C73E765FE4D995DB6A4401E510653E /* FLEXDefaultEditorViewController.m */; };
 		A260CEDA9C048C0BBE939B2C3D5F42ED /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4DF83876B57F55B1A3AEF5C6B2D71C /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A3E3DBE65E1891AAB7241E6C5CEEC35E /* UIViewController+CurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5632F617149710300EAFD79C119EE41 /* UIViewController+CurrentViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A44EE2158C26410F3B71D96058F23221 /* YTKBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F6F2D72BBC53B5E5B92006371C4711 /* YTKBatchRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A468A2658D9799153C41151A25CA6B0A /* WYSocialHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E53A9A4FEB1C2DA8927AA76920155 /* WYSocialHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5345695ACB7E6AE8864638F1BB47285 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7DA95ABE43074F626D5DFE58BDCD76 /* DDAbstractDatabaseLogger.m */; };
-		A6359D79F2968731FAC97734CFD70BC2 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA6DCEBD46D8A6C104F363F489F24A /* UIViewController+CurrentViewController.m */; };
-		A6A196EC0A81B16D88A5580F34BE430A /* WYAnalyticsConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A93E8606D15FD6D05FD2696A83CB80 /* WYAnalyticsConfigManager.m */; };
+		A563CC5F67F3244170F5A15B12CFF52A /* WYAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD62E6E11BC4615792F0DBA8E5CB9CAF /* WYAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7066AD09A30E9F3F15AFC185E84FB4C /* JSPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678DA48DEE189A2F67C220299BC2B0B6 /* JSPatch-dummy.m */; };
 		A84559DA60095607B605C00E395B1DDB /* FLEXMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC976820D1894DB1B2713125D488ECB4 /* FLEXMultiColumnTableView.m */; };
 		A8998D750836C2C99D923288B911F842 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 71084CB4A6F8AF3FDFCDB5CD19258C3B /* AFAutoPurgingImageCache.m */; };
 		A912B4CBD2A56408B3AE7F0C3E2E792F /* FLEXFieldEditorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFBDFA2839D3D74BEC5DE314BC13244 /* FLEXFieldEditorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A9D455CFA971C7013729C6A596AC9706 /* WYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8104E9859B316AAFF0619E5ED97CEB /* WYEmptyView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A98C3F7A2305FA17C979D23ACD9D3F76 /* WYAnalyticsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CCE1FA924AFEC8B85F8A6ADCCD157F /* WYAnalyticsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A9FA086AAD9BB2D8A5B955EA89495496 /* FLEXHeapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B20A90B39267FEA0341FF2443F9710 /* FLEXHeapEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA3AC262BDCA9A2BF5201742B766AEA0 /* FLEXTableContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EBE2EB0EB725A43D876CB2FAFF15D /* FLEXTableContentCell.m */; };
-		AA6B248C2A7DBBD088F7BF92CB4CA469 /* WYSocialHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E53A9A4FEB1C2DA8927AA76920155 /* WYSocialHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA82A7FD8729C4801A2CC549D267EA54 /* FLEXExplorerToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = B2195534A58A077C0E25C1C1AB9AF548 /* FLEXExplorerToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA9AC20CACEC502C287E1B2A940446F3 /* WYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A31BD51C664F0D097AC03C46CBC1A /* WYSearchBar.m */; };
+		AAD924F1F9D9D445897C5FB1CB81F03F /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C702436D043DDBCCEFA75DF8B8F2FB /* UIImage+RoundedCorner.m */; };
+		ABCC81CFB555A91F2B199B91D4EB3FE4 /* WYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E992133B3E90BEA0ACB90AE9359289D /* WYSearchBar.m */; };
 		ACB3B590F5663F960F2FC6AA667F45FD /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = FE02311CCEB1D7F9AFC7D30B88F0FA77 /* XACrystallization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD2FEB5DB54DB98B3DBDF5A9614AB64E /* WYPatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87250A3B21D64FB25ED27082C0ABF7 /* WYPatchHelper.m */; };
 		AD7FEEC5D4D1DFDC82429DE83C613440 /* FLEXArgumentInputFontView.h in Headers */ = {isa = PBXBuildFile; fileRef = 179970429C52A8E48348FC69D2484823 /* FLEXArgumentInputFontView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ADD9B06659ADA176E6D9FA480AF1B9C7 /* WYPatchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E37572A4555A95F219F07E0DBE989D85 /* WYPatchHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ADFAEB51E763E40F0AF52A6A9C653061 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 746D88E7402239B84AC6E7C79190D0B8 /* XHLaunchAdImageView+XHLaunchAdCache.m */; };
 		AE020B2FC472334C7CD3B4F1EAFC2AB1 /* FLEXArgumentInputFontsPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF6B1C2EB9A48BD8822DA98DC26D824 /* FLEXArgumentInputFontsPickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE45C5856A6B08A88AA9944758E718D8 /* DHGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF273CA2C261576A7AF6A47DE5042072 /* DHGifImageOperation.m */; };
 		AECA28C01EB93A9216AF89448A43E627 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6110DC5329A38F50C7C12773036136CB /* DDLog.m */; };
-		AF811FFD31FDA37F8098C7DE49224AD3 /* WYFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE30C2D5E51FE0A0128FD1F6BBA0E94 /* WYFileLogger.m */; };
 		B0594F88D0AA1985B960B6D55C68393E /* FLEXFieldEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8940DB56460D417A25DB0BB2A1996EF /* FLEXFieldEditorView.m */; };
+		B0C0A56E05450185F01FAB039F19BC70 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA6DCEBD46D8A6C104F363F489F24A /* UIViewController+CurrentViewController.m */; };
 		B1CF88AF04AB3809FADF63A0C848D9F7 /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E59CCEB5F6ED4BCF060841066D5343 /* LYEmptyViewHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B21AFB28D7FAA3A145FFFA25D53DC39B /* Pods-WYModuleProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E677BDB4B81E296B3FF6828114A8A0E0 /* Pods-WYModuleProject_Tests-dummy.m */; };
 		B24F99078E09BE38020BDC6C8979828C /* FLEXArgumentInputNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F8B18615A5270A6CD3F72658542560 /* FLEXArgumentInputNumberView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B26CEA5A58D67DF01B8DE9B7884DDB57 /* WYAnalyticsConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D165231C7C7B062A5CC6153C03976EA5 /* WYAnalyticsConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B282179BDD0899067955C77F6DF05B03 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991656B2AA0206F989A4F292DB155EF0 /* FLAnimatedImageView.m */; };
 		B2A3A1ACAB2074470C5B67C8D1BFBF4A /* FLEXArgumentInputStringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BECDF9209B604347AB779AC68EFBAC4 /* FLEXArgumentInputStringView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B35E7E5B5BD3D38D660311C0AD161BAD /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4E12F07993D5D361BF8B422B77483 /* XAspect-dummy.m */; };
 		B423820F03A9694A4D6F9EF29A93FF8C /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E214BE1186E36620EAF55646810541F3 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B439903499D5CCBEFDA13BCD1C229FFF /* WYPatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD1BF7C180D323CEB9DA46D950252C /* WYPatchModel.m */; };
 		B4537328477845658EF0452F94263CDA /* YTKNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE643EA38EDB47D1025D5D3B8A18DA2 /* YTKNetworkPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4650E68227BCEA1EEECC5075C7EBA35 /* WYMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDE1BB20858E8EFC34BC0161E71D95 /* WYMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B49954C1A362E10B5B2E74A7FC0DF21E /* XAspect-ShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFC5FEFC0896F77B15994BF611E2999 /* XAspect-ShareAppDelegate.m */; };
+		B4A29DD823443959797954F8B31B4189 /* WYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DC168AA0296469B550C8220949845 /* WYLocationManager.m */; };
 		B4F5673745CAAE0A4B496251471A612F /* FLEXArgumentInputSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A91CA248CC6422CC8E60D67A4C286 /* FLEXArgumentInputSwitchView.m */; };
 		B54487C65B1AE97E91805F936F6AB1FC /* FLEXArgumentInputFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2BC68572DD04792F1F6B4C22BADD /* FLEXArgumentInputFontView.m */; };
-		B69ED67702E1817BE0D4C60DA2A5F385 /* WYLaunchAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 025511D90ED245DE672783DEF3FB1118 /* WYLaunchAdModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B74B0565437CB0C43BC3EC22FDCC1159 /* WYAppDelegate+myGT.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4F7B9076AA4C4D43FCDB0DDAEB8C5 /* WYAppDelegate+myGT.m */; };
-		B7ADFE291450F22C21AD189C26F34E55 /* WYSocialConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 199B1C7FB25492D5FA0EF27CB3AEE2BF /* WYSocialConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B58BF83A581A76C498483BF25DF583D4 /* WYWebShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B593D5FFF0EAFBA2F80A5AFD7B6AED /* WYWebShareHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B61287CBB20F24FCFE73BDED2F668EB2 /* WYSocialConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E735D4BE1A43A3B59E3227F59C3 /* WYSocialConfigManager.m */; };
 		B806CE6CFFF7BF1D8D782342FAB2CB60 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A836E9A4C7ED7BC6F0835F523D7445 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B80F458673A255CAE2799FFC71D50A83 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A42ABBFA5A9902B65B45A5E78F34F0 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B8A2F77289E0854C7C4B8DAF3F3341AD /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 63737B8438BB7730D29B27DBA5B0FEBE /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B8F58AD96BC0201D1154A5A8E0A02342 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B8FC77FEA014AFE2A366BDB7144CB4 /* YTKChainRequestAgent.m */; };
 		B9603F9206D9950864448BEB83731ED8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6945C7753DAF0667D3999166A670E2 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BAF145A638CA88DAC178B82FA9C00398 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E40BC38DD04B25A94709F77BB60E41E2 /* AFURLRequestSerialization.m */; };
+		BB439C9A579A5C3F5513309D27EA258D /* WYMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 220E61F9E73642B505DABF9C83D566D8 /* WYMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB700B34BAF6CE03FF0B66004ECF4476 /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05895877F7463DAC9858A3EA55FD0C94 /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB9DC1ACF4C5F4A8CDC5F653D5B0297C /* WYCoreConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89270DC984DC417C320E5BC5F2F68CA3 /* WYCoreConfigManager.m */; };
 		BBED9B7EEEA669750A162F33869E0F59 /* FLEXNetworkCurlLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3870C82EFA747FB76A5A16652BB6A0 /* FLEXNetworkCurlLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC0F30F03F2FF11227E576BCACA68C7C /* FLEXLayerExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEB4D9A79749B0E337943CE6E0464AB /* FLEXLayerExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC90849A27C2657D7B2A9A478D55F5EA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8B1CC289A7BB0629B05EAF8670E437 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE596A405DBCE540EFAE85E3049F1C9A /* FLEXArgumentInputDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F1CBC425523A15FCB1CB74685559B /* FLEXArgumentInputDateView.m */; };
+		BF89310669439EC72A341A5FF2E29AEF /* WYSocialShareMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4D5A2C551F56BD0485D29E3152A728 /* WYSocialShareMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C0083B066627A9EBEF6AE2EDB47139E9 /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F8F709CE0A9DD0E440A904729A108 /* XHLaunchAdView.m */; };
 		C06400C9D7B02A5D13A788A715C20218 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465926457B6893C4BAF48E2B7DA3D22 /* MBProgressHUD-dummy.m */; };
 		C0A1A70FBBCB29DCC4DF12CF66FA6423 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E2616472B4A47D35BCECFC52FF40DB /* YYKVStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C0B1BDFF5EE0D318A790D173B2E7C687 /* FLEXImageExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4FB31E77BB8FCCCC47C43D3054E038 /* FLEXImageExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C12D921B0CF7A38EEEF23BA44FA2ECA4 /* YTKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E2937295EC0B009903448643BFACA4 /* YTKRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C14F7281359E2A5BDC250D8B3DA30780 /* YYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF7177AFCF23576884DAD7B7F5224EF /* YYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C161737FAA652F64B16014BE24D6EFFF /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E449ADF110ADB51E24BA8933CC1F3C /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C1976C36141EA983C69B8C67F44C8DF9 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 24236DD2712840770305A8EED97C81C8 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1C5EF101D451E109318FD2BC94D6298 /* WYMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDE1BB20858E8EFC34BC0161E71D95 /* WYMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C1FF8D94C3407CEA86D82CD0F2A4AA85 /* FLEXDefaultEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA981D1C42B9822AE7E2BAFE717CCA2B /* FLEXDefaultEditorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C2BABABA0FD0F643839D7C6D9A7678D4 /* FLEXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C080BFD30BABCFEDF483BA6B1CEA3A00 /* FLEXManager.m */; };
 		C2E6108A177E8FBB444425F652B65DB1 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C84BDE4E614134971166896D8DF4E0B /* UIRefreshControl+AFNetworking.m */; };
 		C33CCD31A4A055E26CFCC2246288BD91 /* FLEXNetworkTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DF493FAE4BC3CB68DCD1C2D3D5AC02 /* FLEXNetworkTransaction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C354E02CFC867742C837D604F29E3515 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4BFFA343622279437339672D3674F3 /* UIView+LYExtension.m */; };
+		C416562ABBB3D5ED95C612593763222D /* WYNavigationBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A387A209E729C0AAE1C1510127D1AA26 /* WYNavigationBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4CE11BD3B559E3E26C0CE882959976C /* FLEXTableContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8939C00382E50317E13A931FA6D8406 /* FLEXTableContentViewController.m */; };
 		C4E1728303BC422CB76569900A096E01 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3EB98BADC607D8AF5A4E5FB6F69819 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C551C5FC12AB17F7C969C58526D890F0 /* FLEXKeyboardShortcutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5C6031FBCDC3A2C90072D8CD0B5F42 /* FLEXKeyboardShortcutManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C568FB686A66111EAD1E8F4098739151 /* WYAnalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC962037036F325059FC7A94240C3E3E /* WYAnalyticsHelper.m */; };
 		C61842C1A47744C1D2AF1C4FD1748F1E /* YTKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = D82383911A982E98AF88188A05B1DEAF /* YTKNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C72A8039C7D874D0950016069CC341CD /* UIView+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 592F1527251B4D9D4B7BA9FDC945FEE2 /* UIView+RoundedCorner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6DEAB01C33837C4820B7C2645323F53 /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DC76481F8C78A985E72CE37CE14151 /* UIView+RoundedCorner.m */; };
+		C7596DC4BBA0D07E02098EE61805580F /* WYGTConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A14E9E6E1B9CF485169E9E41593FB69 /* WYGTConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C825B69496C7B79C5089D6409BB47E78 /* FLEXNetworkCurlLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC89D2F85877EB16123D2D8F0BA395 /* FLEXNetworkCurlLogger.m */; };
+		C9422E7A681A4554433BA8B3DB2E7064 /* WYLoggerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDF6E1D88DD331076D61708DC88297 /* WYLoggerFormatter.m */; };
 		C95221DB30248EA4D7D8D14C708B1520 /* FLEXSQLiteDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EBC7B7F9A856192606824BA6C11F8E /* FLEXSQLiteDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CAA084D753D6A2B5996DC19AE640BD3F /* YYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF7177AFCF23576884DAD7B7F5224EF /* YYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB159E4126E35268A724F955ADFC9BD2 /* DHGuidePageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D17A5A28FB65E30EA698F71BB0C296D1 /* DHGuidePageHUD.m */; };
+		CA120564A6CCE09516A8A1ED05BFBB93 /* WYCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D315C65BE981A555B46BFF54B5731C9 /* WYCocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB24A20D6ED73756D23D74CD7AD66DEB /* FLEXHierarchyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6690605A33EA430FD86035AEE20274FE /* FLEXHierarchyTableViewCell.m */; };
-		CC272828020ED3540A87AC39D9C3433A /* WYMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 220E61F9E73642B505DABF9C83D566D8 /* WYMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CC2FE63500C5B328E0537CFB43D5E256 /* FLEXUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E577703CEEFA7E0D4D57D0AF4CD81C4E /* FLEXUtility.m */; };
-		CC8105D597BB4F35403A5FF87E8AA127 /* WYAppDelegate+myPay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1484DC7E6431BA067897FF8BC5B003 /* WYAppDelegate+myPay.m */; };
+		CD8BA7E168513BB4C0E4087282CB8D2E /* WYNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C23F8CB449A9777478DF27DB5B1D9 /* WYNetworkHelper.m */; };
 		CDD8B8A6A8B6FEBB68039F5E47EF04CC /* FLEXManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E70A82E942B48B96F62037C790F1148 /* FLEXManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CF4CA511B5CB086AE9865765E13641B7 /* FLEXMethodCallingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41115D7F284AC3C3E24D763DD64354E9 /* FLEXMethodCallingViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CF9BAA93CD86ACE0D2DD1E1C2E800334 /* FLEXSetExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA856FB09E7085BAADAF4E3B98E18C6 /* FLEXSetExplorerViewController.m */; };
 		D0913833F893E63844EAF954EB50E88E /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F3F74F6F6D4ECBC3BFB210CE0E4BDF /* YTKNetworkAgent.m */; };
 		D0E7122A7E5371AFA1BE43D0A689CBB6 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E99FE0C4F38E9D7C13C78C144C274 /* YTKChainRequest.m */; };
-		D18F6D1F30888ACB9673AA84CAB38920 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266981F81C016DDA35BF7955354D8198 /* WYBaseViewController.m */; };
 		D242D67D1EE1C47318943F79BBB8AAA4 /* FLEXNetworkHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE4196C91236E4FC3FC8E407B6E41C /* FLEXNetworkHistoryTableViewController.m */; };
+		D2A50DEC5EA1BF799D5EB098CF70B6B9 /* WYSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 361D3F9CFA2FA0E151B018DA35D4B4B3 /* WYSearchBar.bundle */; };
 		D5127C1C9AC07EF2897D99FAF5DA9833 /* FLEXArgumentInputColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC527030E03E4F6C8E3F8225A6667 /* FLEXArgumentInputColorView.m */; };
 		D5FE1C6376906C9E7897ECCE30421A75 /* FLEXArgumentInputFontsPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4D3C1EB6D40A7E637797C56ABA4CD /* FLEXArgumentInputFontsPickerView.m */; };
-		D68F7D05015C85D199E8FE5518AA26A8 /* XAspect-LaunchAdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7815DB2D03F2BD394A02AE71846A81D /* XAspect-LaunchAdAppDelegate.m */; };
-		D72B243C6F506815A4064AC2B62CF370 /* WYGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 259E0F0D0C530843DBB8A38ECF3E998B /* WYGT.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D7A01D828C8CD329D8AA6BD64487A60B /* FLEXFileBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C331ECCC5B1EF7A0A37598D216E57 /* FLEXFileBrowserTableViewController.m */; };
 		D88B97C1A21B56BE586D56B4771996E6 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C07DFEB8578D87F149899F6D29F7BA0C /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D8DB306D9E470468F7FC269B6D44A876 /* FLEXPropertyEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B987A51D4F9AABBB79F199078CFF4 /* FLEXPropertyEditorViewController.m */; };
 		D96128255024067476BABC74BE819E2C /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7EFF05A744AF656AD6819D487237 /* DDASLLogCapture.m */; };
 		D9D2D321BBF24E133A3BFCDDA4995D7C /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5E908ADB4405796AD8B385829B99E /* XAFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DAB96B0A8D5F9DDB2BA2E364FCFD6856 /* WYGTConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FA94A158778E18A7400E53EFC52E0B /* WYGTConfigManager.m */; };
+		DA4FC4CA05F4A9C645A47179756A0063 /* UIButton+WYImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F32FFF1A9958E40D73869A8864423C0 /* UIButton+WYImagePosition.m */; };
 		DB9A7C48D3F3B32B11A1A7948B2365D3 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2398FE076A2325DD36BA5080A991A9 /* DDOSLogger.m */; };
+		DC6266E0638837D56402757DD2A76CDE /* WYPayConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C498EE7B3A44FECE3BD62844C40D72A7 /* WYPayConfigManager.m */; };
 		DC84B9AC70CEA4707284A95073F6E593 /* Pods-WYModuleProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 493743AEF9A31A5E932B5A4B620747AD /* Pods-WYModuleProject_Example-dummy.m */; };
 		DD8A1B8181B22DA4CBE27D72561BC239 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB20BCE40F5B660CF7204CE67EC49F /* DDMultiFormatter.m */; };
+		DE7A04476CE0B09288CC339101416105 /* WYWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDB327C168A4148B1F7E8E9307F190 /* WYWebShareHelper.m */; };
 		DF3C2129E3B129C0E5EED2A821303C26 /* FLEXSystemLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D2C90D8AD7A11FBA3C2657E85798AD /* FLEXSystemLogTableViewCell.m */; };
 		E01A7DA996C2BD69E243F2635FA30732 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6F6C9CC600DF69FA575A4CE91BB8C5 /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0C1D1B994D39F87F6A53805B125B870 /* WYAppDelegate+myGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFD6D7DEE6CCC4F6AE0F628EC1BC5DD /* WYAppDelegate+myGT.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E212A501A948842D745B0A3462B4CB36 /* YTKChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D53C5040C32BEB77D15A1480D60A0789 /* YTKChainRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E2B2A30A35C794E4F6405B471BD93905 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6F825E8494480A04189A17DFF630FA /* YYCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2C77A2CB4C9C45B9A89411F7EEB1003 /* DHGifImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E72DB33932F33A9F88F54CB9148800A /* DHGifImageOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3A3155B035692C45CD88DB088D5CE93 /* FLEXCookiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363EFEED14E7083185F6D1255D07082A /* FLEXCookiesTableViewController.m */; };
 		E403C32B0F24FF05862B16834AAE317D /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C526A4F217572E683B5AEE8803822687 /* UIActivityIndicatorView+AFNetworking.m */; };
 		E404484B13B4D9B7670BBA63BCF80C7B /* FLEXHierarchyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51387D20A92400836F53EB3E37BC32CD /* FLEXHierarchyTableViewController.m */; };
 		E466B71AC7B69BC0AD00652A9F34502B /* FLEXDefaultsExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE85DA07A2025AE19F38314F035852C /* FLEXDefaultsExplorerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E493F34BE573A9E1E3E50111E500D3FC /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D88F9F42DAD598EE9E71CA3D9B820B1 /* UIViewController+BackButtonHandler.m */; };
 		E4DC06C16BF4FEFAF8828BC4BA52CFDA /* FLEXImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D389F6C91F06D83F7C577D3B7AFAE6 /* FLEXImagePreviewViewController.m */; };
+		E7ED74AAE4A741AF06970879052984B7 /* UITextView+WZB.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF8E9ACC5A922C83819D0B7B47DAF26 /* UITextView+WZB.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E80A35772DAF3F87822433B04D4545EB /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E52394A74455CEE9CF1A2C884E691E /* JPEngine.m */; };
 		E87DE72FF389BE5F124FC0678A9CFD3B /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E986EFE69A60E5019E8C79263F4CF4B /* YTKBaseRequest.m */; };
 		E8D5CA22722188F2C2C9C7BD3F2462FC /* FLEXArgumentInputViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 402554353AFBEF16EC0744A04A21FA17 /* FLEXArgumentInputViewFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB04F98D10B00B07F59D13BEA47AFEDB /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C1983D25DBFCA4BD022C1316823569 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB205F2FAD64ADD371C0FC7F80B2E097 /* UITextView+WZB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1CE30AB82918CB23AE054C9FC433D /* UITextView+WZB.m */; };
-		ED364DAE7EEC19452320B6704FE79C6C /* WYSocialPlatformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FD494661E8C5BFED6B82F5E696B35ED6 /* WYSocialPlatformHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ED60BF57B089D64FEBC3D3845E9A3D5D /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B010061601A9823A1A1AFF7A156FF84 /* LYEmptyView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EDD99484CA666CB91914A4A06926DA35 /* FLEXClassesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F0A485AC7AE930F0B98C6AD5F75F97 /* FLEXClassesTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EDFF8A138596D274347A8179B368753F /* FLEXClassesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A528367C318C6C1E6C16C6AF3B538839 /* FLEXClassesTableViewController.m */; };
 		EE07B8E3819F3D7A85EDD5D5C82C5B3E /* FLEXSystemLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A41F3A100F25ADDB1AE72CA1F02EDF /* FLEXSystemLogTableViewController.m */; };
-		EE1938A5607A313254372E7328DAD641 /* WYNavigationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B3F8A33B6E9F45A5FDE97AF7EAB2F /* WYNavigationBaseViewController.m */; };
-		EE1EE368A20520A7195D17007F6E4CDD /* WYBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6A8360696329D233F837531006E40 /* WYBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE6C03CCE920D8E0D75C0A82E4682C97 /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DC76481F8C78A985E72CE37CE14151 /* UIView+RoundedCorner.m */; };
 		EE7F7894B736DFF6D455F339A7370C26 /* FLEXHierarchyTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9103F0A6F45F98226660FAF1059F1BA /* FLEXHierarchyTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EEBB4C13C2282E915468C30563CEDC84 /* FLEXTableLeftCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DBBD41DBCF66D9659F98ECF21F8A77 /* FLEXTableLeftCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF8F34506CB3FB940AF6327362E694E0 /* DHGifImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E72DB33932F33A9F88F54CB9148800A /* DHGifImageOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF9E026A247B909F196C5679308538BC /* WYGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 259E0F0D0C530843DBB8A38ECF3E998B /* WYGT.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F205EE0C002A7635140C118629076DA7 /* FLEXNetworkHistoryTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB2C45A1C2579BF7378EBFF001E821 /* FLEXNetworkHistoryTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2427DDCFE40AD5DB0B88D04979EA5A0 /* FLEXFileBrowserSearchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ED749B6175BB5D41EA43EA4D1F5700F1 /* FLEXFileBrowserSearchOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F298DB7B2DD0DF0EBE31F3034B921D77 /* XHLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BDAC4EC41688B41F943F11F9576207 /* XHLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2B26F567DE2AED5759E153AE8BC89D2 /* FLEXGlobalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09F616DC561254DE724DBB438D49BD /* FLEXGlobalsTableViewController.m */; };
 		F3A3A3A52ADF21618AAB406757FB13AE /* FLEXUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9E027A2E2490A58020DA46F9DE54B0 /* FLEXUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3E794D146CEEB5F369DF675ACE48CE1 /* WYLocationConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D42FAD98951F9F4954F96678FF32DA /* WYLocationConvert.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F41B945ACDBB1CF6ED012B0CED828A25 /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6FDAA2D8C95881C3C0FD7AC1C143BA /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F43863857CC243C6EA3BD441ED30C40B /* SYSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 169C6475C15A3BE9C3E5A627A6D7AF80 /* SYSafeCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F44EF89906E3B9FE71B7718F3750FF37 /* WYGTConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A14E9E6E1B9CF485169E9E41593FB69 /* WYGTConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4C1C94D5CB6F7E568A7B9EE9DDF48AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 642EAFD6555A387203224FF5762A89D5 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F52A7672A4185BF818DEFA38EAF2B9FF /* XHLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8023CE6D20F6FB37FC53951C04A311 /* XHLaunchAdButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F5592BCD9E22A7FFBC7C0FFEBA3218D4 /* WYLoggerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDF6E1D88DD331076D61708DC88297 /* WYLoggerFormatter.m */; };
-		F6FA5DD1F1C812F96BEAC77E9AF1A02D /* WYAnalyticsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CCE1FA924AFEC8B85F8A6ADCCD157F /* WYAnalyticsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5E965527BA6EEBCFB1D92E4BBF6447F /* WYIntroViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DF4E0EB8CAD12059CBB73880ACF48A /* WYIntroViewHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F7C163B4F0A50B3F0C7C5F811882386A /* FLEXTableListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5CD54CA172BD7F8E2BF3E9CDDC9607 /* FLEXTableListViewController.m */; };
 		F7E1059573F88BC6D35E9628AF531FFA /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9435D07AEB3C4BDABE14C60B36CEC07 /* XHLaunchAdImageManager.m */; };
 		F7EFDFA822CD2017C123463E940DFB81 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D53BA1A27D1E864B6E613D9E73D /* FLAnimatedImage.m */; };
 		F912E7771E7D0C5D1B8C21B713F315DF /* XHLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC4DF0D1095DBEC33A871B0DD4A281 /* XHLaunchAdController.m */; };
-		FA74EC10E5D98F91FBA85A1F0E4A005A /* WYLaunchAdHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B55E2C475D4DB0DE1BD1D185D50CAA7 /* WYLaunchAdHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9E5FDF0718E46AD0FA5503422921EA9 /* WYPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E3145FDFEF03E741B0835F6DBB7DFAD1 /* WYPayHelper.m */; };
+		FA328D3A1AEC7FB952AEA848A5503637 /* WYFPSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C80BC31B4EC36FCFF8A123A78B4A63 /* WYFPSHelper.m */; };
+		FAEBEE34DD55F7F9B7722EB5F87D694D /* WYPatchConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DADD822EB0DB11B562E90699D8D237C /* WYPatchConfigManager.m */; };
+		FAF02A8F685F7E7736BF8BE173EE1C05 /* WYPatchConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E67FC91ED5C7F286759463E13FDAD7 /* WYPatchConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FB4E7177C196215C8C02674508D5CBAD /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D581CC42A328B7E754B8A03A31FE243 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB5DB7954395400C578BDB8A514796FA /* WYCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D315C65BE981A555B46BFF54B5731C9 /* WYCocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC0700E8785ACBB2BB8A4E79634D3F95 /* FLEXArgumentInputJSONObjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6322F08088CB564B503D95D917BFED /* FLEXArgumentInputJSONObjectView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FC082BAE7C87D9EB2ECE2A42877BA2DE /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FA378F969CB0FB4565759BFD7E79B1 /* YYFPSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC5EE7A6A82C977306936D047F35D617 /* FLEXKeyboardHelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4534A093BA8EDE9CFF15FAD2C11699A1 /* FLEXKeyboardHelpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC6FC45D27D797733EC336FC400E477D /* FLEXNetworkTransactionTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A49B1A3B562021A2881905ED328A6F5 /* FLEXNetworkTransactionTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FD701D2D197ADAED5847FCD71B616DA8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 207897D6BB409D42D53EB2BC784DC499 /* DDTTYLogger.m */; };
-		FE1292923DED7F4E251074E627F5274F /* WYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C218F9C1CA073857AB18D07232D938AE /* WYMediator.m */; };
 		FE5980C26E211C2713A96CAD201E8A1D /* FLEXArgumentInputNotSupportedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7647CBF300CBF305485904E60C7D9606 /* FLEXArgumentInputNotSupportedView.m */; };
 		FEF7035F414B6F17C5283674F061AC8A /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B164A2532E130FACAEEB801942476DF3 /* XHLaunchAd.m */; };
+		FEFEA635F95C4DD2AE8BE5D84FF688DF /* WYBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6A8360696329D233F837531006E40 /* WYBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF0412B7EA43F1E41F0FA30B7FC3D0D6 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 400FD76F481460E22A23CB0D7098A113 /* XAspect.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FFB481B28AFB7FFD872419A61AAB0A5B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F066DE90C1194E40EE73F5E030BDB /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
@@ -825,7 +824,6 @@
 
 /* Begin PBXFileReference section */
 		00482402F11844568503492AF5B206F7 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		014A31BD51C664F0D097AC03C46CBC1A /* WYSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WYSearchBar.m; sourceTree = "<group>"; };
 		025331585EBDC482A3CFCBFC840CBC2E /* XHLaunchImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchImageView.h; path = XHLaunchAd/XHLaunchAd/XHLaunchImageView.h; sourceTree = "<group>"; };
 		025511D90ED245DE672783DEF3FB1118 /* WYLaunchAdModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLaunchAdModel.h; path = WYModule/WYLaunchAdHelper/WYLaunchAdModel.h; sourceTree = "<group>"; };
 		02F2CEE86E0DF344160A4068641C0453 /* FLEXNetworkRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkRecorder.h; path = Classes/Network/FLEXNetworkRecorder.h; sourceTree = "<group>"; };
@@ -849,7 +847,6 @@
 		0D715B1642DBECB1390C8D2222880A4B /* UIView+LYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYExtension.h"; path = "LYEmptyView/UIView+LYExtension.h"; sourceTree = "<group>"; };
 		0D8644A77FEA8507141F1073DCC72DF0 /* UMCShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.xcconfig; sourceTree = "<group>"; };
 		0E4CFACCF0921895113616B199959F46 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		0F347E7E7370173199B66739A1A8F77A /* searchImageBlack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "searchImageBlack@2x.png"; sourceTree = "<group>"; };
 		0F5384B0BE20D16CCF50913C48D44C1D /* FLEXTableLeftCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTableLeftCell.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableLeftCell.m; sourceTree = "<group>"; };
 		0F6322F08088CB564B503D95D917BFED /* FLEXArgumentInputJSONObjectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputJSONObjectView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputJSONObjectView.h; sourceTree = "<group>"; };
 		0FF983EDAD020D816888916591F26F97 /* WYAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAppDelegate.m; path = WYModule/WYCore/WYAppDelegate.m; sourceTree = "<group>"; };
@@ -915,16 +912,15 @@
 		2B6F8349D5895C7B11DE09232865FA8C /* YTKNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkAgent.h; path = YTKNetwork/YTKNetworkAgent.h; sourceTree = "<group>"; };
 		2BA4285F4E37BDB6FD52B0AC0DCA2E00 /* YTKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTKNetwork-dummy.m"; sourceTree = "<group>"; };
 		2C7515C73147F81F6661F210DB5204A5 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
-		2D42627E4B471AA75EE14570C2003169 /* MBProgressHUD+WY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WY.h"; sourceTree = "<group>"; };
 		2DEB4D9A79749B0E337943CE6E0464AB /* FLEXLayerExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXLayerExplorerViewController.h; path = Classes/ObjectExplorers/FLEXLayerExplorerViewController.h; sourceTree = "<group>"; };
 		2E72DB33932F33A9F88F54CB9148800A /* DHGifImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHGifImageOperation.h; sourceTree = "<group>"; };
 		2EA3F1841A0A7842B754C4B89829F09A /* FLEXNetworkSettingsTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkSettingsTableViewController.m; path = Classes/Network/FLEXNetworkSettingsTableViewController.m; sourceTree = "<group>"; };
 		2EFDB327C168A4148B1F7E8E9307F190 /* WYWebShareHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYWebShareHelper.m; path = WYModule/WYSocial/WYWebShareHelper.m; sourceTree = "<group>"; };
-		30524888F8C81A85B4BB4D5FF57C99D1 /* WYSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYSearchBar.h; sourceTree = "<group>"; };
 		30595E45CB78538E4A4FC10F94DD4CCD /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
 		312C130BA9D76904F0B36B9DC6AA5E44 /* Pods-WYModuleProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYModuleProject_Example-resources.sh"; sourceTree = "<group>"; };
 		3142DE1C1EBD337C19D34A915EEFC49E /* WYLoggerFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYLoggerFormatter.h; sourceTree = "<group>"; };
 		3160D98D6E066F7AA77801DECBB9953B /* XHLaunchAdImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XHLaunchAdImageView+XHLaunchAdCache.h"; path = "XHLaunchAd/XHLaunchAd/XHLaunchAdImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		31877BFA157C5656D007AC1212A630C2 /* WYSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSearchBar.h; path = WYModule/WYUI/WYSearchBar/WYSearchBar.h; sourceTree = "<group>"; };
 		32CF359C7DA1D6A8AC538B7E2BD1EF78 /* FLEXViewExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXViewExplorerViewController.h; path = Classes/ObjectExplorers/FLEXViewExplorerViewController.h; sourceTree = "<group>"; };
 		32D2C90D8AD7A11FBA3C2657E85798AD /* FLEXSystemLogTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogTableViewCell.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogTableViewCell.m; sourceTree = "<group>"; };
 		3325CA1134213B4257DC3DC1E1D98EB1 /* FLEXSQLiteDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSQLiteDatabaseManager.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXSQLiteDatabaseManager.m; sourceTree = "<group>"; };
@@ -932,6 +928,7 @@
 		353E99FE0C4F38E9D7C13C78C144C274 /* YTKChainRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequest.m; path = YTKNetwork/YTKChainRequest.m; sourceTree = "<group>"; };
 		357302DE87E4A5A4DAC71A3D4CE71504 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		35E2616472B4A47D35BCECFC52FF40DB /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		361D3F9CFA2FA0E151B018DA35D4B4B3 /* WYSearchBar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WYSearchBar.bundle; path = WYModule/WYUI/WYSearchBar/WYSearchBar.bundle; sourceTree = "<group>"; };
 		363EFEED14E7083185F6D1255D07082A /* FLEXCookiesTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXCookiesTableViewController.m; path = Classes/GlobalStateExplorers/FLEXCookiesTableViewController.m; sourceTree = "<group>"; };
 		3707C361AD370F1AA8764C7FD9269662 /* FLEXViewControllerExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXViewControllerExplorerViewController.m; path = Classes/ObjectExplorers/FLEXViewControllerExplorerViewController.m; sourceTree = "<group>"; };
 		3837522B381946A6B59BDDC434736D58 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
@@ -1091,6 +1088,7 @@
 		8D88F9F42DAD598EE9E71CA3D9B820B1 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BackButtonHandler.m"; path = "WYModule/WYCore/WYCategory/UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 		8E074D53BA1A27D1E864B6E613D9E73D /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
 		8E1C23F8CB449A9777478DF27DB5B1D9 /* WYNetworkHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYNetworkHelper.m; path = WYModule/WYCore/WYNetwork/WYNetworkHelper.m; sourceTree = "<group>"; };
+		8E992133B3E90BEA0ACB90AE9359289D /* WYSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSearchBar.m; path = WYModule/WYUI/WYSearchBar/WYSearchBar.m; sourceTree = "<group>"; };
 		8EEC7EFF05A744AF656AD6819D487237 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		8F12FD9E825A912A7421EC6D774F6AD9 /* Pods-WYModuleProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYModuleProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F2754E8174E069A8DEA3821072ED800 /* WYLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLaunchAd.h; path = WYModule/WYLaunchAdHelper/WYLaunchAd.h; sourceTree = "<group>"; };
@@ -1112,7 +1110,6 @@
 		A06D211B66E6A21817B4D10DC776C110 /* Pods-WYModuleProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYModuleProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A0A93E8606D15FD6D05FD2696A83CB80 /* WYAnalyticsConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAnalyticsConfigManager.m; path = WYModule/WYAnalytics/WYAnalyticsConfigManager.m; sourceTree = "<group>"; };
 		A0AFC6CE233BB54FBBCC5BDC8C949678 /* FLEXExplorerToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXExplorerToolbar.m; path = Classes/Toolbar/FLEXExplorerToolbar.m; sourceTree = "<group>"; };
-		A246DFDD104D9C5B744311748082D5C1 /* WYSearchBar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WYSearchBar.bundle; sourceTree = "<group>"; };
 		A324428504E1B504AC81516F398D78A9 /* UIViewController+BackButtonItemTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BackButtonItemTitle.m"; path = "WYModule/WYCore/WYCategory/UIViewController+BackButtonItemTitle.m"; sourceTree = "<group>"; };
 		A346405417374FD2F9FF60B2B20C5FF6 /* FLEXImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXImagePreviewViewController.h; path = Classes/ViewHierarchy/FLEXImagePreviewViewController.h; sourceTree = "<group>"; };
 		A387A209E729C0AAE1C1510127D1AA26 /* WYNavigationBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYNavigationBaseViewController.h; path = WYModule/WYCore/WYNavigationBaseViewController.h; sourceTree = "<group>"; };
@@ -1124,9 +1121,11 @@
 		A57698031C7710BE0F68811846A042E1 /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXAspect.a; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BB0DF901250891C195A47A3D46B4CF /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		A6FE2B6E60CAA3BC74C4E55BF46B9E77 /* FLEXArgumentInputStringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputStringView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStringView.m; sourceTree = "<group>"; };
+		A709DFD28DAE089D6CB61A8FF564ACBE /* MBProgressHUD+WY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+WY.m"; path = "WYModule/WYUI/MBProgressHUD/MBProgressHUD+WY.m"; sourceTree = "<group>"; };
 		A8636700FB85A0EF9EF0407F69239163 /* FLEXWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXWindow.h; path = Classes/ExplorerInterface/FLEXWindow.h; sourceTree = "<group>"; };
 		A977613DFD30B542F211227849BC1D55 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		A98AE116347DEAA363B55D2D8F546789 /* FLEXTableColumnHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTableColumnHeader.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXTableColumnHeader.h; sourceTree = "<group>"; };
+		AA0D3D9E4F17C77F533DBE0FC06B076D /* MBProgressHUD+WY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+WY.h"; path = "WYModule/WYUI/MBProgressHUD/MBProgressHUD+WY.h"; sourceTree = "<group>"; };
 		AA17F38DB9EE0817616C35EC6A04B6AE /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		AA7215C150BED82BCFA37CE00954F0F1 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
 		AAC0744E673C808DF52B83F367CA3224 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
@@ -1270,7 +1269,6 @@
 		E354FC7EEE2283E2411D8AB1DBB76B97 /* FLEXSetExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSetExplorerViewController.h; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.h; sourceTree = "<group>"; };
 		E37572A4555A95F219F07E0DBE989D85 /* WYPatchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPatchHelper.h; path = WYModule/WYPatchHelper/WYPatchHelper.h; sourceTree = "<group>"; };
 		E40BC38DD04B25A94709F77BB60E41E2 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		E423A43FB05292F96B9F6FEB3044F553 /* MBProgressHUD+WY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WY.m"; sourceTree = "<group>"; };
 		E48114312FC2C492FEE3045672334289 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		E491EBA997977DC1D06C4B005DDE79F5 /* FLEXArgumentInputStructView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputStructView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStructView.h; sourceTree = "<group>"; };
 		E4E52394A74455CEE9CF1A2C884E691E /* JPEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPEngine.m; path = JSPatch/JPEngine.m; sourceTree = "<group>"; };
@@ -1672,7 +1670,7 @@
 				BCC00EB42AF0AA1281F493B104221ABD /* WYPatchHelper */,
 				6916929030DF230B14A1CB227B462D45 /* WYPay */,
 				DA01E7AF3224FB0A9DBA356877329B9F /* WYSocial */,
-				B7CC8A95F30607646242FAF302C7EE12 /* WYUI */,
+				C8D1931D979E8D06903829E33CB0D1AA /* WYUI */,
 			);
 			name = WYModule;
 			path = ../..;
@@ -1714,18 +1712,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		484A974AE6A33E4EE4AB9D4566B16756 /* WYSearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				30524888F8C81A85B4BB4D5FF57C99D1 /* WYSearchBar.h */,
-				014A31BD51C664F0D097AC03C46CBC1A /* WYSearchBar.m */,
-				B62AEF347423F431FA5657F5A0FB6F12 /* Resources */,
-				CDFE886FC7B7C089FEBF8A356D0A7E24 /* WYSearchBar.bundle */,
-			);
-			name = WYSearchBar;
-			path = WYModule/WYUI/WYSearchBar;
-			sourceTree = "<group>";
-		};
 		487ED7B6063D672C33E1ABF402925A60 /* ReducedWeChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -1751,6 +1737,16 @@
 				1FFE050ABE51C26F6C1EA04A4A1A94EE /* Frameworks */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4E8F825E05B959769E5A7D12557A9A42 /* WYSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				31877BFA157C5656D007AC1212A630C2 /* WYSearchBar.h */,
+				8E992133B3E90BEA0ACB90AE9359289D /* WYSearchBar.m */,
+				875275614D8423BB6A5DC082EDC1580E /* Resources */,
+			);
+			name = WYSearchBar;
 			sourceTree = "<group>";
 		};
 		4F0FBF8684A5C10441EDC532992700A1 /* Support Files */ = {
@@ -2193,6 +2189,14 @@
 			name = WYLocationManager;
 			sourceTree = "<group>";
 		};
+		875275614D8423BB6A5DC082EDC1580E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				361D3F9CFA2FA0E151B018DA35D4B4B3 /* WYSearchBar.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		89339B76838F0D91A28D87AC46D6FF73 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -2311,23 +2315,6 @@
 			path = "../Target Support Files/UMCShare";
 			sourceTree = "<group>";
 		};
-		B62AEF347423F431FA5657F5A0FB6F12 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A246DFDD104D9C5B744311748082D5C1 /* WYSearchBar.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B7CC8A95F30607646242FAF302C7EE12 /* WYUI */ = {
-			isa = PBXGroup;
-			children = (
-				EDB606ED6A58A79797A22E9F676C9F85 /* MBProgressHUD */,
-				484A974AE6A33E4EE4AB9D4566B16756 /* WYSearchBar */,
-			);
-			name = WYUI;
-			sourceTree = "<group>";
-		};
 		B860B0D65DDE6DA3241DCE64935A9C64 /* GuideImage.bundle */ = {
 			isa = PBXGroup;
 			children = (
@@ -2410,6 +2397,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C8D1931D979E8D06903829E33CB0D1AA /* WYUI */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2EA0DE92AF0B8C84CC175F223CAAC /* MBProgressHUD */,
+				4E8F825E05B959769E5A7D12557A9A42 /* WYSearchBar */,
+			);
+			name = WYUI;
+			sourceTree = "<group>";
+		};
 		C8F4E24913044513B3558E251A04093A /* WYCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -2438,15 +2434,6 @@
 			);
 			name = Aspects;
 			path = Aspects;
-			sourceTree = "<group>";
-		};
-		CDFE886FC7B7C089FEBF8A356D0A7E24 /* WYSearchBar.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				0F347E7E7370173199B66739A1A8F77A /* searchImageBlack@2x.png */,
-			);
-			name = WYSearchBar.bundle;
-			path = WYSearchBar.bundle;
 			sourceTree = "<group>";
 		};
 		CFE4FC5AFB7C1F1375300708F7236599 /* Support Files */ = {
@@ -2812,16 +2799,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		EDB606ED6A58A79797A22E9F676C9F85 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				2D42627E4B471AA75EE14570C2003169 /* MBProgressHUD+WY.h */,
-				E423A43FB05292F96B9F6FEB3044F553 /* MBProgressHUD+WY.m */,
-			);
-			name = MBProgressHUD;
-			path = WYModule/WYUI/MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		EE653C93E6B1AA87DBC355917FA4C406 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -2868,6 +2845,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JSPatch";
+			sourceTree = "<group>";
+		};
+		FBD2EA0DE92AF0B8C84CC175F223CAAC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AA0D3D9E4F17C77F533DBE0FC06B076D /* MBProgressHUD+WY.h */,
+				A709DFD28DAE089D6CB61A8FF564ACBE /* MBProgressHUD+WY.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		FBF4FC39BA46389E58F7625D8C516614 /* Resources */ = {
@@ -3015,6 +3001,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC9AAB5BFA2FE99CB1AFDD9BACAE9753 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C77A2CB4C9C45B9A89411F7EEB1003 /* DHGifImageOperation.h in Headers */,
+				5FD8BBF9315C5A3ABA7A0273E7BCEA05 /* DHGuidePageHUD.h in Headers */,
+				7B2AA8FDE8AFAAE050DCD005588DDFFC /* JRSwizzle.h in Headers */,
+				068FE180A30EA7C70D22A07BB17C347B /* MBProgressHUD+WY.h in Headers */,
+				1F5A78B9796462328A2503A0D7A7CDDC /* SYSafeCategory.h in Headers */,
+				6A4A23DEA8C50BDAB87F6E779CB871E7 /* UIButton+WYCountDown.h in Headers */,
+				365BCB247AF87A7E6F0741B62D9DBD65 /* UIButton+WYImagePosition.h in Headers */,
+				BB700B34BAF6CE03FF0B66004ECF4476 /* UIImage+RoundedCorner.h in Headers */,
+				E7ED74AAE4A741AF06970879052984B7 /* UITextView+WZB.h in Headers */,
+				06C4560D973C380E3381EA78D6C55EA8 /* UIView+RoundedCorner.h in Headers */,
+				741ACB053DC8C6EFF45387DB7914D109 /* UIViewController+BackButtonHandler.h in Headers */,
+				0FDDBBE26FF32717D270FE651D84659F /* UIViewController+BackButtonItemTitle.h in Headers */,
+				4C193EEF63821C000C65C3EF7BE35A91 /* UIViewController+CurrentViewController.h in Headers */,
+				36FAB6BFCB897D4240A1ECE13D787AE4 /* WYAnalytics.h in Headers */,
+				B26CEA5A58D67DF01B8DE9B7884DDB57 /* WYAnalyticsConfigManager.h in Headers */,
+				A98C3F7A2305FA17C979D23ACD9D3F76 /* WYAnalyticsHelper.h in Headers */,
+				E0C1D1B994D39F87F6A53805B125B870 /* WYAppDelegate+myGT.h in Headers */,
+				37FEB5AFA20D7257C43E782233598C48 /* WYAppDelegate+myPay.h in Headers */,
+				A563CC5F67F3244170F5A15B12CFF52A /* WYAppDelegate.h in Headers */,
+				FEFEA635F95C4DD2AE8BE5D84FF688DF /* WYBaseViewController.h in Headers */,
+				CA120564A6CCE09516A8A1ED05BFBB93 /* WYCocoaLumberjack.h in Headers */,
+				8581BEF885EBCA66FA11F985EE9C434A /* WYCore.h in Headers */,
+				5CD46309F1601C9BD552E6A0F6C3143C /* WYCoreConfigManager.h in Headers */,
+				71F6DFEC953289C9889E38D8AD19C5E0 /* WYEmptyView.h in Headers */,
+				7577AD26F00DAF47028EBFD2246D43F2 /* WYFileLogger.h in Headers */,
+				6F8D94B66F0688540D9AE097BB8C30D8 /* WYFPSHelper.h in Headers */,
+				EF9E026A247B909F196C5679308538BC /* WYGT.h in Headers */,
+				C7596DC4BBA0D07E02098EE61805580F /* WYGTConfigManager.h in Headers */,
+				F5E965527BA6EEBCFB1D92E4BBF6447F /* WYIntroViewHelper.h in Headers */,
+				06FCFF8A07EF98BB3ED309227245F9D6 /* WYLaunchAd.h in Headers */,
+				565FE5D711A68B5F095D2E9A9A4AF55E /* WYLaunchAdConfigManager.h in Headers */,
+				3E75864C56D249A38FACB7A18FD032CC /* WYLaunchAdHelper.h in Headers */,
+				46186789A7BCC227679A2B54CF4B2149 /* WYLaunchAdModel.h in Headers */,
+				7FA5558C1D985067F69377CF5C5C7332 /* WYLocation.h in Headers */,
+				6461A2A407172F245F5C0595EEB27E62 /* WYLocationConvert.h in Headers */,
+				71F981CFD3AE35D497C0B658C40E4441 /* WYLocationManager.h in Headers */,
+				9D36C71D743878D5C359C8A6DC9D7621 /* WYLoggerFormatter.h in Headers */,
+				BB439C9A579A5C3F5513309D27EA258D /* WYMacros.h in Headers */,
+				B4650E68227BCEA1EEECC5075C7EBA35 /* WYMediator.h in Headers */,
+				C416562ABBB3D5ED95C612593763222D /* WYNavigationBaseViewController.h in Headers */,
+				0B880832D8C61B3E5DF46DF717917575 /* WYNetworkHelper.h in Headers */,
+				0B612F762630B7F82DC2A992836CF352 /* WYPatch.h in Headers */,
+				FAF02A8F685F7E7736BF8BE173EE1C05 /* WYPatchConfigManager.h in Headers */,
+				0075FE0DAC61AFB00BCBCE101C817A75 /* WYPatchHelper.h in Headers */,
+				1B89F68ABE82AA23B45F5D372F1E40EC /* WYPatchModel.h in Headers */,
+				7CCEA9F901A63EC0F916410D6CDB236E /* WYPay.h in Headers */,
+				3D6F5C8D70F111A87B26B0F9717252CD /* WYPayConfigManager.h in Headers */,
+				395A2F7C22764A195CA326107B0CE9D3 /* WYPayHelper.h in Headers */,
+				8C54086D10A7C53B953E7BF79CFD9D92 /* WYSearchBar.h in Headers */,
+				429B5BE7A16B3FA3C14871EEF847210C /* WYSocial.h in Headers */,
+				7158C7C9B602DF2D224C7142EB086724 /* WYSocialConfigManager.h in Headers */,
+				A468A2658D9799153C41151A25CA6B0A /* WYSocialHelper.h in Headers */,
+				2B68B5644FDF0AB0765C08C6481AED54 /* WYSocialPlatformHelper.h in Headers */,
+				BF89310669439EC72A341A5FF2E29AEF /* WYSocialShareMenuView.h in Headers */,
+				B58BF83A581A76C498483BF25DF583D4 /* WYWebShareHelper.h in Headers */,
+				7EC8E495CABE76B893C31A03B2EC49B6 /* YYFPSLabel.h in Headers */,
+				C14F7281359E2A5BDC250D8B3DA30780 /* YYWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B642A76D5C53714C1257532F7DAB129D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3110,70 +3160,6 @@
 				315BA2A39328197556E0FC4B31F78A90 /* FLEXViewExplorerViewController.h in Headers */,
 				3A0DE4AFD8E42C0E44D2DD8C59C1062F /* FLEXWebViewController.h in Headers */,
 				002246E1B82F3F96A214A07D4959B6EB /* FLEXWindow.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1E05BF1D7CF86527CA636B18CE5A384 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF8F34506CB3FB940AF6327362E694E0 /* DHGifImageOperation.h in Headers */,
-				721B92357BB2A717ADB3A50F7502A132 /* DHGuidePageHUD.h in Headers */,
-				186D21EBBE77FE0FCF8AF2DA1B72BDC5 /* JRSwizzle.h in Headers */,
-				08D1D55C3FDDE8F6964C5C89945F4ABF /* MBProgressHUD+WY.h in Headers */,
-				F43863857CC243C6EA3BD441ED30C40B /* SYSafeCategory.h in Headers */,
-				5C33E6471D4BD5B6CD7CD54EB7429188 /* UIButton+WYCountDown.h in Headers */,
-				27A9EF68ADA541071B10BBBFAD4C03F1 /* UIButton+WYImagePosition.h in Headers */,
-				58795A316D6ADB8A9116A8922DD835D0 /* UIImage+RoundedCorner.h in Headers */,
-				703CACCFA7D691E10DA9722B87453A20 /* UITextView+WZB.h in Headers */,
-				C72A8039C7D874D0950016069CC341CD /* UIView+RoundedCorner.h in Headers */,
-				142AB4F98E26951DEDF42B24B77899E2 /* UIViewController+BackButtonHandler.h in Headers */,
-				9C549D3A05F31D15DE3E4E56A66BCDCC /* UIViewController+BackButtonItemTitle.h in Headers */,
-				A3E3DBE65E1891AAB7241E6C5CEEC35E /* UIViewController+CurrentViewController.h in Headers */,
-				8CA0C377A17635C2CA06CBE27F673F84 /* WYAnalytics.h in Headers */,
-				2CFBA58D5F5A3A8A1D9293FBA4AF2E46 /* WYAnalyticsConfigManager.h in Headers */,
-				F6FA5DD1F1C812F96BEAC77E9AF1A02D /* WYAnalyticsHelper.h in Headers */,
-				38A4E04A12783EDEA472FABBAE5B7A42 /* WYAppDelegate+myGT.h in Headers */,
-				3CBBF9535427FDF451149E6C13E65417 /* WYAppDelegate+myPay.h in Headers */,
-				998CDCED6EED46931B5B265D84C838C2 /* WYAppDelegate.h in Headers */,
-				EE1EE368A20520A7195D17007F6E4CDD /* WYBaseViewController.h in Headers */,
-				FB5DB7954395400C578BDB8A514796FA /* WYCocoaLumberjack.h in Headers */,
-				272663B25039AD7D5086229E704F15D7 /* WYCore.h in Headers */,
-				8025BBDDE1764BF9F0BBE486CA3DFBB0 /* WYCoreConfigManager.h in Headers */,
-				A9D455CFA971C7013729C6A596AC9706 /* WYEmptyView.h in Headers */,
-				64AC8D19B7A35C4700513FD740089CDC /* WYFileLogger.h in Headers */,
-				2B797B80822452499E533C858CCB9D1C /* WYFPSHelper.h in Headers */,
-				D72B243C6F506815A4064AC2B62CF370 /* WYGT.h in Headers */,
-				F44EF89906E3B9FE71B7718F3750FF37 /* WYGTConfigManager.h in Headers */,
-				1FEA03A26BD16960121FF970BFFF0B2E /* WYIntroViewHelper.h in Headers */,
-				8F5E398453135159DCA8DAE17EDFE602 /* WYLaunchAd.h in Headers */,
-				5AC67FA918EC880037ECE271154A39AC /* WYLaunchAdConfigManager.h in Headers */,
-				FA74EC10E5D98F91FBA85A1F0E4A005A /* WYLaunchAdHelper.h in Headers */,
-				B69ED67702E1817BE0D4C60DA2A5F385 /* WYLaunchAdModel.h in Headers */,
-				7507E837A8DB71F4F8B376511BA5CC8B /* WYLocation.h in Headers */,
-				F3E794D146CEEB5F369DF675ACE48CE1 /* WYLocationConvert.h in Headers */,
-				38D18F025B74A0252507953FBDC98A4C /* WYLocationManager.h in Headers */,
-				4D62B0D0B82BDD1F9994F78F2424C3AB /* WYLoggerFormatter.h in Headers */,
-				CC272828020ED3540A87AC39D9C3433A /* WYMacros.h in Headers */,
-				C1C5EF101D451E109318FD2BC94D6298 /* WYMediator.h in Headers */,
-				229CD68C9EC960EF0D38CDE272F0115B /* WYNavigationBaseViewController.h in Headers */,
-				8D0FED73DD0F7207E69291E95A92F356 /* WYNetworkHelper.h in Headers */,
-				018587B776E2EF104D8FE58FFCCF8A8B /* WYPatch.h in Headers */,
-				87CE48C5BC65647DF235008269DF7513 /* WYPatchConfigManager.h in Headers */,
-				ADD9B06659ADA176E6D9FA480AF1B9C7 /* WYPatchHelper.h in Headers */,
-				927B7799E197A3D805713B5F88950EB4 /* WYPatchModel.h in Headers */,
-				42A610346E22F9358942526B5BFF45EF /* WYPay.h in Headers */,
-				45CAB0BAE5CDBD03BEAAEA3C9A071026 /* WYPayConfigManager.h in Headers */,
-				2202D7331B20C2C849BAC1D81AD0B350 /* WYPayHelper.h in Headers */,
-				6F1EFD23A00A418B6615BD352CCD416D /* WYSearchBar.h in Headers */,
-				7B0E8C7446F6FE31F0F93EEF23D816B5 /* WYSocial.h in Headers */,
-				B7ADFE291450F22C21AD189C26F34E55 /* WYSocialConfigManager.h in Headers */,
-				AA6B248C2A7DBBD088F7BF92CB4CA469 /* WYSocialHelper.h in Headers */,
-				ED364DAE7EEC19452320B6704FE79C6C /* WYSocialPlatformHelper.h in Headers */,
-				294387C3B48CD95C46583819FF69840C /* WYSocialShareMenuView.h in Headers */,
-				112E6D671782379C695E7EEA40B10579 /* WYWebShareHelper.h in Headers */,
-				FC082BAE7C87D9EB2ECE2A42877BA2DE /* YYFPSLabel.h in Headers */,
-				CAA084D753D6A2B5996DC19AE640BD3F /* YYWeakProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3294,7 +3280,7 @@
 			buildPhases = (
 				0429296F2E2A5987E820E85302CA212F /* Sources */,
 				6525C83EB2EF35BBE923302D31779190 /* Frameworks */,
-				2A1D21DE3B956CC9C8AE367AAB818E4C /* Resources */,
+				1148876F4E288A1F49FFB522C75817E5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3467,8 +3453,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39D12CC2C7E8566D730305BB04330D08 /* Build configuration list for PBXNativeTarget "WYModule" */;
 			buildPhases = (
-				E1E05BF1D7CF86527CA636B18CE5A384 /* Headers */,
-				7F394B54D108C0F6E71B6FB655C7E3DB /* Sources */,
+				AC9AAB5BFA2FE99CB1AFDD9BACAE9753 /* Headers */,
+				2C22AD9DAB0ADA329F87B237C7D66CC9 /* Sources */,
 				6B85ADD1ED2F3071A52770B36F36B6A1 /* Frameworks */,
 			);
 			buildRules = (
@@ -3603,11 +3589,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A1D21DE3B956CC9C8AE367AAB818E4C /* Resources */ = {
+		1148876F4E288A1F49FFB522C75817E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D523DB2E2C0467231CF0EDDDC0A45C8 /* WYSearchBar.bundle in Resources */,
+				D2A50DEC5EA1BF799D5EB098CF70B6B9 /* WYSearchBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3720,6 +3706,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C22AD9DAB0ADA329F87B237C7D66CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA84BF93502516F5D96D18E3FF1B3AE /* DHGifImageOperation.m in Sources */,
+				467CE207207033A06A8D6B3A78ED1396 /* DHGuidePageHUD.m in Sources */,
+				88E8E905693649E2544B1EA697B1CAF6 /* guideImage_button_backgound.png in Sources */,
+				057D9107111BBE6D423B159F0E562102 /* JRSwizzle.m in Sources */,
+				6AB03E0FC6F799BD5902136952B29BF2 /* MBProgressHUD+WY.m in Sources */,
+				44B9C4A4B05238CFBF632E70EF66B0BF /* SYSafeCategory.m in Sources */,
+				9FC1C9BA6A6ABC44399B914FA5FFE16A /* UIButton+WYCountDown.m in Sources */,
+				DA4FC4CA05F4A9C645A47179756A0063 /* UIButton+WYImagePosition.m in Sources */,
+				AAD924F1F9D9D445897C5FB1CB81F03F /* UIImage+RoundedCorner.m in Sources */,
+				06680C9BF40D8F5CEB1161E02A954FD8 /* UITextView+WZB.m in Sources */,
+				C6DEAB01C33837C4820B7C2645323F53 /* UIView+RoundedCorner.m in Sources */,
+				E493F34BE573A9E1E3E50111E500D3FC /* UIViewController+BackButtonHandler.m in Sources */,
+				5C684B0A9D214B453D20321D7BBE5810 /* UIViewController+BackButtonItemTitle.m in Sources */,
+				B0C0A56E05450185F01FAB039F19BC70 /* UIViewController+CurrentViewController.m in Sources */,
+				866A8A5F36580BFB7B9985D3ECD83994 /* WYAnalyticsConfigManager.m in Sources */,
+				00D53355411B546AF443D0A39C3D8665 /* WYAnalyticsHelper.m in Sources */,
+				64BFB0993DBE739ECB76F8084D66AD4C /* WYAppDelegate+myGT.m in Sources */,
+				22774211B4FD712916B35C53B352197A /* WYAppDelegate+myPay.m in Sources */,
+				231052786A2645798F2874B14849A99B /* WYAppDelegate.m in Sources */,
+				9EB9F90FDC7578F3E1EE2E9CB46CED53 /* WYBaseViewController.m in Sources */,
+				BB9DC1ACF4C5F4A8CDC5F653D5B0297C /* WYCoreConfigManager.m in Sources */,
+				6B6CFFC9AA06E6C11F08A108577988DD /* WYEmptyView.m in Sources */,
+				89CB7B0C4A456F988F3A688C2B03312F /* WYFileLogger.m in Sources */,
+				FA328D3A1AEC7FB952AEA848A5503637 /* WYFPSHelper.m in Sources */,
+				7E6637ED6297221BC5181C84CCB8741F /* WYGTConfigManager.m in Sources */,
+				35ED3A0D7708A1BEE90E6031C30F753F /* WYIntroViewHelper.m in Sources */,
+				88E6356231F23E5EBEC7DC069C311A96 /* WYLaunchAdConfigManager.m in Sources */,
+				7EBA310C295BF21406EE770A44621F2B /* WYLaunchAdHelper.m in Sources */,
+				68E78001C90E52343E4312A6F7E9FFE1 /* WYLaunchAdModel.m in Sources */,
+				077959BBF8843741914B97C9AE59E751 /* WYLocationConvert.m in Sources */,
+				B4A29DD823443959797954F8B31B4189 /* WYLocationManager.m in Sources */,
+				C9422E7A681A4554433BA8B3DB2E7064 /* WYLoggerFormatter.m in Sources */,
+				53334268A8A133BDB4AB224A91088138 /* WYMediator.m in Sources */,
+				4143F510AD7A8F03CC1991B38BC30E42 /* WYModule-dummy.m in Sources */,
+				569A7F8E89F6F9E20B6AAE119028D549 /* WYNavigationBaseViewController.m in Sources */,
+				CD8BA7E168513BB4C0E4087282CB8D2E /* WYNetworkHelper.m in Sources */,
+				FAEBEE34DD55F7F9B7722EB5F87D694D /* WYPatchConfigManager.m in Sources */,
+				575EC93E48E54DD89089EAB1B7BFCC2C /* WYPatchHelper.m in Sources */,
+				6B3534785B39652C8F7518E0498C02AD /* WYPatchModel.m in Sources */,
+				DC6266E0638837D56402757DD2A76CDE /* WYPayConfigManager.m in Sources */,
+				F9E5FDF0718E46AD0FA5503422921EA9 /* WYPayHelper.m in Sources */,
+				ABCC81CFB555A91F2B199B91D4EB3FE4 /* WYSearchBar.m in Sources */,
+				B61287CBB20F24FCFE73BDED2F668EB2 /* WYSocialConfigManager.m in Sources */,
+				75A888FB4F64822033F665B34E3865CA /* WYSocialHelper.m in Sources */,
+				033B0286362D6A1EE2BC289BC6AAB2F4 /* WYSocialPlatformHelper.m in Sources */,
+				8AD79261E1D1D4891027E95222BC1108 /* WYSocialShareMenuView.m in Sources */,
+				DE7A04476CE0B09288CC339101416105 /* WYWebShareHelper.m in Sources */,
+				47AFD71930D6156AC35D7B56BF9E1A33 /* XAspect-AnalyticsAppDelegate.m in Sources */,
+				111F22C0F15E96B26E710942FF09FB88 /* XAspect-GeTuiAppDelegate.m in Sources */,
+				5DEFB4A3A68C45305F54959230480142 /* XAspect-LaunchAdAppDelegate.m in Sources */,
+				5F33178692E37AD9EA1A9D0C0B7CE546 /* XAspect-PayAppDelegate.m in Sources */,
+				B49954C1A362E10B5B2E74A7FC0DF21E /* XAspect-ShareAppDelegate.m in Sources */,
+				082C33901D0824A44FDFC0B6358FAB6C /* YYFPSLabel.m in Sources */,
+				0052C2625544BF471BAC08CAB19BB828 /* YYWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41F00F609DFDAF1A133AD33E40F76917 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3765,68 +3812,6 @@
 				77B84F456607D8BCA1219C8BF2F6EC76 /* YTKNetworkConfig.m in Sources */,
 				349B1486264499990EF066225D50C3E0 /* YTKNetworkPrivate.m in Sources */,
 				185DD7C4226BE9DF38FF86E28B2D65C6 /* YTKRequest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F394B54D108C0F6E71B6FB655C7E3DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE45C5856A6B08A88AA9944758E718D8 /* DHGifImageOperation.m in Sources */,
-				CB159E4126E35268A724F955ADFC9BD2 /* DHGuidePageHUD.m in Sources */,
-				868DDA6C46B3925E24C44277517E80C2 /* guideImage_button_backgound.png in Sources */,
-				7B70A230D0035B588662225F3707E868 /* JRSwizzle.m in Sources */,
-				7FD40E4B747351C4B9D2144B9B62A183 /* MBProgressHUD+WY.m in Sources */,
-				82D15D67DAEE053AC1D5880A90D0A36D /* searchImageBlack@2x.png in Sources */,
-				1EDF23795F7122F86B397DE56E2EA4EB /* SYSafeCategory.m in Sources */,
-				3890293AFA9C60C89BA0913EC5F24747 /* UIButton+WYCountDown.m in Sources */,
-				229598EC6A1C1A87F4CFB58D7C6999DA /* UIButton+WYImagePosition.m in Sources */,
-				375D27E831EABA054E5206440B7C891D /* UIImage+RoundedCorner.m in Sources */,
-				EB205F2FAD64ADD371C0FC7F80B2E097 /* UITextView+WZB.m in Sources */,
-				EE6C03CCE920D8E0D75C0A82E4682C97 /* UIView+RoundedCorner.m in Sources */,
-				603F2B5B4619DBD86E749FAA612E8F24 /* UIViewController+BackButtonHandler.m in Sources */,
-				695FFD76486A487932957CB5AF33F602 /* UIViewController+BackButtonItemTitle.m in Sources */,
-				A6359D79F2968731FAC97734CFD70BC2 /* UIViewController+CurrentViewController.m in Sources */,
-				A6A196EC0A81B16D88A5580F34BE430A /* WYAnalyticsConfigManager.m in Sources */,
-				C568FB686A66111EAD1E8F4098739151 /* WYAnalyticsHelper.m in Sources */,
-				B74B0565437CB0C43BC3EC22FDCC1159 /* WYAppDelegate+myGT.m in Sources */,
-				CC8105D597BB4F35403A5FF87E8AA127 /* WYAppDelegate+myPay.m in Sources */,
-				80BAFF9C8D1DBACD14A59D2502E5EAA1 /* WYAppDelegate.m in Sources */,
-				D18F6D1F30888ACB9673AA84CAB38920 /* WYBaseViewController.m in Sources */,
-				1B3870B2B92310A582A04A8D5A39E386 /* WYCoreConfigManager.m in Sources */,
-				8AE413B750838B76988C7F50F5B3FB56 /* WYEmptyView.m in Sources */,
-				AF811FFD31FDA37F8098C7DE49224AD3 /* WYFileLogger.m in Sources */,
-				24A29C7C58A404119643256BE1A7FD46 /* WYFPSHelper.m in Sources */,
-				DAB96B0A8D5F9DDB2BA2E364FCFD6856 /* WYGTConfigManager.m in Sources */,
-				77B0BBDFB5613E6A6EA08AEB483C991B /* WYIntroViewHelper.m in Sources */,
-				7FF0A92A02FD901A2D264025795534A4 /* WYLaunchAdConfigManager.m in Sources */,
-				582CB17A6760387AAA8D8A8BB925AA65 /* WYLaunchAdHelper.m in Sources */,
-				5498FA1DC28B62F0991B5CEFB3F67E36 /* WYLaunchAdModel.m in Sources */,
-				3F13948233B7D0E601C3C44D2C6AC912 /* WYLocationConvert.m in Sources */,
-				29AC7503DDB5EBAF41D426F9797F068E /* WYLocationManager.m in Sources */,
-				F5592BCD9E22A7FFBC7C0FFEBA3218D4 /* WYLoggerFormatter.m in Sources */,
-				FE1292923DED7F4E251074E627F5274F /* WYMediator.m in Sources */,
-				1F0ED1D306E237D16FC775A7BAF6DEA5 /* WYModule-dummy.m in Sources */,
-				EE1938A5607A313254372E7328DAD641 /* WYNavigationBaseViewController.m in Sources */,
-				9497B24439A853A29E18D20AA91ADD6A /* WYNetworkHelper.m in Sources */,
-				26425C53F449EA0EF225B52A81577D69 /* WYPatchConfigManager.m in Sources */,
-				AD2FEB5DB54DB98B3DBDF5A9614AB64E /* WYPatchHelper.m in Sources */,
-				B439903499D5CCBEFDA13BCD1C229FFF /* WYPatchModel.m in Sources */,
-				27121B72BCA34861E5454FE513393F9B /* WYPayConfigManager.m in Sources */,
-				3339327BD5883DEE85842664604E6B02 /* WYPayHelper.m in Sources */,
-				AA9AC20CACEC502C287E1B2A940446F3 /* WYSearchBar.m in Sources */,
-				11EDCAAF1B9B519CDAF6ACF4E4E215DC /* WYSocialConfigManager.m in Sources */,
-				1CF5A9FBAD5F1C3BEE06F226B0D80015 /* WYSocialHelper.m in Sources */,
-				414DFD42600163FE06933E4BE46000FF /* WYSocialPlatformHelper.m in Sources */,
-				89CE83AADDB3E30B0503635941CF3CF1 /* WYSocialShareMenuView.m in Sources */,
-				8AF53D7ABB270272FA7B2B9EB04F4BAE /* WYWebShareHelper.m in Sources */,
-				40E0409D47EAA3AF5917EE8F0E1B0394 /* XAspect-AnalyticsAppDelegate.m in Sources */,
-				367B3543EB4A1B60EBC30224EFE9B832 /* XAspect-GeTuiAppDelegate.m in Sources */,
-				D68F7D05015C85D199E8FE5518AA26A8 /* XAspect-LaunchAdAppDelegate.m in Sources */,
-				7460BED6A024A1B9A12C6D3918BDBEBC /* XAspect-PayAppDelegate.m in Sources */,
-				720C757CD2DD87ADDCA9EF3EBAAB5561 /* XAspect-ShareAppDelegate.m in Sources */,
-				98106E0AFCA366C6F75E5D883928B324 /* YYFPSLabel.m in Sources */,
-				4C459D91A1E3922FABF4BC0C86E8F39E /* YYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

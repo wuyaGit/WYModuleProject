@@ -140,8 +140,6 @@ Pod::Spec.new do |s|
     
     #常用UI组件
     s.subspec 'WYUI' do |wYUI|
-        wYUI.source_files = 'WYModule/WYUI/**/*'
-        wYUI.dependency 'WYModule/WYCore'
         
         wYUI.subspec 'WYSearchBar' do |wYSearchBar|
           wYSearchBar.source_files = 'WYModule/WYUI/WYSearchBar/**/*.{h,m}'

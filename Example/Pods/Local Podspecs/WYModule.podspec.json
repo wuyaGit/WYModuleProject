@@ -227,12 +227,6 @@
     },
     {
       "name": "WYUI",
-      "source_files": "WYModule/WYUI/**/*",
-      "dependencies": {
-        "WYModule/WYCore": [
-
-        ]
-      },
       "subspecs": [
         {
           "name": "WYSearchBar",
