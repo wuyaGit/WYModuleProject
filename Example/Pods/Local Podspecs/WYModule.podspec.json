@@ -1,6 +1,6 @@
 {
   "name": "WYModule",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "iOS模块化开发的解决方案（不断完善中~~~）",
   "description": "iOS模块化开发的解决方案（不断完善中~~~）",
   "homepage": "https://github.com/wuyaGit/WYModuleProject",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wuyaGit/WYModuleProject.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -24,23 +24,44 @@
     {
       "name": "WYCore",
       "source_files": "WYModule/WYCore/**/*",
-      "dependencies": {
-        "XAspect": [
+      "subspecs": [
+        {
+          "name": "WYCoreHelper",
+          "source_files": "WYModule/WYCore/WYCoreHelper/**/*.{h,m}",
+          "dependencies": {
+            "XAspect": [
 
-        ],
-        "FLEX": [
+            ],
+            "FLEX": [
 
-        ],
-        "CocoaLumberjack": [
+            ],
+            "CocoaLumberjack": [
 
-        ],
-        "YTKNetwork": [
+            ]
+          }
+        },
+        {
+          "name": "WYCategory",
+          "source_files": "WYModule/WYCore/WYCategory/**/*.{h,m}"
+        },
+        {
+          "name": "WYMacros",
+          "source_files": "WYModule/WYCore/WYMacros/**/*.{h,m}"
+        },
+        {
+          "name": "WYMediator",
+          "source_files": "WYModule/WYCore/WYMediator/**/*.{h,m}"
+        },
+        {
+          "name": "WYNetwork",
+          "source_files": "WYModule/WYCore/WYNetwork/**/*.{h,m}",
+          "dependencies": {
+            "YTKNetwork": [
 
-        ],
-        "MBProgressHUD": [
-
-        ]
-      }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "WYAnalytics",
@@ -218,13 +239,18 @@
           "source_files": "WYModule/WYUI/WYSearchBar/**/*.{h,m}",
           "resource_bundles": {
             "WYSearchBar": [
-              "WYModule/WYUI/WYSearchBar/WYSearchBar.bundle/*.png"
+              "WYModule/WYUI/WYSearchBar/WYSearchBar.bundle"
             ]
           }
         },
         {
           "name": "MBProgressHUD",
-          "source_files": "WYModule/WYUI/MBProgressHUD/**/*"
+          "source_files": "WYModule/WYUI/MBProgressHUD/**/*",
+          "dependencies": {
+            "MBProgressHUD": [
+
+            ]
+          }
         }
       ]
     }

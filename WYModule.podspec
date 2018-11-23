@@ -27,11 +27,30 @@ Pod::Spec.new do |s|
     #基础组件（WYCategory、WYMacros、WYMediator、WYNetwork、WYCoreHelper）
     s.subspec 'WYCore' do |wYCore|
         wYCore.source_files = 'WYModule/WYCore/**/*'
-        wYCore.dependency 'XAspect'
-        wYCore.dependency 'FLEX'
-        wYCore.dependency 'CocoaLumberjack'
-        wYCore.dependency 'YTKNetwork'
-        wYCore.dependency 'MBProgressHUD'
+        
+        wYCore.subspec 'WYCoreHelper' do |wYCoreHelper|
+          wYCoreHelper.source_files = 'WYModule/WYCore/WYCoreHelper/**/*.{h,m}'
+          wYCoreHelper.dependency 'XAspect'
+          wYCoreHelper.dependency 'FLEX'
+          wYCoreHelper.dependency 'CocoaLumberjack'
+        end
+
+        wYCore.subspec 'WYCategory' do |wYCategory|
+          wYCategory.source_files = 'WYModule/WYCore/WYCategory/**/*.{h,m}'
+        end
+        
+        wYCore.subspec 'WYMacros' do |wYMacros|
+          wYMacros.source_files = 'WYModule/WYCore/WYMacros/**/*.{h,m}'
+        end
+        
+        wYCore.subspec 'WYMediator' do |wYMediator|
+          wYMediator.source_files = 'WYModule/WYCore/WYMediator/**/*.{h,m}'
+        end
+
+        wYCore.subspec 'WYNetwork' do |wYNetwork|
+          wYNetwork.source_files = 'WYModule/WYCore/WYNetwork/**/*.{h,m}'
+          wYNetwork.dependency 'YTKNetwork'
+        end
     end
 
     #友盟分析
@@ -131,6 +150,7 @@ Pod::Spec.new do |s|
         
         wYUI.subspec 'MBProgressHUD' do |mBProgressHUD|
           mBProgressHUD.source_files = 'WYModule/WYUI/MBProgressHUD/**/*'
+          mBProgressHUD.dependency 'MBProgressHUD'
         end
         
     end
