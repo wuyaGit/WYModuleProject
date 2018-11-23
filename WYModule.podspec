@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WYModule'
-    s.version          = '0.0.1'
+    s.version          = '0.0.2'
     s.summary          = 'iOS模块化开发的解决方案（不断完善中~~~） '
 
     s.description      = <<-DESC
