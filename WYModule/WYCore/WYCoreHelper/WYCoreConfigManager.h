@@ -19,8 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 //是否开启日志记录
 @property (nonatomic, assign, getter = isRecordlogger) BOOL recordlogger;
-//是否开启调试插件
-@property (nonatomic, assign, getter = isOpenDebug) BOOL openDebug;
 //是否开启查看屏幕帧数工具
 @property (nonatomic, assign, getter = isOpenFPS) BOOL openFPS;
 

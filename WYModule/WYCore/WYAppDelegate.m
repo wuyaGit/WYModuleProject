@@ -26,14 +26,7 @@
         NSLog(@"成功加载查看屏幕帧率模块");
         [WYFPSHelper setupInView:self.window];
     }
-    
-    //调试插件功能
-    if([WYCoreConfigManager sharedInstance].isOpenDebug)
-    {
-        NSLog(@"成功开启调试插件功能");
-        [[FLEXManager sharedManager] showExplorer];
-    }
-    
+        
     //统一处理一些为数组、集合等对nil插入会引起闪退
     [SYSafeCategory callSafeCategory];
     

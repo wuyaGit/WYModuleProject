@@ -17,7 +17,6 @@
     // WYCore基础模块配置
     WYCoreConfigManager *coreConfig = [WYCoreConfigManager sharedInstance];
     coreConfig.recordlogger = YES;
-    coreConfig.openDebug = NO;
     coreConfig.openFPS = YES;
     
     // WYLaunchAd开屏广告

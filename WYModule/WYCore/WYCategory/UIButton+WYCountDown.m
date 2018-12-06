@@ -40,7 +40,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.enabled = NO;
                 
-                NSString *secText = [NSString stringWithFormat:@"%ld %@", (long)tempSecond, wTitle];
+                NSString *secText = [NSString stringWithFormat:@"%lds %@", (long)tempSecond, wTitle];
                 [self.titleLabel setText:secText];
                 [self setTitle:secText forState:UIControlStateNormal];
             });

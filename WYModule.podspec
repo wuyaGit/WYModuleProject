@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
         wYCore.subspec 'WYCoreHelper' do |wYCoreHelper|
           wYCoreHelper.source_files = 'WYModule/WYCore/WYCoreHelper/**/*.{h,m}'
           wYCoreHelper.dependency 'XAspect'
-          wYCoreHelper.dependency 'FLEX'
           wYCoreHelper.dependency 'CocoaLumberjack'
         end
 
@@ -151,6 +150,15 @@ Pod::Spec.new do |s|
           mBProgressHUD.dependency 'MBProgressHUD'
         end
         
+        wYUI.subspec 'WSDatePickerView' do |wSDatePickerView|
+          wSDatePickerView.source_files = 'WYModule/WYUI/WSDatePickerView/**/*'
+        end
+        
+        wYUI.subspec 'WYAlertCityPickerView' do |wYAlertCityPickerView|
+          wYAlertCityPickerView.source_files = 'WYModule/WYUI/WYAlertCityPickerView/**/*.{h,m}'
+          wYAlertCityPickerView.resource_bundles = { 'WYAlertCityPickerView' => ['WYModule/WYUI/WYAlertCityPickerView/WYAlertCityPickerView.bundle'] }
+        end
+
     end
 
     s.frameworks = 'UIKit'

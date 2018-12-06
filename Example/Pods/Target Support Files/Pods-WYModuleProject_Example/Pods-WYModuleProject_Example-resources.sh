@@ -103,6 +103,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYEmptyView.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/GuideImage.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYAlertCityPickerView.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYSearchBar.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -112,6 +113,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYEmptyView.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/GuideImage.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYAlertCityPickerView.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYSearchBar.bundle"
 fi
 

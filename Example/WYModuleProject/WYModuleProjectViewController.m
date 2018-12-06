@@ -16,7 +16,11 @@
 
 #import <WYSearchBar.h>
 
-@interface WYModuleProjectViewController ()
+#import <WYAlertCityPickerView.h>
+
+#import <WSDatePickerView.h>
+
+@interface WYModuleProjectViewController ()<WYSearchBarDelegate>
 
 @end
 
@@ -57,6 +61,7 @@
     DDLogInfo(@"警告");
     
     WYSearchBar *sear = [[WYSearchBar alloc] initWithFrame:CGRectMake(0, 100, 400, 30)];
+    sear.delegate = self;
     [self.view addSubview:sear];
 }
 
@@ -64,6 +69,31 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)searchBarShouldBeginEditing:(WYSearchBar *)searchBar {
+//    [WYAlertCityPickerView showPickerViewHandel:^(NSString * _Nonnull province, NSString * _Nonnull city, NSString * _Nonnull area) {
+//
+//    }];
+    
+//    WSDatePickerView *picker = [[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute CompleteBlock:^(NSDate *date) {
+//
+//    }];
+//    [picker show];
+    
+    [WSDatePickerView showDatePickerWithParameterBlock:^(WSDatePickerView *view) {
+        view.datePickerColor = [UIColor redColor];
+//        view.yearLabelColor = [UIColor purpleColor];
+        view.dateLabelColor = [UIColor brownColor];
+        view.doneButtonTitleColor = [UIColor orangeColor];
+        view.datePickerFont = [UIFont systemFontOfSize:18];
+        
+        view.datePickerStyle = WSDatePickerStyleMonthDayHourMinute;
+    } completion:^(NSDate *date) {
+        
+    }];
+    
+    return YES;
 }
 
 @end

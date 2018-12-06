@@ -32,9 +32,6 @@
             "XAspect": [
 
             ],
-            "FLEX": [
-
-            ],
             "CocoaLumberjack": [
 
             ]
@@ -243,6 +240,19 @@
           "dependencies": {
             "MBProgressHUD": [
 
+            ]
+          }
+        },
+        {
+          "name": "WSDatePickerView",
+          "source_files": "WYModule/WYUI/WSDatePickerView/**/*"
+        },
+        {
+          "name": "WYAlertCityPickerView",
+          "source_files": "WYModule/WYUI/WYAlertCityPickerView/**/*.{h,m}",
+          "resource_bundles": {
+            "WYAlertCityPickerView": [
+              "WYModule/WYUI/WYAlertCityPickerView/WYAlertCityPickerView.bundle"
             ]
           }
         }

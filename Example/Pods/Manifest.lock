@@ -23,7 +23,6 @@ PODS:
   - CocoaLumberjack/Extensions (3.4.2):
     - CocoaLumberjack/Default
   - FLAnimatedImage (1.0.12)
-  - FLEX (2.4.0)
   - GTSDK (2.3.1.0)
   - JSPatch (1.1.3):
     - JSPatch/Core (= 1.1.3)
@@ -76,7 +75,6 @@ PODS:
   - WYModule/WYCore/WYCategory (0.0.3)
   - WYModule/WYCore/WYCoreHelper (0.0.3):
     - CocoaLumberjack
-    - FLEX
     - XAspect
   - WYModule/WYCore/WYMacros (0.0.3)
   - WYModule/WYCore/WYMediator (0.0.3)
@@ -117,9 +115,13 @@ PODS:
     - XAspect
   - WYModule/WYUI (0.0.3):
     - WYModule/WYUI/MBProgressHUD (= 0.0.3)
+    - WYModule/WYUI/WSDatePickerView (= 0.0.3)
+    - WYModule/WYUI/WYAlertCityPickerView (= 0.0.3)
     - WYModule/WYUI/WYSearchBar (= 0.0.3)
   - WYModule/WYUI/MBProgressHUD (0.0.3):
     - MBProgressHUD
+  - WYModule/WYUI/WSDatePickerView (0.0.3)
+  - WYModule/WYUI/WYAlertCityPickerView (0.0.3)
   - WYModule/WYUI/WYSearchBar (0.0.3)
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
@@ -143,7 +145,6 @@ SPEC REPOS:
     - Aspects
     - CocoaLumberjack
     - FLAnimatedImage
-    - FLEX
     - GTSDK
     - JSPatch
     - LYEmptyView
@@ -168,7 +169,6 @@ SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   GTSDK: 494ef4408b38bb637d6020068aac7f26cbe9d82e
   JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
   LYEmptyView: 12c9db1f3946fa3c812674467ad95b7ae7c93614
@@ -178,7 +178,7 @@ SPEC CHECKSUMS:
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
-  WYModule: e2fd606d895333a49d769672c4458c512c653376
+  WYModule: f3820ee083835e10e388b4a29060e5d25352ed60
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0

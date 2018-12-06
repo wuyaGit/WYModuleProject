@@ -16,6 +16,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    // 解决 popViewController 时 tabBar 中的图标及文字出现位置偏移动画
+    [UITabBar appearance].translucent = NO;
+    
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         self.interactivePopGestureRecognizer.delegate = self;
     }
@@ -29,6 +32,7 @@
     }
     [super pushViewController:viewController animated:animated];
 }
+
 
 #pragma mark - UIGestureRecognizerDelegate
 
