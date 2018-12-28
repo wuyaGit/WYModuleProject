@@ -9,10 +9,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, WYSearchBarIconAlign)
-{
+// 左边icon的位置
+typedef NS_ENUM(NSUInteger, WYSearchBarIconAlign) {
     WYSearchBarIconAlignLeft,
     WYSearchBarIconAlignCenter
+};
+
+// searchbar 样式
+typedef NS_ENUM(NSUInteger, WYSearchBarStyle) {
+    WYSearchBarStyleAutoCancelButton,       //自动隐藏取消按钮
+    WYSearchBarStyleHiddenCancelButton,     //隐藏取消按钮
+    WYSearchBarStyleDotHideCancelButton,    //不隐藏取消按钮
 };
 
 @class WYSearchBar;
@@ -89,9 +96,10 @@ typedef NS_ENUM(NSUInteger, WYSearchBarIconAlign)
  * 右边取消按钮
  */
 @property (nullable, nonatomic, strong) UIButton *cancelButton;
-
-@property (nonatomic) BOOL isHiddenCancelButton;
-
+/**
+ * 搜索控件的风格
+ */
+@property (nonatomic, assign) WYSearchBarStyle searchBarStyle;
 /**
  * 输入框的风格
  */

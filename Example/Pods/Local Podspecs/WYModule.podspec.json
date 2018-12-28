@@ -39,7 +39,12 @@
         },
         {
           "name": "WYCategory",
-          "source_files": "WYModule/WYCore/WYCategory/**/*.{h,m}"
+          "source_files": "WYModule/WYCore/WYCategory/**/*.{h,m}",
+          "dependencies": {
+            "GVUserDefaults": [
+
+            ]
+          }
         },
         {
           "name": "WYMacros",
@@ -236,10 +241,15 @@
         },
         {
           "name": "MBProgressHUD",
-          "source_files": "WYModule/WYUI/MBProgressHUD/**/*",
+          "source_files": "WYModule/WYUI/MBProgressHUD/**/*.{h,m}",
           "dependencies": {
             "MBProgressHUD": [
 
+            ]
+          },
+          "resource_bundles": {
+            "MBProgressHUD": [
+              "WYModule/WYUI/MBProgressHUD/*.png"
             ]
           }
         },

@@ -54,7 +54,7 @@ AspectPatch(-, BOOL, application:(UIApplication *)application didFinishLaunching
                                          redirectURL:[WYSocialConfigManager sharedInstance].sharePlatConfigType_Wechat_RedirectURL];
     }
 
-    //分享-微信平台已经配置
+    //分享-QQ平台已经配置
     if ([WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppKey &&
         [WYSocialConfigManager sharedInstance].sharePlatConfigType_Tencent_AppSecret) {
         [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ

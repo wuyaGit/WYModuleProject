@@ -46,7 +46,7 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 {
     [super layoutSubviews];
     [self sizeToFit];
-    NSLog(@"_textField.width.frame=%@", NSStringFromCGRect(self.frame));
+//    NSLog(@"_textField.width.frame=%@", NSStringFromCGRect(self.frame));
 }
 
 /**
@@ -61,15 +61,11 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 - (void)initView
 {
     self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, 44);
-    if (!_isHiddenCancelButton)
-    {
-        [self addSubview:self.cancelButton];
-        self.cancelButton.hidden = YES;
-    }
     
     [self addSubview:self.textField];
-    
-    //    self.backgroundColor = [UIColor colorWithRed:0.733 green:0.732 blue:0.756 alpha:1.000];
+    [self addSubview:self.cancelButton];
+    self.cancelButton.hidden = YES;
+
     [self addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
     
 //    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
@@ -173,7 +169,11 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
     if (_iconAlign == WYSearchBarIconAlignCenter && ([self.text isKindOfClass:[NSNull class]] || !self.text || [self.text isEqualToString:@""] || self.text.length == 0) && ![_textField isFirstResponder])
     {
         self.iconCenterImgButton.hidden = NO;
-        _textField.frame = CGRectMake(7, 7, self.frame.size.width - 7*2, 30);
+        
+        if (self.searchBarStyle == WYSearchBarStyleAutoCancelButton ||
+            self.searchBarStyle == WYSearchBarStyleHiddenCancelButton) {
+            _textField.frame = CGRectMake(7, 7, self.frame.size.width - 7*2, 30);
+        }
         _textField.textAlignment = NSTextAlignmentCenter;
         
         CGSize titleSize; // 输入的内容或者placeholder数据
@@ -268,6 +268,15 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
     _textField.inputView = _inputView;
 }
 
+- (void)setSearchBarStyle:(WYSearchBarStyle)searchBarStyle {
+    _searchBarStyle = searchBarStyle;
+    
+    if (searchBarStyle == WYSearchBarStyleDotHideCancelButton) {
+        self.cancelButton.hidden = NO;
+        self.textField.frame = CGRectMake(7, 7, self.frame.size.width - 67, 30);
+    }
+}
+
 - (BOOL)isUserInteractionEnabled
 {
     return YES;
@@ -355,8 +364,7 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
     {
         self.iconAlign = WYSearchBarIconAlignLeft;
     }
-    if (!_isHiddenCancelButton)
-    {
+    if (self.searchBarStyle == WYSearchBarStyleAutoCancelButton) {
         [UIView animateWithDuration:0.1 animations:^{
             self.cancelButton.hidden = NO;
             self.textField.frame = CGRectMake(7, 7, self.cancelButton.frame.origin.x - 7, 30);
@@ -384,8 +392,7 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
     {
         self.iconAlign = WYSearchBarIconAlignCenter;
     }
-    if (!_isHiddenCancelButton)
-    {
+    if (self.searchBarStyle == WYSearchBarStyleAutoCancelButton) {
         [UIView animateWithDuration:0.1 animations:^{
             self.cancelButton.hidden = YES;
             self.textField.frame = CGRectMake(7, 7, self.frame.size.width - 7*2, 30);

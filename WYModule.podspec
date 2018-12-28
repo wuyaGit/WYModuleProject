@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
 
         wYCore.subspec 'WYCategory' do |wYCategory|
           wYCategory.source_files = 'WYModule/WYCore/WYCategory/**/*.{h,m}'
+          wYCategory.dependency 'GVUserDefaults'
         end
         
         wYCore.subspec 'WYMacros' do |wYMacros|
@@ -146,8 +147,9 @@ Pod::Spec.new do |s|
         end
         
         wYUI.subspec 'MBProgressHUD' do |mBProgressHUD|
-          mBProgressHUD.source_files = 'WYModule/WYUI/MBProgressHUD/**/*'
+          mBProgressHUD.source_files = 'WYModule/WYUI/MBProgressHUD/**/*.{h,m}'
           mBProgressHUD.dependency 'MBProgressHUD'
+          mBProgressHUD.resource_bundles = { 'MBProgressHUD' => ['WYModule/WYUI/MBProgressHUD/*.png']}
         end
         
         wYUI.subspec 'WSDatePickerView' do |wSDatePickerView|

@@ -9,7 +9,7 @@
 #import <objc/runtime.h>
 
 CGFloat const delayTime = 1.2;
-#define kLoadImage(name) [UIImage imageNamed:[NSString stringWithFormat:@"MBProgressHUD.bundle/%@", (name)]]
+#define kLoadImage(name) [[UIImage imageNamed:[NSString stringWithFormat:@"MBProgressHUD.bundle/%@", (name)]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]
 
 
 @interface MBProgressHUD ()

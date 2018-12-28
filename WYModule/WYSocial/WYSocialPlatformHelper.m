@@ -11,6 +11,12 @@
 
 @implementation WYSocialPlatformHelper
 
+/**
+ * 获取友盟分享平台类型
+ *
+ * @param platformType    平台类型
+ * @return   友盟平台类型
+ */
 + (UMSocialPlatformType)getUMSocialPlatformTypeByWYSocialPlatformType:(WYSocialPlatformType)platformType {
     UMSocialPlatformType umPlatformType = UMSocialPlatformType_UnKnown;
     switch (platformType) {

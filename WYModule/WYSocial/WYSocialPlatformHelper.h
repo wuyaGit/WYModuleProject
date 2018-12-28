@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UMShare/UMShare.h>
 #import "WYSocialConfigManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -46,14 +45,6 @@ typedef void (^WYSocialGetUserInfoCompletionHandler)(NSString *name,NSString *ic
 @property (nonatomic, copy) WYSocialAutoCompletionHandler socialAuthCompletionBlock;
 @property (nonatomic, copy) WYCancelSocialAutoCompletionHandler cancelSocialAuthCompletionBlock;
 @property (nonatomic, copy) WYSocialGetUserInfoCompletionHandler socialGetUserInfoCompletionBlock;
-
-/**
- * 获取友盟分享平台类型
- *
- * @param platformType    平台类型
- * @return   友盟平台类型
- */
-+ (UMSocialPlatformType)getUMSocialPlatformTypeByWYSocialPlatformType:(WYSocialPlatformType)platformType;
 
 /**
  判断当前手机是否有安装相应的APP

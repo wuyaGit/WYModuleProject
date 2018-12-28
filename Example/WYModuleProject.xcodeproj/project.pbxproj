@@ -392,6 +392,7 @@
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYEmptyView.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/GuideImage.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/MBProgressHUD.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYAlertCityPickerView.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYSearchBar.bundle",
 			);
@@ -405,6 +406,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WYEmptyView.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GuideImage.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WYAlertCityPickerView.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WYSearchBar.bundle",
 			);

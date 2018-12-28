@@ -20,6 +20,10 @@
 
 #import <WSDatePickerView.h>
 
+#import <MBProgressHUD+WY.h>
+
+#import <WYModule/WYSocial.h>
+
 @interface WYModuleProjectViewController ()<WYSearchBarDelegate>
 
 @end
@@ -81,17 +85,24 @@
 //    }];
 //    [picker show];
     
-    [WSDatePickerView showDatePickerWithParameterBlock:^(WSDatePickerView *view) {
-        view.datePickerColor = [UIColor redColor];
-//        view.yearLabelColor = [UIColor purpleColor];
-        view.dateLabelColor = [UIColor brownColor];
-        view.doneButtonTitleColor = [UIColor orangeColor];
-        view.datePickerFont = [UIFont systemFontOfSize:18];
-        
-        view.datePickerStyle = WSDatePickerStyleMonthDayHourMinute;
-    } completion:^(NSDate *date) {
-        
-    }];
+//    [WSDatePickerView showDatePickerWithParameterBlock:^(WSDatePickerView *view) {
+//        view.datePickerColor = [UIColor redColor];
+////        view.yearLabelColor = [UIColor purpleColor];
+//        view.dateLabelColor = [UIColor brownColor];
+//        view.doneButtonTitleColor = [UIColor orangeColor];
+//        view.datePickerFont = [UIFont systemFontOfSize:18];
+//
+//        view.datePickerStyle = WSDatePickerStyleMonthDayHourMinute;
+//    } completion:^(NSDate *date) {
+//
+//    }];
+
+//    [MBProgressHUD showSuccess:@"成功" toView:self.view];
+//    [MBProgressHUD showError:@"失败了啊" toView:self.view];
+    
+//    [WYSocialPlatformHelper authWithPlatform:WYSocialPlatformType_WechatSession completion:^(NSString * _Nonnull uid, NSString * _Nonnull openid, NSString * _Nonnull accessToken, NSError * _Nonnull error) {
+//
+//    }];
     
     return YES;
 }

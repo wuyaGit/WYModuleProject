@@ -252,8 +252,7 @@ UIKIT_EXTERN CGFloat const delayTime;
  隐藏ProgressView
  
  */
-+ (void)hideHUDForView:(UIView *)view;
-
++ (void)hideHUDForView:(UIView * _Nullable)view;
 
 /**
  隐藏（从window）

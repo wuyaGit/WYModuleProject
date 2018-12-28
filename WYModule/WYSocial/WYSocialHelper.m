@@ -9,12 +9,45 @@
 #import "WYSocialHelper.h"
 #import <UMShare/UMShare.h>
 
-#import "WYSocialPlatformHelper.h"
-
 @implementation WYSocialHelper
 
+/**
+ * 获取友盟分享平台类型
+ *
+ * @param platformType    平台类型
+ * @return   友盟平台类型
+ */
++ (UMSocialPlatformType)getUMSocialPlatformTypeByWYSocialPlatformType:(WYSocialPlatformType)platformType {
+    UMSocialPlatformType umPlatformType = UMSocialPlatformType_UnKnown;
+    switch (platformType) {
+        case WYSocialPlatformType_QQ:
+            umPlatformType = UMSocialPlatformType_QQ;
+            break;
+        case WYSocialPlatformType_Sina:
+            umPlatformType = UMSocialPlatformType_Sina;
+            break;
+        case WYSocialPlatformType_Qzone:
+            umPlatformType = UMSocialPlatformType_Qzone;
+            break;
+        case WYSocialPlatformType__UnKnown:
+            umPlatformType = UMSocialPlatformType_UnKnown;
+            break;
+        case WYSocialPlatformType_WechatSession:
+            umPlatformType = UMSocialPlatformType_WechatSession;
+            break;
+        case WYSocialPlatformType_WechatTimeLine:
+            umPlatformType = UMSocialPlatformType_WechatTimeLine;
+            break;
+            
+        default:
+            umPlatformType = UMSocialPlatformType_UnKnown;
+            break;
+    }
+    return umPlatformType;
+}
+
 + (void)shareTextDataWithPlatform:(WYSocialPlatformType)platformType withTextData:(NSString *)textData completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [self getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -29,7 +62,7 @@
 }
 
 + (void)shareUrlDataWithPlatform:(WYSocialPlatformType)platformType withShareUrl:(NSString *)shareUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [self getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
 
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -49,7 +82,7 @@
 
 
 + (void)shareImageTextDataWithPlatform:(WYSocialPlatformType)platformType withShareImage:(id)shareImage withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [self getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -69,7 +102,7 @@
 }
 
 + (void)shareVideoDataWithPlatform:(WYSocialPlatformType)platformType withShareVideoUrl:(id)shareVideoUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [self getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
@@ -89,7 +122,7 @@
 }
 
 + (void)shareMusicDataWithPlatform:(WYSocialPlatformType)platformType withShareMusicUrl:(id)shareMusicUrl withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(id)thumImage completion:(WYSocialShareCompletionHandle)completion {
-    UMSocialPlatformType umPlatformType = [WYSocialPlatformHelper getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
+    UMSocialPlatformType umPlatformType = [self getUMSocialPlatformTypeByWYSocialPlatformType:platformType];
     
     //创建分享消息对象
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
