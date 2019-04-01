@@ -75,6 +75,18 @@ AspectPatch(-, BOOL, application:(UIApplication *)app openURL:(NSURL *)url optio
                 break;
         }
     }
+    
+    //魔窗回调使用
+//    if ([resp isKindOfClass:[LaunchFromWXReq class]])
+//    {
+//        LaunchFromWXReq *request = (LaunchFromWXReq *)resp;
+//        NSString *appParameter = request.message.messageExt;
+//        if (appParameter != nil && appParameter.length > 0)
+//        {
+//            //必须写
+//            [MWApi routeMLink:[NSURL URLWithString:appParameter]];
+//        }
+//    }
 }
 
 

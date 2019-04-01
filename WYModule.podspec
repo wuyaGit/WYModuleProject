@@ -86,6 +86,18 @@ Pod::Spec.new do |s|
         wYSocial.dependency 'UMCShare/Social/ReducedWeChat'     # 集成微信(精简版0.2M)
         wYSocial.dependency 'UMCShare/Social/ReducedQQ'         # 集成QQ/QZone/TIM(精简版0.5M)
     end
+    
+    #友盟推送模块
+    s.subspec 'WYUMengPush' do |wYUMengPush|
+      wYUMengPush.source_files = 'WYModule/WYUMengPush/**/*.{h,m}'
+      wYUMengPush.public_header_files = 'WYModule/WYUMengPush/*.h'
+      wYUMengPush.dependency 'WYModule/WYCore'
+      wYUMengPush.dependency 'XAspect'
+      wYUMengPush.dependency 'UMCCommon'                         #友盟基础库
+      wYUMengPush.dependency 'UMCCommonLog'                      #友盟日志库
+      wYUMengPush.dependency 'UMCPush'
+      #wYUMengPush.dependency 'UMCSecurityPlugins'
+    end
 
     #热更新模块
     s.subspec 'WYPatchHelper' do |wYPatchHelper|
@@ -97,15 +109,43 @@ Pod::Spec.new do |s|
       wYPatchHelper.dependency 'AFNetworking'
     end
 
-    #个推模块
-    s.subspec 'WYGT' do |wYGT|
-        wYGT.source_files = 'WYModule/WYGT/**/*.{h,m}'
-        wYGT.public_header_files = 'WYModule/WYGT/*.h'
-        wYGT.dependency 'WYModule/WYCore'
-        wYGT.dependency 'XAspect'
-        wYGT.dependency 'GTSDK'
+#    #个推模块
+#    s.subspec 'WYGT' do |wYGT|
+#        wYGT.source_files = 'WYModule/WYGT/**/*.{h,m}'
+#        wYGT.public_header_files = 'WYModule/WYGT/*.h'
+#        wYGT.dependency 'WYModule/WYCore'
+#        wYGT.dependency 'XAspect'
+#        wYGT.dependency 'GTSDK'
+#    end
+
+    #魔窗模块
+    s.subspec 'WYMagicWindow' do |wYMagicWindow|
+        wYMagicWindow.source_files = 'WYModule/WYMagicWindow/**/*.{h,m}'
+        wYMagicWindow.public_header_files = 'WYModule/WYMagicWindow/*.h'
+        wYMagicWindow.dependency 'WYModule/WYCore'
+        wYMagicWindow.dependency 'XAspect'
+        wYMagicWindow.dependency 'MagicWindowSDK'
+    end
+    
+    #融云即时通讯
+    s.subspec 'WYRongIM' do |wYRongIM|
+      wYRongIM.source_files = 'WYModule/WYRongIM/**/*.{h,m}'
+      wYRongIM.public_header_files = 'WYModule/WYRongIM/*.h'
+      wYRongIM.dependency 'WYModule/WYCore'
+      wYRongIM.dependency 'XAspect'
+      wYRongIM.dependency 'RongCloudIM/IMLib'
+      wYRongIM.dependency 'RongCloudIM/IMKit'
     end
 
+    #百度地图
+    s.subspec 'WYBaiduMap' do |wYBaiduMap|
+      wYBaiduMap.source_files = 'WYModule/WYBaiduMap/**/*.{h,m}'
+      wYBaiduMap.public_header_files = 'WYModule/WYBaiduMap/*.h'
+      wYBaiduMap.dependency 'WYModule/WYCore'
+      wYBaiduMap.dependency 'BMKLocationKit'        #百度地图定位sdk
+      wYBaiduMap.dependency 'BaiduMapKit'           #百度地图sdk
+    end
+    
     #开机广告
     s.subspec 'WYLaunchAdHelper' do |wYLaunchAdHelper|
         wYLaunchAdHelper.source_files = 'WYModule/WYLaunchAdHelper/**/*.{h,m}'

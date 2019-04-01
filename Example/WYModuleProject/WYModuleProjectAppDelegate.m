@@ -10,6 +10,10 @@
 
 #import <WYLaunchAd.h>
 
+#import <WYUMengPush.h>
+
+#import <WYMagicWindow.h>
+
 @implementation WYModuleProjectAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -24,6 +28,14 @@
     adConfig.launchAdSourceType = WYLaunchAdSourceTypeLocalOrUrlVideo;
     adConfig.sourceNameOrURLString = @"http://yun.it7090.com/video/XHLaunchAd/video_test01.mp4";
     adConfig.openModel = @"http://www.it7090.com";
+    
+    //友盟推送
+    WYUMengPushConfigManager *pushConfig = [WYUMengPushConfigManager sharedInstance];
+    pushConfig.umengKey = @"5c654f20b465f5a32b000e18";
+    
+    //魔窗深入链接
+    WYMagicWindowConfigManager *mwConfig = [WYMagicWindowConfigManager sharedInstance];
+    mwConfig.mwAppKey = @"";
         
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }

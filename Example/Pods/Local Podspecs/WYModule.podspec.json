@@ -135,6 +135,28 @@
       }
     },
     {
+      "name": "WYUMengPush",
+      "source_files": "WYModule/WYUMengPush/**/*.{h,m}",
+      "public_header_files": "WYModule/WYUMengPush/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "XAspect": [
+
+        ],
+        "UMCCommon": [
+
+        ],
+        "UMCCommonLog": [
+
+        ],
+        "UMCPush": [
+
+        ]
+      }
+    },
+    {
       "name": "WYPatchHelper",
       "source_files": "WYModule/WYPatchHelper/**/*.{h,m}",
       "public_header_files": "WYModule/WYPatchHelper/*.h",
@@ -154,9 +176,9 @@
       }
     },
     {
-      "name": "WYGT",
-      "source_files": "WYModule/WYGT/**/*.{h,m}",
-      "public_header_files": "WYModule/WYGT/*.h",
+      "name": "WYMagicWindow",
+      "source_files": "WYModule/WYMagicWindow/**/*.{h,m}",
+      "public_header_files": "WYModule/WYMagicWindow/*.h",
       "dependencies": {
         "WYModule/WYCore": [
 
@@ -164,7 +186,42 @@
         "XAspect": [
 
         ],
-        "GTSDK": [
+        "MagicWindowSDK": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYRongIM",
+      "source_files": "WYModule/WYRongIM/**/*.{h,m}",
+      "public_header_files": "WYModule/WYRongIM/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "XAspect": [
+
+        ],
+        "RongCloudIM/IMLib": [
+
+        ],
+        "RongCloudIM/IMKit": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYBaiduMap",
+      "source_files": "WYModule/WYBaiduMap/**/*.{h,m}",
+      "public_header_files": "WYModule/WYBaiduMap/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "BMKLocationKit": [
+
+        ],
+        "BaiduMapKit": [
 
         ]
       }
