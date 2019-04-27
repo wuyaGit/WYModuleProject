@@ -460,8 +460,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WYModuleProject_Example/Pods-WYModuleProject_Example-resources.sh",
 				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
@@ -483,8 +481,6 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/WYModule/WYSearchBar.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",

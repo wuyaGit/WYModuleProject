@@ -49,6 +49,7 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 
 #define WY_HEIGHT_NAVCONTENTBAR   44.0f //导航栏内容高度
 #define WY_HEIGHT_STATUSBAR       ((WY_IS_IPHONEX) ? 44.0f : 20.0f) //状态栏高度
+#define WY_HEIGHT_SAFE_TOP        ((WY_IS_IPHONEX) ? 24.0f : 0.0f)  //上部高度
 #define WY_HEIGHT_SAFE_NAVBAR     ((WY_IS_IPHONEX) ? 88.0f : 64.0f) //导航栏总高度（加上导航栏高度）
 #define WY_HEIGHT_SAFE_TABBAR     ((WY_IS_IPHONEX) ? 83.0f : 49.0f) //底部选择栏高度
 #define WY_HEIGHT_SAFE_BOTTOM     ((WY_IS_IPHONEX) ? (34) : (0))    //安全底部高度

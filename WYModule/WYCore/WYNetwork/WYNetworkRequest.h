@@ -17,25 +17,18 @@ typedef void(^WYNetworkUploadProgress) (YTKBaseRequest * _Nonnull request, NSPro
 
 @interface WYNetworkRequest : YTKBaseRequest
 
+// GET请求
 + (WYNetworkRequest *)GET:(NSString *)URL
                parameters:(id)parameters
                   success:(WYNetworkRequestSuccess)success
                   failure:(WYNetworkRequestFailed)failure;
 
+// POST请求
 + (WYNetworkRequest *)POST:(NSString *)URL
                 parameters:(id)parameters
                    success:(WYNetworkRequestSuccess)success
                    failure:(WYNetworkRequestFailed)failure;
 
-+ (WYNetworkRequest *)UPLOAD:(NSString *)URL
-                  parameters:(id)parameters
-                        name:(NSString *)name
-                      images:(NSArray *)images
-                   fileNames:(NSArray * _Nullable)fileNames
-                  imageScale:(CGFloat)imageScale
-                    progress:(WYNetworkUploadProgress _Nullable)progress
-                     success:(WYNetworkRequestSuccess _Nonnull)success
-                     failure:(WYNetworkRequestFailed _Nonnull)failure;
 @end
 
 NS_ASSUME_NONNULL_END

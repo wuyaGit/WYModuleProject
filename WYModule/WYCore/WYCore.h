@@ -14,6 +14,9 @@
 #import "WYMediator.h"
 #import "WYNetworkHelper.h"
 #import "WYNetworkRequest.h"
+#import "WYUploadFileRequest.h"
+#import "WYFormDataRequest.h"
+#import "WYHttpBodyRequest.h"
 #import "WYResponseModel.h"
 
 //base
@@ -31,6 +34,7 @@
 #import "UIImage+RoundedCorner.h"
 #import "UITextView+WZB.h"
 #import "UIView+RoundedCorner.h"
+#import "UIView+CornerRadius.h"
 #import "UIViewController+BackButtonHandler.h"
 #import "UIViewController+BackButtonItemTitle.h"
 #import "UIViewController+CurrentViewController.h"

@@ -33,6 +33,22 @@
     [super pushViewController:viewController animated:animated];
 }
 
+- (UIViewController *)popViewControllerAnimated:(BOOL)animated {
+    UIViewController *popViewController = [self.viewControllers lastObject];
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+    if ([popViewController respondsToSelector:@selector(beforePopViewController)]) {
+        if ([popViewController performSelector:@selector(beforePopViewController)]) {
+            return [super popViewControllerAnimated:animated];
+        }else {
+            return nil;
+        }
+    }
+#pragma clang diagnostic pop
+    
+    return [super popViewControllerAnimated:animated];
+}
 
 #pragma mark - UIGestureRecognizerDelegate
 
@@ -54,7 +70,7 @@
 - (void)dealloc {
     self.viewControllers = @[];
 #if DEBUG
-    NSLog(@"KZWNavigationViewController release");
+    NSLog(@"WYNavigationBaseViewController release");
 #endif
 }
 
