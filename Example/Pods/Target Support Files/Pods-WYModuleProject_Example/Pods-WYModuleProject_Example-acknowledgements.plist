@@ -253,6 +253,26 @@ THE SOFTWARE.</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright jpush.cn</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>JCore</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright jiguang.cn</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>JPush</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
 Copyright (c) 2015 bang
@@ -413,17 +433,6 @@ SOFTWARE.
 			<string>Copyright</string>
 			<key>Title</key>
 			<string>UMCCommonLog</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright 2011 - 2018 umeng.com. All rights reserved.
-</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>UMCPush</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

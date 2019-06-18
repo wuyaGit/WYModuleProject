@@ -135,28 +135,6 @@
       }
     },
     {
-      "name": "WYUMengPush",
-      "source_files": "WYModule/WYUMengPush/**/*.{h,m}",
-      "public_header_files": "WYModule/WYUMengPush/*.h",
-      "dependencies": {
-        "WYModule/WYCore": [
-
-        ],
-        "XAspect": [
-
-        ],
-        "UMCCommon": [
-
-        ],
-        "UMCCommonLog": [
-
-        ],
-        "UMCPush": [
-
-        ]
-      }
-    },
-    {
       "name": "WYPatchHelper",
       "source_files": "WYModule/WYPatchHelper/**/*.{h,m}",
       "public_header_files": "WYModule/WYPatchHelper/*.h",
@@ -171,6 +149,22 @@
 
         ],
         "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "WYJPush",
+      "source_files": "WYModule/WYJPush/**/*.{h,m}",
+      "public_header_files": "WYModule/WYJPush/*.h",
+      "dependencies": {
+        "WYModule/WYCore": [
+
+        ],
+        "XAspect": [
+
+        ],
+        "JPush": [
 
         ]
       }

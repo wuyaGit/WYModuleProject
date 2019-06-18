@@ -87,17 +87,17 @@ Pod::Spec.new do |s|
         wYSocial.dependency 'UMCShare/Social/ReducedQQ'         # 集成QQ/QZone/TIM(精简版0.5M)
     end
     
-    #友盟推送模块
-    s.subspec 'WYUMengPush' do |wYUMengPush|
-      wYUMengPush.source_files = 'WYModule/WYUMengPush/**/*.{h,m}'
-      wYUMengPush.public_header_files = 'WYModule/WYUMengPush/*.h'
-      wYUMengPush.dependency 'WYModule/WYCore'
-      wYUMengPush.dependency 'XAspect'
-      wYUMengPush.dependency 'UMCCommon'                         #友盟基础库
-      wYUMengPush.dependency 'UMCCommonLog'                      #友盟日志库
-      wYUMengPush.dependency 'UMCPush'
-      #wYUMengPush.dependency 'UMCSecurityPlugins'
-    end
+#    #友盟推送模块
+#    s.subspec 'WYUMengPush' do |wYUMengPush|
+#      wYUMengPush.source_files = 'WYModule/WYUMengPush/**/*.{h,m}'
+#      wYUMengPush.public_header_files = 'WYModule/WYUMengPush/*.h'
+#      wYUMengPush.dependency 'WYModule/WYCore'
+#      wYUMengPush.dependency 'XAspect'
+#      wYUMengPush.dependency 'UMCCommon'                         #友盟基础库
+#      wYUMengPush.dependency 'UMCCommonLog'                      #友盟日志库
+#      wYUMengPush.dependency 'UMCPush'
+#      #wYUMengPush.dependency 'UMCSecurityPlugins'
+#    end
 
     #热更新模块
     s.subspec 'WYPatchHelper' do |wYPatchHelper|
@@ -117,6 +117,15 @@ Pod::Spec.new do |s|
 #        wYGT.dependency 'XAspect'
 #        wYGT.dependency 'GTSDK'
 #    end
+
+    #极光推送模块
+    s.subspec 'WYJPush' do |wYJPush|
+        wYJPush.source_files = 'WYModule/WYJPush/**/*.{h,m}'
+        wYJPush.public_header_files = 'WYModule/WYJPush/*.h'
+        wYJPush.dependency 'WYModule/WYCore'
+        wYJPush.dependency 'XAspect'
+        wYJPush.dependency 'JPush'
+    end
 
     #魔窗模块
     s.subspec 'WYMagicWindow' do |wYMagicWindow|

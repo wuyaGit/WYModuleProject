@@ -10,7 +10,9 @@
 
 #import <WYLaunchAd.h>
 
-#import <WYUMengPush.h>
+//#import <WYUMengPush.h>
+
+#import <WYJPush.h>
 
 #import <WYMagicWindow.h>
 
@@ -29,9 +31,15 @@
     adConfig.sourceNameOrURLString = @"http://yun.it7090.com/video/XHLaunchAd/video_test01.mp4";
     adConfig.openModel = @"http://www.it7090.com";
     
-    //友盟推送
-    WYUMengPushConfigManager *pushConfig = [WYUMengPushConfigManager sharedInstance];
-    pushConfig.umengKey = @"5c654f20b465f5a32b000e18";
+//    //友盟推送
+//    WYUMengPushConfigManager *pushConfig = [WYUMengPushConfigManager sharedInstance];
+//    pushConfig.umengKey = @"5c654f20b465f5a32b000e18";
+    
+    // 极光推送
+    WYJPushConfigManager *jpushConfig = [WYJPushConfigManager sharedInstance];
+    jpushConfig.appKey = @"442b28bfc1176a791c5869e2";
+    jpushConfig.channel = @"App Store";
+    jpushConfig.isProduction = NO;
     
     //魔窗深入链接
     WYMagicWindowConfigManager *mwConfig = [WYMagicWindowConfigManager sharedInstance];
