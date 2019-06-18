@@ -40,6 +40,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 * 常用UI组件：WYUI
 
+* 融云IM：WYRongIM
+* 极光推送：WYJPush
+* 友盟推送：WYUMengPush
+* 百度地图：WYBaiduMap
 
 WYModuleProject is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
